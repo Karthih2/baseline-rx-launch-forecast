@@ -1,0 +1,2 @@
+drug_id,drug_name,mechanism_of_action,route_of_administration,target_specialty,market_size,competitive_density,payer_restrictiveness,launch_quarter,promotional_intensity,special_designation,price_tier
+NEW_001,New Drug X Kynflux,Integrin antagonist,Injectable,Oncology,2044452,5,3,Q1,1,True,5

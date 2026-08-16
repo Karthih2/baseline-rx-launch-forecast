@@ -1,0 +1,36 @@
+drug_id,drug_name,mechanism_of_action,route_of_administration,target_specialty,market_size,competitive_density,payer_restrictiveness,launch_quarter,promotional_intensity,special_designation,price_tier
+ANL_001,Zoravara,Tyrosine kinase inhibitor,Injectable,Rheumatology,590706,1,5,Q1,5,False,1
+ANL_002,Zoramune,Tyrosine kinase inhibitor,Intravenous,Nephrology,2535509,2,3,Q3,2,False,1
+ANL_003,Kynxen,CGRP antagonist,Topical,Endocrinology,1277348,5,4,Q3,5,False,1
+ANL_004,Ixaraxen,PCSK9 inhibitor,Injectable,Nephrology,1530790,5,2,Q3,5,False,4
+ANL_005,Nurogene,PD-1 inhibitor,Oral,Dermatology,2238998,1,2,Q2,2,False,2
+ANL_006,Glimvia,Sodium channel blocker,Injectable,Primary Care,2890180,1,2,Q1,5,True,2
+ANL_007,Ixaradine,PD-1 inhibitor,Injectable,Neurology,523200,1,5,Q2,3,False,2
+ANL_008,Calaflux,PCSK9 inhibitor,Injectable,Oncology,2933376,2,4,Q1,2,False,3
+ANL_009,Glimtide,ACE inhibitor,Topical,Rheumatology,913223,4,1,Q2,3,False,3
+ANL_010,Brenzumab,GLP-1 agonist,Oral,Rheumatology,2955020,5,1,Q4,4,False,5
+ANL_011,Solixdine,Anti-CD20 monoclonal antibody,Oral,Hematology,1000038,3,3,Q3,5,True,2
+ANL_012,Lumisflux,Integrin antagonist,Inhaled,Primary Care,435052,4,2,Q4,2,True,4
+ANL_013,Lumismune,TNF-alpha inhibitor,Oral,Psychiatry,2133720,2,1,Q3,5,False,5
+ANL_014,Onyxdine,Complement C5 inhibitor,Inhaled,Neurology,1756214,5,2,Q1,2,False,4
+ANL_015,Halodine,SGLT2 inhibitor,Oral,Pulmonology,1017982,2,4,Q1,1,False,4
+ANL_016,Calacort,Complement C5 inhibitor,Intravenous,Neurology,291391,3,3,Q4,1,False,3
+ANL_017,Ferrosera,Anti-CD20 monoclonal antibody,Subcutaneous,Oncology,2991447,4,4,Q1,4,False,3
+ANL_018,Solixlith,PD-1 inhibitor,Intravenous,Endocrinology,2013587,2,4,Q3,5,False,4
+ANL_019,Lumisgene,PCSK9 inhibitor,Intravenous,Primary Care,553489,5,3,Q1,4,True,4
+ANL_020,Kynzumab,IL-17 inhibitor,Oral,Psychiatry,2638350,5,2,Q4,5,True,4
+ANL_021,Solixgene,TNF-alpha inhibitor,Topical,Neurology,2097740,2,1,Q1,3,False,1
+ANL_022,Perintide,Factor Xa inhibitor,Intravenous,Primary Care,1934731,5,3,Q2,1,False,4
+ANL_023,Dravaltide,TNF-alpha inhibitor,Inhaled,Nephrology,1872008,1,1,Q3,2,False,5
+ANL_024,Xelvara,DPP-4 inhibitor,Intravenous,Dermatology,2121072,4,4,Q1,1,False,2
+ANL_025,Onyxgene,PD-1 inhibitor,Intravenous,Cardiology,2646100,4,1,Q3,5,False,1
+ANL_026,Jovexflux,JAK inhibitor,Oral,Oncology,640747,5,1,Q1,3,False,4
+ANL_027,Caladine,PD-1 inhibitor,Intravenous,Primary Care,2905359,2,5,Q4,3,True,1
+ANL_028,Dravalgene,Dopamine agonist,Subcutaneous,Psychiatry,357281,5,1,Q3,4,False,1
+ANL_029,Onyxtide,mTOR inhibitor,Inhaled,Dermatology,995611,5,2,Q3,1,False,2
+ANL_030,Halozumab,IL-17 inhibitor,Inhaled,Psychiatry,2465322,2,4,Q1,4,False,2
+ANL_031,Perinvia,GLP-1 agonist,Intravenous,Primary Care,1310071,3,2,Q4,1,False,1
+ANL_032,Kyngene,JAK inhibitor,Topical,Cardiology,389502,5,5,Q1,4,False,1
+ANL_033,Zoraxen,Proton pump inhibitor,Intravenous,Dermatology,2281261,4,3,Q2,4,False,3
+ANL_034,Nuroflux,PCSK9 inhibitor,Inhaled,Gastroenterology,2856705,3,4,Q1,5,True,3
+ANL_035,Haloprel,DPP-4 inhibitor,Oral,Cardiology,1751260,3,4,Q2,5,False,1

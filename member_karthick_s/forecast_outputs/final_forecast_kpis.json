@@ -1,0 +1,105 @@
+{
+  "generated": "2026-08-16T19:47:30",
+  "model": "analog_bass_static",
+  "n_known_months": 5,
+  "market_size": 2044452.0,
+  "scenario_assumptions_source": "01_data\\scenario_assumptions.json",
+  "base_fit": {
+    "calibration_factor": 6.732986923158589,
+    "bass_p": 0.02969752502128969,
+    "bass_q": 0.10457090332938729,
+    "bass_m": 11225789.207671527,
+    "blend_weight_analog": 0.42561705107716413,
+    "blend_weight_bass": 0.5743829489228358
+  },
+  "scenarios": {
+    "bull": {
+      "ceiling_mult": 1.15,
+      "speed_mult": 1.1,
+      "raw_assumptions": {
+        "market_size_adjustment_pct": 15,
+        "peak_penetration_ceiling_label": "High",
+        "adoption_speed_multiplier_label": "Fast",
+        "competitive_entry_flag": false,
+        "payer_access_trend": "Improving",
+        "promotional_spend_trend": "Ramping"
+      },
+      "fitted_params": {
+        "p": 0.032667277523418664,
+        "q": 0.11502799366232602,
+        "m": 12909657.588822255,
+        "calibration_factor": 7.742934961632376
+      },
+      "kpis": {
+        "peak_month": 12,
+        "peak_rx": 675832.5,
+        "month_12_rx": 675832.5,
+        "total_12mo_rx_cumulative": 6408297.8,
+        "known_months_rx_cumulative": 2046281.0,
+        "forecast_months_rx_cumulative": 4362016.8,
+        "avg_forecast_growth_rate_mom_pct": 2.92,
+        "market_capture_pct_directional": 313.448
+      }
+    },
+    "base": {
+      "ceiling_mult": 1.0,
+      "speed_mult": 1.0,
+      "raw_assumptions": {
+        "market_size_adjustment_pct": 0,
+        "peak_penetration_ceiling_label": "Analog-implied midpoint",
+        "adoption_speed_multiplier_label": "Normal",
+        "competitive_entry_flag": null,
+        "payer_access_trend": "Static",
+        "promotional_spend_trend": "Sustained"
+      },
+      "fitted_params": {
+        "p": 0.02969752502128969,
+        "q": 0.10457090332938729,
+        "m": 11225789.207671527,
+        "calibration_factor": 6.732986923158589
+      },
+      "kpis": {
+        "peak_month": 12,
+        "peak_rx": 568640.7,
+        "month_12_rx": 568640.7,
+        "total_12mo_rx_cumulative": 5649963.9,
+        "known_months_rx_cumulative": 2046281.0,
+        "forecast_months_rx_cumulative": 3603682.9,
+        "avg_forecast_growth_rate_mom_pct": 3.46,
+        "market_capture_pct_directional": 276.356
+      }
+    },
+    "bear": {
+      "ceiling_mult": 0.85,
+      "speed_mult": 0.9,
+      "raw_assumptions": {
+        "market_size_adjustment_pct": -15,
+        "peak_penetration_ceiling_label": "Low",
+        "adoption_speed_multiplier_label": "Slow",
+        "competitive_entry_flag": true,
+        "payer_access_trend": "Worsening",
+        "promotional_spend_trend": "Tapering"
+      },
+      "fitted_params": {
+        "p": 0.02672777251916072,
+        "q": 0.09411381299644857,
+        "m": 9541920.826520797,
+        "calibration_factor": 5.723038884684801
+      },
+      "kpis": {
+        "peak_month": 3,
+        "peak_rx": 476050.0,
+        "month_12_rx": 463575.0,
+        "total_12mo_rx_cumulative": 4938672.8,
+        "known_months_rx_cumulative": 2046281.0,
+        "forecast_months_rx_cumulative": 2892391.8,
+        "avg_forecast_growth_rate_mom_pct": 3.92,
+        "market_capture_pct_directional": 241.565
+      }
+    }
+  },
+  "scenario_spread": {
+    "bull_vs_base_pct": 18.9,
+    "bear_vs_base_pct": -18.5
+  }
+}
