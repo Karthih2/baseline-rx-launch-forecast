@@ -1,0 +1,13 @@
+seed,drug_id,drug_name,model,forecast_month,model_time_month,forecast_rx
+93400,NEW_001,New Drug X Nurocort,Bass-only,1,7.0,34470.20389905493
+93400,NEW_001,New Drug X Nurocort,Bass-only,2,8.0,35781.319229156186
+93400,NEW_001,New Drug X Nurocort,Bass-only,3,9.0,37141.75526562627
+93400,NEW_001,New Drug X Nurocort,Bass-only,4,10.0,38553.32456054387
+93400,NEW_001,New Drug X Nurocort,Bass-only,5,11.0,40017.902940017
+93400,NEW_001,New Drug X Nurocort,Bass-only,6,12.0,41537.43144981819
+93400,NEW_001,New Drug X Nurocort,Bass-only,7,13.0,43113.91833941522
+93400,NEW_001,New Drug X Nurocort,Bass-only,8,14.0,44749.44108321873
+93400,NEW_001,New Drug X Nurocort,Bass-only,9,15.0,46446.148437657044
+93400,NEW_001,New Drug X Nurocort,Bass-only,10,16.0,48206.26253240835
+93400,NEW_001,New Drug X Nurocort,Bass-only,11,17.0,50032.08099387889
+93400,NEW_001,New Drug X Nurocort,Bass-only,12,18.0,51925.97909869638

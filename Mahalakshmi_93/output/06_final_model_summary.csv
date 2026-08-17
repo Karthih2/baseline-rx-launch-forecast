@@ -1,0 +1,2 @@
+project,target_drug,selected_model,primary_seed,robustness_seed,forecast_horizon_months,historical_overall_MASE,historical_overall_MAPE,historical_overall_RMSE,seed_93400_MASE,seed_94721_MASE,seed_MASE_difference_percent,fallback_rate,selection_status
+Drug Forecasting Project,NEW_001,Bass-only,93400,94721,12,2.037101,8.899081,16329.431527,1.997,2.0772,3.93,0.0,FINAL

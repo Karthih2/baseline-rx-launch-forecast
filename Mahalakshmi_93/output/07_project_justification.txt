@@ -1,0 +1,186 @@
+
+================================================================================
+DRUG FORECASTING PROJECT — FINAL MODEL JUSTIFICATION
+================================================================================
+
+TARGET
+--------------------------------------------------------------------------------
+Drug ID:
+NEW_001
+
+Primary seed:
+93400
+
+Robustness seed:
+94721
+
+
+FINAL MODEL
+--------------------------------------------------------------------------------
+Selected model:
+BASS-ONLY
+
+
+MODEL SELECTION
+--------------------------------------------------------------------------------
+The project originally considered six forecasting models.
+
+Naive and ARIMA were excluded from the final candidate selection
+according to the project decision.
+
+The remaining four candidate models were:
+
+1. Analog-only
+2. Bass-only
+3. Analog + Bass (Static)
+4. Analog + Bass (Adaptive)
+
+Leakage-safe validation was performed using:
+
+Seeds:
+93400 and 94721
+
+Cutoffs:
+6, 9, 12 and 18 months
+
+Forecast horizon:
+6 months
+
+Future leakage:
+OFF
+
+
+FINAL FOUR-MODEL PERFORMANCE
+--------------------------------------------------------------------------------
+Bass-only:
+MASE  = 2.0371
+MAPE  = 8.8991%
+RMSE  = 16329.43
+
+Analog + Bass (Static):
+MASE  = 5.2422
+
+Analog + Bass (Adaptive):
+MASE  = 5.8763
+
+Analog-only:
+MASE  = 10.6769
+
+
+WHY BASS-ONLY WAS SELECTED
+--------------------------------------------------------------------------------
+Bass-only achieved the lowest MASE among the four permitted models.
+
+Therefore it was selected using:
+
+Primary metric:
+MASE
+
+Tie breaker:
+RMSE
+
+Second tie breaker:
+sMAPE
+
+
+BASS ROBUSTNESS
+--------------------------------------------------------------------------------
+Seed 93400:
+MASE = 1.9970
+MAPE = 8.4659%
+Fallback = 0%
+
+Seed 94721:
+MASE = 2.0772
+MAPE = 9.3323%
+Fallback = 0%
+
+Seed-to-seed MASE difference:
+3.93%
+
+This indicates that the Bass model produced reasonably consistent
+performance across the two independently generated datasets.
+
+
+AVAILABLE-HISTORY ROBUSTNESS
+--------------------------------------------------------------------------------
+6-month cutoff:
+MASE = 2.5510
+
+9-month cutoff:
+MASE = 2.3068
+
+12-month cutoff:
+MASE = 1.5465
+
+18-month cutoff:
+MASE = 1.7442
+
+No cutoff produced a fallback.
+
+
+SEED SELECTION
+--------------------------------------------------------------------------------
+Seed 93400 is used as the PRIMARY forecast dataset.
+
+Reason:
+It produced the lower historical Bass MASE and MAPE.
+
+Seed 94721 is retained as the ROBUSTNESS dataset.
+
+Important:
+The two seeds generate different NEW_001 product instances and
+different early-Rx trajectories. Therefore their forecasts are
+not averaged together.
+
+Seed 93400 is used for the final product forecast.
+
+
+NEW_001 DATA
+--------------------------------------------------------------------------------
+Primary seed:
+93400
+
+Drug:
+New Drug X Nurocort
+
+Early weekly observations:
+22
+
+The weekly observations were converted into monthly observations
+using four-week groups. A partial final month uses the available
+observations.
+
+
+FINAL FORECAST
+--------------------------------------------------------------------------------
+The final forecast is generated using Bass-only and the available
+early-Rx history of NEW_001 from the primary seed.
+
+No future validation observations are used during fitting.
+
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+Bass-only was selected because it was the strongest model among the
+four allowed candidates under leakage-safe validation.
+
+The model also showed:
+
+- Lowest overall MASE
+- Reasonable seed consistency
+- 0% fallback usage
+- Competitive performance across multiple history cutoffs
+- No use of future validation observations during model fitting
+
+
+IMPORTANT LIMITATION
+--------------------------------------------------------------------------------
+NEW_001 has a short early-Rx history.
+
+Therefore the 12-month forecast should be interpreted as a model-based
+scenario forecast rather than a guaranteed future outcome.
+
+================================================================================
+END OF JUSTIFICATION
+================================================================================

@@ -1,0 +1,5 @@
+rank,model,status,MASE,MAPE,RMSE,reason
+1,Bass-only,SELECTED,2.037101,8.899081,16329.431527,Lowest MASE among the four permitted candidate models under leakage-safe validation.
+2,Analog + Bass (Static),REJECTED,5.2422,22.7666,38363.4951,Higher validation error than Bass-only.
+3,Analog + Bass (Adaptive),REJECTED,5.8763,25.4851,42952.6317,Adaptive recalibration did not improve validation performance.
+4,Analog-only,REJECTED,10.6769,47.0823,42512.8739,Substantially higher validation error than Bass-only.
