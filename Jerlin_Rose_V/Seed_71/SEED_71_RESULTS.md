@@ -32,32 +32,27 @@ Exit Criteria Check
 ALL CHECKS PASSED
 
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python validate_data.py
-======================================================================
+
 STEP 2 — DATA INGESTION & VALIDATION
-======================================================================
 
 Loading datasets...
 [OK] data_seed71\analog_drugs.json
 [OK] data_seed71\new_drug.json
 [OK] data_seed71\scenario_assumptions.json
 
-======================================================================
 1. DATASET DIMENSIONS
-======================================================================
+
 Analog drugs      : 35
 New products      : 1
 Scenario records  : 3
 
-======================================================================
 2. EXPECTED COUNTS
-======================================================================
+
 [PASS] 35 historical analog drugs
 [PASS] 1 new drug object
 [PASS] 3 scenario records
 
-======================================================================
 3. AVAILABLE KEYS
-======================================================================
 
 Analog drug keys:
   - drug_id
@@ -98,9 +93,7 @@ Scenario keys:
   - payer_access_trend
   - promotional_spend_trend
 
-======================================================================
 4. DATA TYPES
-======================================================================
 
 Analog drug data types:
   drug_id                        str
@@ -138,29 +131,24 @@ New drug data types:
     week                         int
     rx                           int
 
-======================================================================
 5. MISSING VALUES
-======================================================================
 
 Analog records with missing values: 0
 New drug missing values: None
 Scenario Base missing: ['competitive_entry_flag']
 Scenario records with missing values: 1
 
-======================================================================
 6. DUPLICATE IDs
-======================================================================
+
 [PASS] No duplicate analog drug IDs
 
-======================================================================
 7. UNIQUE IDs
-======================================================================
+
 Unique analog IDs: 35
 New drug ID: NEW_001
 
-======================================================================
 8. RX OBSERVATION COUNTS
-======================================================================
+   
 ANL_001    Rx observations: 36
 ANL_002    Rx observations: 36
 ANL_003    Rx observations: 36
@@ -201,36 +189,30 @@ Minimum analog Rx observations: 36
 Maximum analog Rx observations: 36
 [PASS] Every analog has 36 monthly Rx observations
 
-======================================================================
 9. NEW DRUG EARLY Rx
-======================================================================
+
 New drug ID: NEW_001
 Weekly observations: 22
 [PASS] New drug has 18–26 weekly observations
 
-======================================================================
 10. CHRONOLOGICAL ORDER
-======================================================================
+
 [PASS] All analog Rx curves are ordered Month 1 → Month 36
 [PASS] New drug weekly Rx is chronologically ordered
 
-======================================================================
 11. INVALID Rx VALUES
-======================================================================
+
 [PASS] No negative or non-numeric Rx values
 
-======================================================================
 12. NUMERICAL RANGES
-======================================================================
+
 Market size                    min=214,277.00 max=2,983,244.00
 Competitive density            min=1.00 max=5.00
 Payer restrictiveness          min=1.00 max=5.00
 Promotional intensity          min=1.00 max=5.00
 Price tier                     min=1.00 max=5.00
 
-======================================================================
 13. CATEGORICAL DISTRIBUTIONS
-======================================================================
 
 Mechanism of Action
   Complement C5 inhibitor: 2
@@ -284,19 +266,16 @@ Special Designation
   False: 30
   True: 5
 
-======================================================================
 FINAL VALIDATION SUMMARY
-======================================================================
+
 Checks passed: 5/5
 
  DATA INGESTION & VALIDATION PASSED
 The Seed-71 datasets are ready for the next stage.
 
-C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python preprocess_data.py 
-======================================================================
+
 STEP 3 — DATA PREPROCESSING
-======================================================================
 
 Loading Seed-71 data...
 [OK] Analog drugs loaded
@@ -378,9 +357,8 @@ STEP 3 PREPROCESSING COMPLETE
 ======================================================================
 
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python analog_selection.py
-======================================================================
+
 STEP 4 + 5 — ANALOG SIMILARITY & TOP-5 SELECTION
-======================================================================
 
 Loading processed data...
 [OK] Analog drugs loaded: 35
@@ -394,9 +372,8 @@ Final feature vector size: 46
 
 Calculating cosine similarity...
 
-======================================================================
 ALL 35 ANALOGS — SIMILARITY RANKING
-======================================================================
+
  rank drug_id  drug_name  similarity_score
     1 ANL_024   Onyxmune          0.621671
     2 ANL_009  Glimzumab          0.534298
@@ -434,9 +411,8 @@ ALL 35 ANALOGS — SIMILARITY RANKING
    34 ANL_016   Vyntinib         -0.300351
    35 ANL_017  Perinprel         -0.340794
 
-======================================================================
-🏆 TOP 5 ANALOG DRUGS
-======================================================================
+ TOP 5 ANALOG DRUGS
+ 
  rank drug_id drug_name  similarity_score
     1 ANL_024  Onyxmune          0.621671
     2 ANL_009 Glimzumab          0.534298
@@ -444,9 +420,7 @@ ALL 35 ANALOGS — SIMILARITY RANKING
     4 ANL_033  Kynzumab          0.399604
     5 ANL_020 Amarapara          0.386017
 
-======================================================================
 ANALOG SELECTION COMPLETE
-======================================================================
 Total analogs evaluated : 35
 Top analogs selected    : 5
 
@@ -454,15 +428,12 @@ Generated files:
 [OK] processed_data\analog_similarity_scores.csv
 [OK] processed_data\top5_analogs.csv
 
-======================================================================
-STEP 4 + STEP 5 COMPLETE
-======================================================================
 
-C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>
+STEP 4 + STEP 5 COMPLETE
+
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python feature_engineering.py
-======================================================================
+
 STEP 6 — FEATURE ENGINEERING
-======================================================================
 
 Loading processed datasets...
 [OK] Analog static: 35 rows
@@ -471,9 +442,8 @@ Loading processed datasets...
 [OK] New drug Rx: 22 rows
 [OK] Top analogs: 5
 
-======================================================================
 1. NEW-DRUG FEATURES
-======================================================================
+   
 Latest Rx          : 42447.00
 Previous Rx        : 39129.00
 Growth rate        : 0.0848
@@ -481,9 +451,8 @@ Cumulative Rx      : 755666.00
 Rolling mean       : 40688.50
 Early growth slope : 665.34
 
-======================================================================
 2. TOP-5 ANALOG RX DATA
-======================================================================
+
 [OK] Retrieved Rx curves for 5 top analogs
 
 Top-5 analog engineered features:
@@ -494,13 +463,10 @@ ANL_013          0.480910   156259.027778       206555.441441           10.11682
 ANL_033          0.399604    94834.833333       124808.881381           18.521403        164175.0                    36        54485.075093
 ANL_020          0.386017   135648.416667       179169.225225           10.055843        262643.0                    35        78298.045685
 
-======================================================================
 3. AGGREGATING TOP-5 ANALOG FEATURES
-======================================================================
 
-======================================================================
 4. FINAL FEATURE VECTOR
-======================================================================
+
 drug_id                              NEW_001
 latest_rx                            42447.0
 previous_rx                          39129.0
@@ -526,22 +492,17 @@ route_of_administration              Inhaled
 target_specialty                   Neurology
 launch_quarter                            Q2
 
-======================================================================
 FEATURE ENGINEERING COMPLETE
-======================================================================
+
 Final feature count: 23
 [OK] processed_data\engineered_features.csv
 [OK] processed_data\analog_engineered_features.csv
 
-======================================================================
 STEP 6 COMPLETE
-======================================================================
 
-C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python weekly_monthly_alignment.py
-======================================================================
+
 STEP 7 — WEEKLY → MONTHLY Rx ALIGNMENT
-======================================================================
 
 Loading weekly new-drug Rx data...
 [OK] Weekly observations loaded: 22
@@ -552,9 +513,8 @@ Loading weekly new-drug Rx data...
 
 Assigning weekly observations to monthly buckets...
 
-======================================================================
 WEEKLY → MONTHLY ALIGNMENT
-======================================================================
+
  month  first_week  last_week  weeks_observed  monthly_rx  is_partial_month  monthly_rx_4week_equivalent
      1           1          4               4    112206.0             False                     112206.0
      2           5          8               4    124955.0             False                     124955.0
@@ -563,17 +523,15 @@ WEEKLY → MONTHLY ALIGNMENT
      5          17         20               4    158224.0             False                     158224.0
      6          21         22               2     81576.0              True                     163152.0
 
-======================================================================
 ALIGNMENT VALIDATION
-======================================================================
+
 Total weekly Rx : 755,666.00
 Total monthly Rx: 755,666.00
 [PASS] Monthly aggregation preserves total observed Rx
 [INFO] Partial month(s): [6]
 
-======================================================================
 STEP 7 COMPLETE
-======================================================================
+
 Weekly observations : 22
 Monthly observations: 6
 Partial month(s)    : 1
@@ -581,13 +539,9 @@ Partial month(s)    : 1
 [OK] processed_data\new_drug_monthly_rx.csv
 [OK] processed_data\rx_alignment_summary.csv
 
-======================================================================
-
-C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python eda.py
-======================================================================
+
 STEP 8 — EXPLORATORY DATA ANALYSIS
-======================================================================
 
 Loading processed datasets...
 [OK] Analog static: 35 rows
@@ -596,9 +550,7 @@ Loading processed datasets...
 [OK] New drug monthly Rx: 6 rows
 [OK] Top-5 analogs: 5
 
-======================================================================
 1. BASIC Rx STATISTICS
-======================================================================
 
 Analog Rx statistics:
 count      1260.000000
@@ -664,9 +616,8 @@ Creating market size vs Rx plot...
 Creating top-5 vs new-drug comparison...
 Saving descriptive statistics...
 
-======================================================================
 EDA COMPLETE
-======================================================================
+
 EDA outputs saved to: eda
 
 Generated visualizations include:
@@ -682,15 +633,11 @@ Generated visualizations include:
 [OK] Market size vs mean Rx
 [OK] New drug vs top-5 analogs
 
-======================================================================
 STEP 8 COMPLETE
-======================================================================
 
-C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python time_validation.py 
-======================================================================
+
 STEP 9 — TIME-AWARE VALIDATION SETUP
-======================================================================
 
 Loading analog monthly Rx data...
 [OK] Loaded 1260 Rx observations
@@ -701,7 +648,6 @@ Validating monthly histories...
 
 Creating rolling-origin validation splits...
 
-======================================================================
 ROLLING-ORIGIN SPLITS
 ======================================================================
 split_id  train_start  train_end  validation_start  validation_end
@@ -709,9 +655,8 @@ split_id  train_start  train_end  validation_start  validation_end
  split_2            1         24                25              30
  split_3            1         30                31              36
 
-======================================================================
 SPLIT VALIDATION
-======================================================================
+
 [PASS] split_1: train=18, validation=6
 [PASS] split_2: train=24, validation=6
 [PASS] split_3: train=30, validation=6
@@ -722,9 +667,7 @@ Checking temporal ordering...
 
 Creating validation timeline...
 
-======================================================================
 STEP 9 COMPLETE
-======================================================================
 Validation strategy: Rolling-Origin
 Number of splits: 3
 Validation horizon per split: 6 months
@@ -737,7 +680,6 @@ Split 3: Train 1–30  → Validate 31–36
 [OK] validation\validation_records.csv
 [OK] validation\validation_timeline.png
 
-======================================================================
 
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python -m pip install statsmodels scipy
 Defaulting to user installation because normal site-packages is not writeable
@@ -755,18 +697,15 @@ Requirement already satisfied: six>=1.5 in C:\Users\JESHWIN RAJ\AppData\Roaming\
 [notice] To update, run: python.exe -m pip install --upgrade pip
 
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python model_training.py
-================================================================================
+
 STEP 10 — SIX FORECASTING MODELS
-================================================================================
 
 Loading data...
 [OK] Historical drugs : 35
 [OK] Historical Rx rows: 1260
 [OK] Validation splits: 3
 
-================================================================================
 ROLLING-ORIGIN BACKTEST
-================================================================================
 
 split_1: Train 1–18 → Validate 19–24
 
@@ -774,9 +713,7 @@ split_2: Train 1–24 → Validate 25–30
 
 split_3: Train 1–30 → Validate 31–36
 
-================================================================================
 MODEL-WISE BACKTEST PERFORMANCE
-================================================================================
                  model     MAE_mean      MAE_std    RMSE_mean     RMSE_std  MAPE_mean  MAPE_std  sMAPE_mean  sMAPE_std  MASE_mean  MASE_std     R2_mean     R2_std  Accuracy_mean  Precision_mean  Recall_mean  F1_mean
                  ARIMA 22419.214373 19576.747861 25840.904812 21878.621320   9.125491  3.982350    9.698089   4.517571   2.522745  1.057632   -3.429723   5.653607       1.000000        1.000000     1.000000 1.000000
                  Naive 24592.593651 21434.141495 28094.422124 23967.949840  10.092441  4.848823   10.902814   5.618847   2.783230  1.261765   -3.512899   3.675406       1.000000        1.000000     1.000000 1.000000
@@ -785,9 +722,8 @@ Analog + Bass Adaptive 40567.570307 75477.623042 43263.161099 77128.601414  11.4
   Analog + Bass Static 62313.838266 65461.609242 63973.901273 66143.714466  35.318879 40.007124   28.684989  22.846268   9.849713 11.731859  -88.108240 196.985206       0.995238        1.000000     0.995238 0.997229
            Analog-Only 81994.692442 64599.910802 83394.029213 64532.927556  54.886673 68.906346   38.414330  30.027733  15.496886 20.153921 -234.194499 565.825836       1.000000        1.000000     1.000000 1.000000
 
-================================================================================
 MODEL RANKING
-================================================================================
+
 1. ARIMA | MASE=2.5227 | RMSE=25840.90 | sMAPE=9.70%
 2. Naive | MASE=2.7832 | RMSE=28094.42 | sMAPE=10.90%
 3. Analog + Bass Adaptive | MASE=2.9836 | RMSE=43263.16 | sMAPE=12.66%
@@ -800,9 +736,7 @@ MASE : 2.5227
 RMSE : 25840.90
 sMAPE: 9.70%
 
-================================================================================
 GENERALIZATION ANALYSIS
-================================================================================
 
 Naive
   Mean validation MAE : 24592.59
@@ -840,9 +774,8 @@ Analog + Bass Adaptive
   Conclusion: POSSIBLE UNDERPERFORMANCE
   Reason: MASE >= 1 means the model does not consistently beat the naive benchmark.
 
-================================================================================
 STEP 10 COMPLETE
-================================================================================
+
 [OK] Evaluated 6 models
 [OK] Historical drugs: 35
 [OK] Rolling validation windows: 3
