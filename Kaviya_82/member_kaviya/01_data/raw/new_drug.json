@@ -1,0 +1,104 @@
+{
+  "drug_id": "NEW_001",
+  "drug_name": "New Drug X Calatinib",
+  "mechanism_of_action": "Proton pump inhibitor",
+  "route_of_administration": "Topical",
+  "target_specialty": "Hematology",
+  "market_size": 1228526,
+  "competitive_density": 3,
+  "payer_restrictiveness": 5,
+  "launch_quarter": "Q1",
+  "promotional_intensity": 3,
+  "special_designation": false,
+  "price_tier": 4,
+  "early_rx": [
+    {
+      "week": 1,
+      "rx": 14502
+    },
+    {
+      "week": 2,
+      "rx": 17346
+    },
+    {
+      "week": 3,
+      "rx": 18885
+    },
+    {
+      "week": 4,
+      "rx": 18224
+    },
+    {
+      "week": 5,
+      "rx": 19619
+    },
+    {
+      "week": 6,
+      "rx": 19009
+    },
+    {
+      "week": 7,
+      "rx": 19142
+    },
+    {
+      "week": 8,
+      "rx": 20449
+    },
+    {
+      "week": 9,
+      "rx": 19911
+    },
+    {
+      "week": 10,
+      "rx": 19554
+    },
+    {
+      "week": 11,
+      "rx": 19368
+    },
+    {
+      "week": 12,
+      "rx": 20162
+    },
+    {
+      "week": 13,
+      "rx": 22242
+    },
+    {
+      "week": 14,
+      "rx": 23555
+    },
+    {
+      "week": 15,
+      "rx": 23713
+    },
+    {
+      "week": 16,
+      "rx": 22951
+    },
+    {
+      "week": 17,
+      "rx": 23531
+    },
+    {
+      "week": 18,
+      "rx": 27900
+    },
+    {
+      "week": 19,
+      "rx": 27198
+    },
+    {
+      "week": 20,
+      "rx": 28642
+    },
+    {
+      "week": 21,
+      "rx": 28548
+    },
+    {
+      "week": 22,
+      "rx": 27492
+    }
+  ]
+}

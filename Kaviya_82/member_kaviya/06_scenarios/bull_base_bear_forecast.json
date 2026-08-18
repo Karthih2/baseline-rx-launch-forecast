@@ -1,0 +1,2708 @@
+{
+    "bull_case": [
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 1,
+            "forecasted_sales_units": 4129
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 2,
+            "forecasted_sales_units": 4393
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 3,
+            "forecasted_sales_units": 4445
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 4,
+            "forecasted_sales_units": 4004
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 5,
+            "forecasted_sales_units": 4707
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 6,
+            "forecasted_sales_units": 4936
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 7,
+            "forecasted_sales_units": 4597
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 8,
+            "forecasted_sales_units": 4906
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 9,
+            "forecasted_sales_units": 4460
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 10,
+            "forecasted_sales_units": 4644
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 11,
+            "forecasted_sales_units": 4612
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 12,
+            "forecasted_sales_units": 4815
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 13,
+            "forecasted_sales_units": 4694
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 14,
+            "forecasted_sales_units": 5108
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 15,
+            "forecasted_sales_units": 4652
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 16,
+            "forecasted_sales_units": 4978
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 17,
+            "forecasted_sales_units": 4432
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 18,
+            "forecasted_sales_units": 5260
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 19,
+            "forecasted_sales_units": 5008
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 20,
+            "forecasted_sales_units": 5094
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 21,
+            "forecasted_sales_units": 5171
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 22,
+            "forecasted_sales_units": 4970
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 23,
+            "forecasted_sales_units": 5441
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 24,
+            "forecasted_sales_units": 5424
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 25,
+            "forecasted_sales_units": 5102
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 26,
+            "forecasted_sales_units": 5438
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 27,
+            "forecasted_sales_units": 5514
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 28,
+            "forecasted_sales_units": 4937
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 29,
+            "forecasted_sales_units": 5570
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 30,
+            "forecasted_sales_units": 5506
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 31,
+            "forecasted_sales_units": 5387
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 32,
+            "forecasted_sales_units": 6366
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 33,
+            "forecasted_sales_units": 5679
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 34,
+            "forecasted_sales_units": 5881
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 35,
+            "forecasted_sales_units": 4832
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 36,
+            "forecasted_sales_units": 5620
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 1,
+            "forecasted_sales_units": 1387
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 2,
+            "forecasted_sales_units": 1459
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 3,
+            "forecasted_sales_units": 1623
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 4,
+            "forecasted_sales_units": 1277
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 5,
+            "forecasted_sales_units": 1862
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 6,
+            "forecasted_sales_units": 1491
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 7,
+            "forecasted_sales_units": 1614
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 8,
+            "forecasted_sales_units": 1370
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 9,
+            "forecasted_sales_units": 1917
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 10,
+            "forecasted_sales_units": 1801
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 11,
+            "forecasted_sales_units": 1714
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 12,
+            "forecasted_sales_units": 2136
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 13,
+            "forecasted_sales_units": 1788
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 14,
+            "forecasted_sales_units": 1199
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 15,
+            "forecasted_sales_units": 2069
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 16,
+            "forecasted_sales_units": 1130
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 17,
+            "forecasted_sales_units": 2235
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 18,
+            "forecasted_sales_units": 2363
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 19,
+            "forecasted_sales_units": 1678
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 20,
+            "forecasted_sales_units": 1168
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 21,
+            "forecasted_sales_units": 1634
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 22,
+            "forecasted_sales_units": 1774
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 23,
+            "forecasted_sales_units": 1101
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 24,
+            "forecasted_sales_units": 2138
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 25,
+            "forecasted_sales_units": 2268
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 26,
+            "forecasted_sales_units": 2080
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 27,
+            "forecasted_sales_units": 1742
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 28,
+            "forecasted_sales_units": 1531
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 29,
+            "forecasted_sales_units": 2054
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 30,
+            "forecasted_sales_units": 2330
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 31,
+            "forecasted_sales_units": 2156
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 32,
+            "forecasted_sales_units": 1992
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 33,
+            "forecasted_sales_units": 2023
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 34,
+            "forecasted_sales_units": 2099
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 35,
+            "forecasted_sales_units": 1969
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 36,
+            "forecasted_sales_units": 1406
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 1,
+            "forecasted_sales_units": 4063
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 2,
+            "forecasted_sales_units": 4110
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 3,
+            "forecasted_sales_units": 3697
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 4,
+            "forecasted_sales_units": 4414
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 5,
+            "forecasted_sales_units": 4087
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 6,
+            "forecasted_sales_units": 4388
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 7,
+            "forecasted_sales_units": 4787
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 8,
+            "forecasted_sales_units": 4950
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 9,
+            "forecasted_sales_units": 4870
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 10,
+            "forecasted_sales_units": 5012
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 11,
+            "forecasted_sales_units": 5552
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 12,
+            "forecasted_sales_units": 4993
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 13,
+            "forecasted_sales_units": 5287
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 14,
+            "forecasted_sales_units": 6165
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 15,
+            "forecasted_sales_units": 5814
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 16,
+            "forecasted_sales_units": 5771
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 17,
+            "forecasted_sales_units": 6123
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 18,
+            "forecasted_sales_units": 5748
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 19,
+            "forecasted_sales_units": 5900
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 20,
+            "forecasted_sales_units": 6457
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 21,
+            "forecasted_sales_units": 6703
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 22,
+            "forecasted_sales_units": 6140
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 23,
+            "forecasted_sales_units": 6239
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 24,
+            "forecasted_sales_units": 6413
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 25,
+            "forecasted_sales_units": 6459
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 26,
+            "forecasted_sales_units": 6748
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 27,
+            "forecasted_sales_units": 6769
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 28,
+            "forecasted_sales_units": 6821
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 29,
+            "forecasted_sales_units": 6634
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 30,
+            "forecasted_sales_units": 6983
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 31,
+            "forecasted_sales_units": 7543
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 32,
+            "forecasted_sales_units": 7475
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 33,
+            "forecasted_sales_units": 7715
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 34,
+            "forecasted_sales_units": 8252
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 35,
+            "forecasted_sales_units": 8291
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 36,
+            "forecasted_sales_units": 8100
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 1,
+            "forecasted_sales_units": 1720
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 2,
+            "forecasted_sales_units": 1532
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 3,
+            "forecasted_sales_units": 2129
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 4,
+            "forecasted_sales_units": 2193
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 5,
+            "forecasted_sales_units": 2376
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 6,
+            "forecasted_sales_units": 1800
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 7,
+            "forecasted_sales_units": 1335
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 8,
+            "forecasted_sales_units": 2081
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 9,
+            "forecasted_sales_units": 1625
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 10,
+            "forecasted_sales_units": 2021
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 11,
+            "forecasted_sales_units": 2061
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 12,
+            "forecasted_sales_units": 2188
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 13,
+            "forecasted_sales_units": 2253
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 14,
+            "forecasted_sales_units": 2219
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 15,
+            "forecasted_sales_units": 2019
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 16,
+            "forecasted_sales_units": 1947
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 17,
+            "forecasted_sales_units": 2119
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 18,
+            "forecasted_sales_units": 1912
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 19,
+            "forecasted_sales_units": 2631
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 20,
+            "forecasted_sales_units": 2617
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 21,
+            "forecasted_sales_units": 2227
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 22,
+            "forecasted_sales_units": 2017
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 23,
+            "forecasted_sales_units": 2421
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 24,
+            "forecasted_sales_units": 2236
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 25,
+            "forecasted_sales_units": 2496
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 26,
+            "forecasted_sales_units": 2492
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 27,
+            "forecasted_sales_units": 2272
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 28,
+            "forecasted_sales_units": 2954
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 29,
+            "forecasted_sales_units": 1987
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 30,
+            "forecasted_sales_units": 2228
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 31,
+            "forecasted_sales_units": 2640
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 32,
+            "forecasted_sales_units": 2476
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 33,
+            "forecasted_sales_units": 2873
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 34,
+            "forecasted_sales_units": 2527
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 35,
+            "forecasted_sales_units": 3283
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 36,
+            "forecasted_sales_units": 2971
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 1,
+            "forecasted_sales_units": 2109
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 2,
+            "forecasted_sales_units": 2848
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 3,
+            "forecasted_sales_units": 1677
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 4,
+            "forecasted_sales_units": 2207
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 5,
+            "forecasted_sales_units": 1448
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 6,
+            "forecasted_sales_units": 1775
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 7,
+            "forecasted_sales_units": 1703
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 8,
+            "forecasted_sales_units": 2415
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 9,
+            "forecasted_sales_units": 2068
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 10,
+            "forecasted_sales_units": 2172
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 11,
+            "forecasted_sales_units": 2324
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 12,
+            "forecasted_sales_units": 2716
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 13,
+            "forecasted_sales_units": 1926
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 14,
+            "forecasted_sales_units": 2011
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 15,
+            "forecasted_sales_units": 2935
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 16,
+            "forecasted_sales_units": 2650
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 17,
+            "forecasted_sales_units": 2660
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 18,
+            "forecasted_sales_units": 2675
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 19,
+            "forecasted_sales_units": 2438
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 20,
+            "forecasted_sales_units": 2730
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 21,
+            "forecasted_sales_units": 2760
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 22,
+            "forecasted_sales_units": 2605
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 23,
+            "forecasted_sales_units": 2384
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 24,
+            "forecasted_sales_units": 2322
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 25,
+            "forecasted_sales_units": 2763
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 26,
+            "forecasted_sales_units": 3151
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 27,
+            "forecasted_sales_units": 2877
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 28,
+            "forecasted_sales_units": 2780
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 29,
+            "forecasted_sales_units": 3164
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 30,
+            "forecasted_sales_units": 2842
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 31,
+            "forecasted_sales_units": 3468
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 32,
+            "forecasted_sales_units": 3058
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 33,
+            "forecasted_sales_units": 3384
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 34,
+            "forecasted_sales_units": 2884
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 35,
+            "forecasted_sales_units": 3031
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 36,
+            "forecasted_sales_units": 3706
+        }
+    ],
+    "base_case": [
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 1,
+            "forecasted_sales_units": 4354
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 2,
+            "forecasted_sales_units": 3931
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 3,
+            "forecasted_sales_units": 4559
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 4,
+            "forecasted_sales_units": 4305
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 5,
+            "forecasted_sales_units": 4182
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 6,
+            "forecasted_sales_units": 4743
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 7,
+            "forecasted_sales_units": 4341
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 8,
+            "forecasted_sales_units": 4382
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 9,
+            "forecasted_sales_units": 4658
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 10,
+            "forecasted_sales_units": 4292
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 11,
+            "forecasted_sales_units": 4757
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 12,
+            "forecasted_sales_units": 4681
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 13,
+            "forecasted_sales_units": 4428
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 14,
+            "forecasted_sales_units": 5086
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 15,
+            "forecasted_sales_units": 4867
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 16,
+            "forecasted_sales_units": 4438
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 17,
+            "forecasted_sales_units": 4804
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 18,
+            "forecasted_sales_units": 4838
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 19,
+            "forecasted_sales_units": 5015
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 20,
+            "forecasted_sales_units": 4948
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 21,
+            "forecasted_sales_units": 4824
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 22,
+            "forecasted_sales_units": 4938
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 23,
+            "forecasted_sales_units": 4708
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 24,
+            "forecasted_sales_units": 5202
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 25,
+            "forecasted_sales_units": 5127
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 26,
+            "forecasted_sales_units": 5017
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 27,
+            "forecasted_sales_units": 5126
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 28,
+            "forecasted_sales_units": 4993
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 29,
+            "forecasted_sales_units": 5514
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 30,
+            "forecasted_sales_units": 5545
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 31,
+            "forecasted_sales_units": 5327
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 32,
+            "forecasted_sales_units": 5332
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 33,
+            "forecasted_sales_units": 5406
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 34,
+            "forecasted_sales_units": 5650
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 35,
+            "forecasted_sales_units": 5244
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 36,
+            "forecasted_sales_units": 5505
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 1,
+            "forecasted_sales_units": 1424
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 2,
+            "forecasted_sales_units": 1334
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 3,
+            "forecasted_sales_units": 1265
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 4,
+            "forecasted_sales_units": 1549
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 5,
+            "forecasted_sales_units": 1727
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 6,
+            "forecasted_sales_units": 1865
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 7,
+            "forecasted_sales_units": 1611
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 8,
+            "forecasted_sales_units": 1678
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 9,
+            "forecasted_sales_units": 1535
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 10,
+            "forecasted_sales_units": 1184
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 11,
+            "forecasted_sales_units": 1876
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 12,
+            "forecasted_sales_units": 1796
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 13,
+            "forecasted_sales_units": 1809
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 14,
+            "forecasted_sales_units": 1721
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 15,
+            "forecasted_sales_units": 1876
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 16,
+            "forecasted_sales_units": 2109
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 17,
+            "forecasted_sales_units": 1721
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 18,
+            "forecasted_sales_units": 1283
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 19,
+            "forecasted_sales_units": 2178
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 20,
+            "forecasted_sales_units": 1870
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 21,
+            "forecasted_sales_units": 2113
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 22,
+            "forecasted_sales_units": 2087
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 23,
+            "forecasted_sales_units": 1986
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 24,
+            "forecasted_sales_units": 1792
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 25,
+            "forecasted_sales_units": 1842
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 26,
+            "forecasted_sales_units": 1999
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 27,
+            "forecasted_sales_units": 2134
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 28,
+            "forecasted_sales_units": 1639
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 29,
+            "forecasted_sales_units": 2270
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 30,
+            "forecasted_sales_units": 2007
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 31,
+            "forecasted_sales_units": 2088
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 32,
+            "forecasted_sales_units": 2138
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 33,
+            "forecasted_sales_units": 2349
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 34,
+            "forecasted_sales_units": 2184
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 35,
+            "forecasted_sales_units": 2072
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 36,
+            "forecasted_sales_units": 2528
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 1,
+            "forecasted_sales_units": 3790
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 2,
+            "forecasted_sales_units": 3951
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 3,
+            "forecasted_sales_units": 3776
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 4,
+            "forecasted_sales_units": 4378
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 5,
+            "forecasted_sales_units": 4210
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 6,
+            "forecasted_sales_units": 4457
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 7,
+            "forecasted_sales_units": 4230
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 8,
+            "forecasted_sales_units": 4737
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 9,
+            "forecasted_sales_units": 4727
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 10,
+            "forecasted_sales_units": 4552
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 11,
+            "forecasted_sales_units": 4737
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 12,
+            "forecasted_sales_units": 4640
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 13,
+            "forecasted_sales_units": 4641
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 14,
+            "forecasted_sales_units": 4836
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 15,
+            "forecasted_sales_units": 4654
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 16,
+            "forecasted_sales_units": 4685
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 17,
+            "forecasted_sales_units": 4728
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 18,
+            "forecasted_sales_units": 5219
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 19,
+            "forecasted_sales_units": 5043
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 20,
+            "forecasted_sales_units": 5001
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 21,
+            "forecasted_sales_units": 5025
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 22,
+            "forecasted_sales_units": 5020
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 23,
+            "forecasted_sales_units": 5189
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 24,
+            "forecasted_sales_units": 5369
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 25,
+            "forecasted_sales_units": 5189
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 26,
+            "forecasted_sales_units": 5259
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 27,
+            "forecasted_sales_units": 5080
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 28,
+            "forecasted_sales_units": 5464
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 29,
+            "forecasted_sales_units": 5760
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 30,
+            "forecasted_sales_units": 5398
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 31,
+            "forecasted_sales_units": 5399
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 32,
+            "forecasted_sales_units": 5534
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 33,
+            "forecasted_sales_units": 5481
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 34,
+            "forecasted_sales_units": 5685
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 35,
+            "forecasted_sales_units": 5875
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 36,
+            "forecasted_sales_units": 5589
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 1,
+            "forecasted_sales_units": 1572
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 2,
+            "forecasted_sales_units": 1189
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 3,
+            "forecasted_sales_units": 1357
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 4,
+            "forecasted_sales_units": 1957
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 5,
+            "forecasted_sales_units": 2033
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 6,
+            "forecasted_sales_units": 1674
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 7,
+            "forecasted_sales_units": 1593
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 8,
+            "forecasted_sales_units": 1711
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 9,
+            "forecasted_sales_units": 1808
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 10,
+            "forecasted_sales_units": 1752
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 11,
+            "forecasted_sales_units": 1687
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 12,
+            "forecasted_sales_units": 1842
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 13,
+            "forecasted_sales_units": 1878
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 14,
+            "forecasted_sales_units": 1953
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 15,
+            "forecasted_sales_units": 1491
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 16,
+            "forecasted_sales_units": 1943
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 17,
+            "forecasted_sales_units": 2070
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 18,
+            "forecasted_sales_units": 1498
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 19,
+            "forecasted_sales_units": 1709
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 20,
+            "forecasted_sales_units": 1883
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 21,
+            "forecasted_sales_units": 2056
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 22,
+            "forecasted_sales_units": 1539
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 23,
+            "forecasted_sales_units": 1785
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 24,
+            "forecasted_sales_units": 1877
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 25,
+            "forecasted_sales_units": 1831
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 26,
+            "forecasted_sales_units": 1987
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 27,
+            "forecasted_sales_units": 1699
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 28,
+            "forecasted_sales_units": 1931
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 29,
+            "forecasted_sales_units": 2043
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 30,
+            "forecasted_sales_units": 1728
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 31,
+            "forecasted_sales_units": 1936
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 32,
+            "forecasted_sales_units": 1909
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 33,
+            "forecasted_sales_units": 1902
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 34,
+            "forecasted_sales_units": 2031
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 35,
+            "forecasted_sales_units": 2254
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 36,
+            "forecasted_sales_units": 1930
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 1,
+            "forecasted_sales_units": 1513
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 2,
+            "forecasted_sales_units": 1823
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 3,
+            "forecasted_sales_units": 1472
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 4,
+            "forecasted_sales_units": 1854
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 5,
+            "forecasted_sales_units": 1693
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 6,
+            "forecasted_sales_units": 2022
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 7,
+            "forecasted_sales_units": 2146
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 8,
+            "forecasted_sales_units": 1927
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 9,
+            "forecasted_sales_units": 1716
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 10,
+            "forecasted_sales_units": 2309
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 11,
+            "forecasted_sales_units": 1815
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 12,
+            "forecasted_sales_units": 2075
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 13,
+            "forecasted_sales_units": 2005
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 14,
+            "forecasted_sales_units": 2171
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 15,
+            "forecasted_sales_units": 2087
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 16,
+            "forecasted_sales_units": 1985
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 17,
+            "forecasted_sales_units": 1894
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 18,
+            "forecasted_sales_units": 2354
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 19,
+            "forecasted_sales_units": 1551
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 20,
+            "forecasted_sales_units": 1959
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 21,
+            "forecasted_sales_units": 1945
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 22,
+            "forecasted_sales_units": 1885
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 23,
+            "forecasted_sales_units": 1825
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 24,
+            "forecasted_sales_units": 1902
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 25,
+            "forecasted_sales_units": 2028
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 26,
+            "forecasted_sales_units": 1898
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 27,
+            "forecasted_sales_units": 2354
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 28,
+            "forecasted_sales_units": 2191
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 29,
+            "forecasted_sales_units": 2591
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 30,
+            "forecasted_sales_units": 2080
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 31,
+            "forecasted_sales_units": 2222
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 32,
+            "forecasted_sales_units": 2012
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 33,
+            "forecasted_sales_units": 2460
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 34,
+            "forecasted_sales_units": 2255
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 35,
+            "forecasted_sales_units": 2534
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 36,
+            "forecasted_sales_units": 2244
+        }
+    ],
+    "bear_case": [
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 1,
+            "forecasted_sales_units": 4287
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 2,
+            "forecasted_sales_units": 4262
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 3,
+            "forecasted_sales_units": 4333
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 4,
+            "forecasted_sales_units": 4345
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 5,
+            "forecasted_sales_units": 4117
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 6,
+            "forecasted_sales_units": 4248
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 7,
+            "forecasted_sales_units": 4171
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 8,
+            "forecasted_sales_units": 4412
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 9,
+            "forecasted_sales_units": 4117
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 10,
+            "forecasted_sales_units": 3853
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 11,
+            "forecasted_sales_units": 3941
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 12,
+            "forecasted_sales_units": 4210
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 13,
+            "forecasted_sales_units": 4018
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 14,
+            "forecasted_sales_units": 4041
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 15,
+            "forecasted_sales_units": 3978
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 16,
+            "forecasted_sales_units": 4014
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 17,
+            "forecasted_sales_units": 4019
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 18,
+            "forecasted_sales_units": 3947
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 19,
+            "forecasted_sales_units": 3816
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 20,
+            "forecasted_sales_units": 3618
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 21,
+            "forecasted_sales_units": 4018
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 22,
+            "forecasted_sales_units": 3970
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 23,
+            "forecasted_sales_units": 3972
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 24,
+            "forecasted_sales_units": 3780
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 25,
+            "forecasted_sales_units": 3897
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 26,
+            "forecasted_sales_units": 3847
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 27,
+            "forecasted_sales_units": 3943
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 28,
+            "forecasted_sales_units": 3821
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 29,
+            "forecasted_sales_units": 3742
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 30,
+            "forecasted_sales_units": 3952
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 31,
+            "forecasted_sales_units": 3960
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 32,
+            "forecasted_sales_units": 3878
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 33,
+            "forecasted_sales_units": 3702
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 34,
+            "forecasted_sales_units": 3702
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 35,
+            "forecasted_sales_units": 3693
+        },
+        {
+            "drug_id": "NEW_DRUG_1",
+            "month": 36,
+            "forecasted_sales_units": 3685
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 1,
+            "forecasted_sales_units": 1494
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 2,
+            "forecasted_sales_units": 1463
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 3,
+            "forecasted_sales_units": 1323
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 4,
+            "forecasted_sales_units": 1432
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 5,
+            "forecasted_sales_units": 1486
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 6,
+            "forecasted_sales_units": 1531
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 7,
+            "forecasted_sales_units": 1206
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 8,
+            "forecasted_sales_units": 1278
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 9,
+            "forecasted_sales_units": 1439
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 10,
+            "forecasted_sales_units": 1435
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 11,
+            "forecasted_sales_units": 1560
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 12,
+            "forecasted_sales_units": 1493
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 13,
+            "forecasted_sales_units": 1539
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 14,
+            "forecasted_sales_units": 1594
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 15,
+            "forecasted_sales_units": 1277
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 16,
+            "forecasted_sales_units": 1578
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 17,
+            "forecasted_sales_units": 1411
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 18,
+            "forecasted_sales_units": 1465
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 19,
+            "forecasted_sales_units": 1496
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 20,
+            "forecasted_sales_units": 1387
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 21,
+            "forecasted_sales_units": 1410
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 22,
+            "forecasted_sales_units": 1481
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 23,
+            "forecasted_sales_units": 1459
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 24,
+            "forecasted_sales_units": 1392
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 25,
+            "forecasted_sales_units": 1438
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 26,
+            "forecasted_sales_units": 1577
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 27,
+            "forecasted_sales_units": 1497
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 28,
+            "forecasted_sales_units": 1598
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 29,
+            "forecasted_sales_units": 1633
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 30,
+            "forecasted_sales_units": 1484
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 31,
+            "forecasted_sales_units": 1510
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 32,
+            "forecasted_sales_units": 1382
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 33,
+            "forecasted_sales_units": 1483
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 34,
+            "forecasted_sales_units": 1339
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 35,
+            "forecasted_sales_units": 1564
+        },
+        {
+            "drug_id": "NEW_DRUG_2",
+            "month": 36,
+            "forecasted_sales_units": 1452
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 1,
+            "forecasted_sales_units": 4024
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 2,
+            "forecasted_sales_units": 4046
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 3,
+            "forecasted_sales_units": 4252
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 4,
+            "forecasted_sales_units": 4240
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 5,
+            "forecasted_sales_units": 4097
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 6,
+            "forecasted_sales_units": 4171
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 7,
+            "forecasted_sales_units": 4292
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 8,
+            "forecasted_sales_units": 4164
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 9,
+            "forecasted_sales_units": 4134
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 10,
+            "forecasted_sales_units": 4082
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 11,
+            "forecasted_sales_units": 4222
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 12,
+            "forecasted_sales_units": 4347
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 13,
+            "forecasted_sales_units": 4181
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 14,
+            "forecasted_sales_units": 4140
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 15,
+            "forecasted_sales_units": 4084
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 16,
+            "forecasted_sales_units": 4180
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 17,
+            "forecasted_sales_units": 4172
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 18,
+            "forecasted_sales_units": 4367
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 19,
+            "forecasted_sales_units": 4236
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 20,
+            "forecasted_sales_units": 4299
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 21,
+            "forecasted_sales_units": 4446
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 22,
+            "forecasted_sales_units": 4180
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 23,
+            "forecasted_sales_units": 4361
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 24,
+            "forecasted_sales_units": 4275
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 25,
+            "forecasted_sales_units": 4352
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 26,
+            "forecasted_sales_units": 4312
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 27,
+            "forecasted_sales_units": 4374
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 28,
+            "forecasted_sales_units": 4521
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 29,
+            "forecasted_sales_units": 4276
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 30,
+            "forecasted_sales_units": 4370
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 31,
+            "forecasted_sales_units": 4441
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 32,
+            "forecasted_sales_units": 4408
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 33,
+            "forecasted_sales_units": 4390
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 34,
+            "forecasted_sales_units": 4458
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 35,
+            "forecasted_sales_units": 4456
+        },
+        {
+            "drug_id": "NEW_DRUG_3",
+            "month": 36,
+            "forecasted_sales_units": 4533
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 1,
+            "forecasted_sales_units": 1705
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 2,
+            "forecasted_sales_units": 1743
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 3,
+            "forecasted_sales_units": 1722
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 4,
+            "forecasted_sales_units": 1412
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 5,
+            "forecasted_sales_units": 1808
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 6,
+            "forecasted_sales_units": 1665
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 7,
+            "forecasted_sales_units": 1610
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 8,
+            "forecasted_sales_units": 1673
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 9,
+            "forecasted_sales_units": 1800
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 10,
+            "forecasted_sales_units": 1646
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 11,
+            "forecasted_sales_units": 1560
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 12,
+            "forecasted_sales_units": 1621
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 13,
+            "forecasted_sales_units": 1702
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 14,
+            "forecasted_sales_units": 1728
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 15,
+            "forecasted_sales_units": 1694
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 16,
+            "forecasted_sales_units": 1607
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 17,
+            "forecasted_sales_units": 1728
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 18,
+            "forecasted_sales_units": 1730
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 19,
+            "forecasted_sales_units": 1691
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 20,
+            "forecasted_sales_units": 1949
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 21,
+            "forecasted_sales_units": 1695
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 22,
+            "forecasted_sales_units": 1740
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 23,
+            "forecasted_sales_units": 1669
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 24,
+            "forecasted_sales_units": 1641
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 25,
+            "forecasted_sales_units": 1866
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 26,
+            "forecasted_sales_units": 1934
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 27,
+            "forecasted_sales_units": 1746
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 28,
+            "forecasted_sales_units": 1659
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 29,
+            "forecasted_sales_units": 1525
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 30,
+            "forecasted_sales_units": 1786
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 31,
+            "forecasted_sales_units": 1753
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 32,
+            "forecasted_sales_units": 1735
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 33,
+            "forecasted_sales_units": 1759
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 34,
+            "forecasted_sales_units": 1703
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 35,
+            "forecasted_sales_units": 1690
+        },
+        {
+            "drug_id": "NEW_DRUG_4",
+            "month": 36,
+            "forecasted_sales_units": 1585
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 1,
+            "forecasted_sales_units": 1948
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 2,
+            "forecasted_sales_units": 1850
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 3,
+            "forecasted_sales_units": 1735
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 4,
+            "forecasted_sales_units": 2012
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 5,
+            "forecasted_sales_units": 1830
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 6,
+            "forecasted_sales_units": 1959
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 7,
+            "forecasted_sales_units": 1775
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 8,
+            "forecasted_sales_units": 1694
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 9,
+            "forecasted_sales_units": 1749
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 10,
+            "forecasted_sales_units": 1844
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 11,
+            "forecasted_sales_units": 1716
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 12,
+            "forecasted_sales_units": 2026
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 13,
+            "forecasted_sales_units": 1871
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 14,
+            "forecasted_sales_units": 1674
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 15,
+            "forecasted_sales_units": 1600
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 16,
+            "forecasted_sales_units": 1852
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 17,
+            "forecasted_sales_units": 1814
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 18,
+            "forecasted_sales_units": 1767
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 19,
+            "forecasted_sales_units": 1820
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 20,
+            "forecasted_sales_units": 1894
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 21,
+            "forecasted_sales_units": 1885
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 22,
+            "forecasted_sales_units": 1762
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 23,
+            "forecasted_sales_units": 1854
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 24,
+            "forecasted_sales_units": 1776
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 25,
+            "forecasted_sales_units": 1792
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 26,
+            "forecasted_sales_units": 1916
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 27,
+            "forecasted_sales_units": 1820
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 28,
+            "forecasted_sales_units": 1742
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 29,
+            "forecasted_sales_units": 1792
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 30,
+            "forecasted_sales_units": 1759
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 31,
+            "forecasted_sales_units": 1802
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 32,
+            "forecasted_sales_units": 1787
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 33,
+            "forecasted_sales_units": 1876
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 34,
+            "forecasted_sales_units": 1775
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 35,
+            "forecasted_sales_units": 1939
+        },
+        {
+            "drug_id": "NEW_DRUG_5",
+            "month": 36,
+            "forecasted_sales_units": 1855
+        }
+    ]
+}
