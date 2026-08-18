@@ -1,0 +1,104 @@
+{
+  "drug_id": "NEW_001",
+  "drug_name": "New Drug X Trexpara",
+  "mechanism_of_action": "GLP-1 agonist",
+  "route_of_administration": "Inhaled",
+  "target_specialty": "Primary Care",
+  "market_size": 960512,
+  "competitive_density": 1,
+  "payer_restrictiveness": 2,
+  "launch_quarter": "Q1",
+  "promotional_intensity": 3,
+  "special_designation": false,
+  "price_tier": 2,
+  "early_rx": [
+    {
+      "week": 1,
+      "rx": 21174
+    },
+    {
+      "week": 2,
+      "rx": 22839
+    },
+    {
+      "week": 3,
+      "rx": 19667
+    },
+    {
+      "week": 4,
+      "rx": 21671
+    },
+    {
+      "week": 5,
+      "rx": 22627
+    },
+    {
+      "week": 6,
+      "rx": 24152
+    },
+    {
+      "week": 7,
+      "rx": 24115
+    },
+    {
+      "week": 8,
+      "rx": 23237
+    },
+    {
+      "week": 9,
+      "rx": 28180
+    },
+    {
+      "week": 10,
+      "rx": 28968
+    },
+    {
+      "week": 11,
+      "rx": 27437
+    },
+    {
+      "week": 12,
+      "rx": 28833
+    },
+    {
+      "week": 13,
+      "rx": 28489
+    },
+    {
+      "week": 14,
+      "rx": 34013
+    },
+    {
+      "week": 15,
+      "rx": 31602
+    },
+    {
+      "week": 16,
+      "rx": 31054
+    },
+    {
+      "week": 17,
+      "rx": 32166
+    },
+    {
+      "week": 18,
+      "rx": 30218
+    },
+    {
+      "week": 19,
+      "rx": 32839
+    },
+    {
+      "week": 20,
+      "rx": 36305
+    },
+    {
+      "week": 21,
+      "rx": 36123
+    },
+    {
+      "week": 22,
+      "rx": 37780
+    }
+  ]
+}
