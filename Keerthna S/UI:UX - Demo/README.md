@@ -6,11 +6,12 @@ This folder contains the UI/UX design and interactive prototype for the Baseline
 
 ### 🔗 Figma Make Prototype
 
-[View Interactive Prototype](https://www.figma.com/make/tmDhX5MWWuhlXl82kfkudI/Baseline---RX-Forecasting-Launch?t=fJJfupS4Sa94RVlO-20&fullscreen=1)
+[Basic Demo](https://www.figma.com/make/tmDhX5MWWuhlXl82kfkudI/Baseline---RX-Forecasting-Launch?t=fJJfupS4Sa94RVlO-20&fullscreen=1)
 
 ### 🛠️ Design Tool
 
 Figma Make
+Canva(Logo)
 
 ### ✨ Features
 
