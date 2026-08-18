@@ -12,7 +12,6 @@ Active code page: 65001
 
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>cd "C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN"
 
-C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python --version
 Python 3.14.4
 
@@ -32,7 +31,6 @@ Exit Criteria Check
 ------------------------------------------------------------
 ALL CHECKS PASSED
 
-C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python validate_data.py
 ======================================================================
 STEP 2 — DATA INGESTION & VALIDATION
@@ -379,7 +377,6 @@ Generated files:
 STEP 3 PREPROCESSING COMPLETE
 ======================================================================
 
-C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python analog_selection.py
 ======================================================================
 STEP 4 + 5 — ANALOG SIMILARITY & TOP-5 SELECTION
@@ -742,7 +739,6 @@ Split 3: Train 1–30  → Validate 31–36
 
 ======================================================================
 
-C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python -m pip install statsmodels scipy
 Defaulting to user installation because normal site-packages is not writeable
 Requirement already satisfied: statsmodels in C:\Users\JESHWIN RAJ\AppData\Roaming\Python\Python314\site-packages (0.14.6)
@@ -758,7 +754,6 @@ Requirement already satisfied: six>=1.5 in C:\Users\JESHWIN RAJ\AppData\Roaming\
 [notice] A new release of pip is available: 26.0.1 -> 26.2.1
 [notice] To update, run: python.exe -m pip install --upgrade pip
 
-C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>
 C:\Users\JESHWIN RAJ\Downloads\RX_FORCASTING_JERLIN>python model_training.py
 ================================================================================
 STEP 10 — SIX FORECASTING MODELS
