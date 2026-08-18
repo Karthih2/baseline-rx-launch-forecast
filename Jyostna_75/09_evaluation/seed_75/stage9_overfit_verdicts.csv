@@ -1,0 +1,7 @@
+model,verdict,top5_loo_error_share,reasoning
+Naive,POSSIBLE UNDERFITTING,0.3303,backtest MASE=1.0 and LOO out-of-sample MASE=1.0 are both ~1.0 (i.e. barely better than last-value-carryforward) -- the model isn't extracting usable signal beyond the naive baseline.
+ARIMA,GOOD GENERALIZATION,0.3301,"train-window walk-forward MASE (1.0499) and held-out backtest MASE (0.9357) are close (gap=-0.1142), and LOO error is not concentrated in a handful of analogs -- the model performs consistently on data it wasn't fit to."
+Analog_Only,POSSIBLE OVERFITTING,0.3754,LOO MASE is unstable across the 35 analogs (std/mean = 0.7242) -- performance depends heavily on which analog is held out.
+Bass_Only,LOW OVERFITTING RISK,0.406,no strong overfitting or underfitting signal in either the train/backtest gap or LOO consistency check.
+Analog_Bass_Static,LOW OVERFITTING RISK,0.4544,no strong overfitting or underfitting signal in either the train/backtest gap or LOO consistency check.
+Analog_Bass_Adaptive,LOW OVERFITTING RISK,0.4544,"no strong overfitting or underfitting signal in either the train/backtest gap or LOO consistency check. | EXTRA SCRUTINY (per spec): this model recalibrates every time a new week of early Rx arrives, so it has the most flexibility to fit noise on only 4-6 months of new-drug data. | the adaptive walk-forward log shows one-step-ahead error shrinking as more weeks are fed in -- consistent with genuine adaptation rather than noise-chasing."

@@ -1,0 +1,13 @@
+model,week,predicted_rx,actual_rx
+Naive,21,15904.0,16694.0
+Naive,22,15904.0,18103.0
+ARIMA,21,15992.9672,16694.0
+ARIMA,22,16007.0762,18103.0
+Analog_Only,21,16954.732,16694.0
+Analog_Only,22,17103.2632,18103.0
+Bass_Only,21,16665.6946,16694.0
+Bass_Only,22,17357.9628,18103.0
+Analog_Bass_Static,21,16665.6979,16694.0
+Analog_Bass_Static,22,17357.9673,18103.0
+Analog_Bass_Adaptive,21,16665.6979,16694.0
+Analog_Bass_Adaptive,22,17357.9673,18103.0

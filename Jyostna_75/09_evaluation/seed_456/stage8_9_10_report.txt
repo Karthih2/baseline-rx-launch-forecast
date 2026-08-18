@@ -1,0 +1,115 @@
+==============================================================================
+STAGE 8/9/10 -- EVALUATION DEEP-DIVE, OVERFITTING ANALYSIS, COMPARISON & SELECTION
+==============================================================================
+
+==============================================================================
+STAGE 8 -- EVALUATION METRICS (TRAIN / BACKTEST / LOO, KEPT SEPARATE)
+==============================================================================
+
+--- Section A: training performance (expanding-window walk-forward WITHIN train weeks 1-20) ---
+(17 one-step-ahead walk-forward predictions per model)
+Model                         MAE       RMSE      MAPE       R2     MASE       Bias
+Naive                   8509.4706 10781.0211    5.9867  -0.1318   1.0000  1928.4118
+ARIMA                   8074.6657 10582.7378    5.6848  -0.0905   0.9489  2122.5141
+Analog_Only            10147.7554 14606.3965    7.3671  -1.0774   1.1925 -8250.0606
+Bass_Only               8209.6608 10559.5728    5.8196  -0.0858   0.9648   794.5270
+Analog_Bass_Static      8205.5274 10551.2584    5.8162  -0.0840   0.9643   804.5819
+Analog_Bass_Adaptive    8205.5274 10551.2584    5.8162  -0.0840   0.9643   804.5819
+
+--- Section A: validation/backtest performance (truly held-out weeks [21, 22], from Stage 7) ---
+Model                         MAE       RMSE      MAPE       R2     MASE       Bias
+Naive                  14824.0000 14961.8064    8.7549 -53.5367   1.0000 14824.0000
+ARIMA                  14706.3031 14846.1540    8.6852 -52.6969   0.9921 14706.3031
+Analog_Only             5281.0224  5931.1712    3.1049  -7.5704   0.3562 -5281.0224
+Bass_Only              13724.0459 13799.7074    8.1083 -45.3939   0.9258 13724.0459
+Analog_Bass_Static     13724.3865 13800.0500    8.1085 -45.3962   0.9258 13724.3865
+Analog_Bass_Adaptive   13724.3865 13800.0500    8.1085 -45.3962   0.9258 13724.3865
+
+--- Section A generalization gap (backtest MASE minus train-window MASE) ---
+  Naive                  train_MASE=1.0  backtest_MASE=1.0  gap=0.0
+  ARIMA                  train_MASE=0.9489  backtest_MASE=0.9921  gap=0.0432
+  Analog_Only            train_MASE=1.1925  backtest_MASE=0.3562  gap=-0.8363
+  Bass_Only              train_MASE=0.9648  backtest_MASE=0.9258  gap=-0.039
+  Analog_Bass_Static     train_MASE=0.9643  backtest_MASE=0.9258  gap=-0.0385
+  Analog_Bass_Adaptive   train_MASE=0.9643  backtest_MASE=0.9258  gap=-0.0385
+
+--- Section B: LOO training performance (in-sample fit on known months 1-6, across all 35 folds) ---
+NOTE: Naive/ARIMA have no real 'fit' step, so their in-sample numbers are not expected to look good -- this asymmetry is expected, not a bug.
+Model                   mean_MASE  std_MASE
+Naive                         1.0       0.0
+ARIMA                      1.1113    0.1339
+Analog_Only                0.4759    0.3049
+Bass_Only                  0.1432     0.088
+Analog_Bass_Static         0.1431    0.0881
+Analog_Bass_Adaptive       0.1431    0.0881
+
+--- Section B: LOO out-of-sample performance (months 7-36, from Stage 7) ---
+Model                   mean_MASE  std_MASE
+Naive                         1.0       0.0
+ARIMA                      0.9881    0.0144
+Analog_Only                0.6888     0.513
+Bass_Only                  0.6505    0.2934
+Analog_Bass_Static         0.8206    0.6591
+Analog_Bass_Adaptive       0.8206    0.6591
+
+--- Section B generalization gap (LOO out-of-sample MASE minus LOO in-sample MASE) ---
+  Naive                  loo_train_MASE=1.0  loo_oos_MASE=1.0  gap=0.0
+  ARIMA                  loo_train_MASE=1.1113  loo_oos_MASE=0.9881  gap=-0.1232
+  Analog_Only            loo_train_MASE=0.4759  loo_oos_MASE=0.6888  gap=0.2129
+  Bass_Only              loo_train_MASE=0.1432  loo_oos_MASE=0.6505  gap=0.5073
+  Analog_Bass_Static     loo_train_MASE=0.1431  loo_oos_MASE=0.8206  gap=0.6775
+  Analog_Bass_Adaptive   loo_train_MASE=0.1431  loo_oos_MASE=0.8206  gap=0.6775
+
+==============================================================================
+STAGE 9 -- OVERFITTING / UNDERFITTING ANALYSIS
+==============================================================================
+
+[Naive] -> POSSIBLE UNDERFITTING
+    - backtest MASE=1.0 and LOO out-of-sample MASE=1.0 are both ~1.0 (i.e. barely better than last-value-carryforward) -- the model isn't extracting usable signal beyond the naive baseline.
+
+[ARIMA] -> POSSIBLE UNDERFITTING
+    - backtest MASE=0.9921 and LOO out-of-sample MASE=0.9881 are both ~1.0 (i.e. barely better than last-value-carryforward) -- the model isn't extracting usable signal beyond the naive baseline.
+
+[Analog_Only] -> POSSIBLE OVERFITTING
+    - LOO MASE is unstable across the 35 analogs (std/mean = 0.7448) -- performance depends heavily on which analog is held out.
+
+[Bass_Only] -> GOOD GENERALIZATION
+    - train-window walk-forward MASE (0.9648) and held-out backtest MASE (0.9258) are close (gap=-0.039), and LOO error is not concentrated in a handful of analogs -- the model performs consistently on data it wasn't fit to.
+
+[Analog_Bass_Static] -> POSSIBLE OVERFITTING
+    - LOO MASE is unstable across the 35 analogs (std/mean = 0.8032) -- performance depends heavily on which analog is held out.
+    - a small subset of analogs (top 5 of 35: ['ANL_007', 'ANL_017', 'ANL_016', 'ANL_022', 'ANL_019']) account for 51.3% of this model's total LOO error -- the average score is being driven by a few bad folds, not a broadly generalizable fit.
+
+[Analog_Bass_Adaptive] -> POSSIBLE OVERFITTING
+    - LOO MASE is unstable across the 35 analogs (std/mean = 0.8032) -- performance depends heavily on which analog is held out.
+    - a small subset of analogs (top 5 of 35: ['ANL_007', 'ANL_017', 'ANL_016', 'ANL_022', 'ANL_019']) account for 51.3% of this model's total LOO error -- the average score is being driven by a few bad folds, not a broadly generalizable fit.
+    - EXTRA SCRUTINY (per spec): this model recalibrates every time a new week of early Rx arrives, so it has the most flexibility to fit noise on only 4-6 months of new-drug data.
+    - the adaptive walk-forward log shows one-step-ahead error shrinking as more weeks are fed in -- consistent with genuine adaptation rather than noise-chasing.
+
+==============================================================================
+STAGE 10 -- MODEL COMPARISON & SELECTION
+==============================================================================
+
+Rank Model                    btMASE     btRMSE   btMAPE   looMASE   looStd                Verdict
+1    Analog_Only              0.3562  5931.1712   3.1049    0.6888   0.5130   POSSIBLE OVERFITTING
+2    Bass_Only                0.9258 13799.7074   8.1083    0.6505   0.2934    GOOD GENERALIZATION
+3    Analog_Bass_Static       0.9258 13800.0500   8.1085    0.8206   0.6591   POSSIBLE OVERFITTING
+4    Analog_Bass_Adaptive     0.9258 13800.0500   8.1085    0.8206   0.6591   POSSIBLE OVERFITTING
+5    ARIMA                    0.9921 14846.1540   8.6852    0.9881   0.0144  POSSIBLE UNDERFITTING
+6    Naive                    1.0000 14961.8064   8.7549    1.0000   0.0000  POSSIBLE UNDERFITTING
+
+Selected model (primary criterion: lowest backtest MASE; RMSE then MAPE as tie-breakers; simpler model as final tie-break if still indistinguishable): Analog_Only
+  backtest MASE=0.3562  RMSE=5931.1712  MAPE=3.1049  LOO mean MASE=0.6888  overfit verdict=POSSIBLE OVERFITTING
+
+--- Does the proposed hybrid actually beat the baselines? (honest, numbers-backed) ---
+  Naive backtest MASE (baseline, always 1.0 by definition): 1.0
+  ARIMA backtest MASE: 0.9921  (beats Naive)
+  Analog-only backtest MASE: 0.3562  (beats Naive)
+  Bass-only backtest MASE: 0.9258  (beats Naive)
+  Analog+Bass Static backtest MASE: 0.9258  (does not clearly beat the best single-source model)
+  Analog+Bass Adaptive backtest MASE: 0.9258  (does not beat the static hybrid)
+  FINDING: on this backtest window, Analog+Bass Static/Adaptive produce numbers essentially IDENTICAL to Bass-only. The analog calibration step is not visibly changing the forecast here -- i.e. the 'hybrid' advantage is not demonstrated by this backtest window on its own. Reported honestly per spec: 'do not force any model to win.' The LOO results above are the better place to check whether analog information helps more broadly across the 35 drugs.
+
+==============================================================================
+STAGE 8/9/10 COMPLETE
+==============================================================================

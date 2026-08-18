@@ -1,0 +1,7 @@
+model,loo_train_MASE,loo_oos_MASE,gap
+Naive,1.0,1.0,0.0
+ARIMA,1.0612,0.993,-0.0682
+Analog_Only,0.4636,0.5913,0.1277
+Bass_Only,0.1844,0.5974,0.413
+Analog_Bass_Static,0.1843,0.6436,0.4593
+Analog_Bass_Adaptive,0.1843,0.6436,0.4593

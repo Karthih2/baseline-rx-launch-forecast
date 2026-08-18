@@ -1,0 +1,7 @@
+model,train_walkforward_MASE,backtest_MASE,gap
+Naive,1.0,1.0,0.0
+ARIMA,0.9489,0.9921,0.0432
+Analog_Only,1.1925,0.3562,-0.8363
+Bass_Only,0.9648,0.9258,-0.039
+Analog_Bass_Static,0.9643,0.9258,-0.0385
+Analog_Bass_Adaptive,0.9643,0.9258,-0.0385

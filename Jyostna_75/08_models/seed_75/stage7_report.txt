@@ -1,0 +1,64 @@
+==============================================================================
+STAGE 7 -- TRAIN AND EVALUATE ALL 6 MODELS
+==============================================================================
+statsmodels available (for ARIMA): True
+
+==============================================================================
+SECTION A -- NEW-DRUG BACKTEST (weekly grain, SCORED)
+==============================================================================
+Train weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Held-out (test) weeks: [21, 22]
+Analog pool used: top 5 from Stage 4 -> ['ANL_019', 'ANL_025', 'ANL_024', 'ANL_017', 'ANL_035']
+
+--- Backtest results (all 6 models, same held-out weeks) ---
+Model                         MAE       RMSE      MAPE       R2     MASE       Bias
+Naive                      1494.5  1652.2259    8.4397  -4.5002      1.0     1494.5
+ARIMA                   1398.4783   1562.745    7.8885  -3.9206   0.9357  1398.4783
+Analog_Only              630.2344   730.5665    3.5422  -0.0754   0.4217   369.5024
+Bass_Only                386.6713   527.2009    2.1426     0.44   0.2587   386.6713
+Analog_Bass_Static       386.6674   527.1976    2.1425     0.44   0.2587   386.6674
+Analog_Bass_Adaptive     386.6674   527.1976    2.1425     0.44   0.2587   386.6674
+
+Saved adaptive walk-forward log (17 steps) -> section_a_adaptive_walkforward_log.csv
+  (this is your 'forecast error shrinking over time' evidence for the demo)
+
+Saved -> section_a_backtest_results.csv, section_a_backtest_forecasts.csv
+
+==============================================================================
+SECTION B -- LEAVE-ONE-OUT ACROSS 35 ANALOGS (monthly grain, SCORED)
+==============================================================================
+Known months per fold: 1-6  |  Forecast months: 7-36
+
+--- LOO summary across 35 folds (mean +/- std per model) ---
+Model                    MeanMASE   StdMASE    MeanMAE   MeanRMSE   MeanR2
+Naive                         1.0       0.0 112248.8381 129514.0162  -3.0196
+ARIMA                       0.993    0.0088 111436.8827 128798.3727  -2.9767
+Analog_Only                0.5913    0.4282 65034.4757  74555.079  -1.0081
+Bass_Only                  0.5974    0.3155 70555.0445 87505.1037  -1.0865
+Analog_Bass_Static         0.6436    0.3341  78561.585 99196.2041  -1.5624
+Analog_Bass_Adaptive       0.6436    0.3341  78561.585 99196.2041  -1.5624
+
+Saved -> section_b_loo_detailed_results.csv, section_b_loo_summary.csv
+
+==============================================================================
+SECTION C -- FINAL 12-MONTH FORWARD FORECAST (monthly grain, UNSCORED)
+==============================================================================
+No ground truth exists for these future months -- this is the cold-start
+deliverable forecast, not a validated result. Scoring lives in Sections A/B.
+
+New drug known months (aggregated from weekly): [1, 2, 3, 4, 5]
+Forecasting months: [6, 7, 8, 9, 10, 11, 12]
+
+--- Forward forecast preview (month 12 value per model) ---
+  Naive                  month 12 Rx = 16511.0
+  ARIMA                  month 12 Rx = 30081.7586
+  Analog_Only            month 12 Rx = 41103.123
+  Bass_Only              month 12 Rx = 35534.08
+  Analog_Bass_Static     month 12 Rx = 35534.0801
+  Analog_Bass_Adaptive   month 12 Rx = 35534.0801
+
+Saved -> section_c_forward_forecast.csv
+
+==============================================================================
+STAGE 7 COMPLETE -- proceed to Stage 8 (Evaluation Metrics deep-dive), Stage 9 (Overfitting Analysis), Stage 10 (Comparison & Selection)
+==============================================================================
