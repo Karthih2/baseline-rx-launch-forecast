@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rx Forecast Dashboard — UI Reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F6F7F9;
+    --surface:#FFFFFF;
+    --ink:#14213D;
+    --muted:#5C6478;
+    --line:#E3E6EC;
+    --teal:#2B6777;
+    --teal-soft:#E7F0F1;
+    --bull:#2E8B57;
+    --bull-soft:#E8F5EE;
+    --bear:#B0413E;
+    --bear-soft:#FBEAE9;
+    --base-grey:#8A93A6;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1280px;margin:0 auto;padding:32px 28px 80px;}
+
+  /* ---------- header ---------- */
+  .topbar{
+    display:flex;justify-content:space-between;align-items:flex-end;
+    margin-bottom:28px;padding-bottom:20px;border-bottom:1px solid var(--line);
+  }
+  .drug-name{
+    font-family:'Fraunces',serif;font-weight:500;font-size:30px;letter-spacing:-0.01em;
+  }
+  .meta-row{margin-top:6px;font-size:13px;color:var(--muted);display:flex;gap:18px;}
+  .meta-row span b{color:var(--ink);font-weight:600;}
+  .status-pill{
+    font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;
+    background:var(--bull-soft);color:var(--bull);border:1px solid #cfe8da;
+    padding:5px 10px;border-radius:20px;text-transform:uppercase;
+  }
+
+  /* ---------- section labels ---------- */
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--muted);margin-bottom:10px;display:block;
+  }
+
+  /* ---------- KPI row ---------- */
+  .kpi-row{display:grid;grid-template-columns:repeat(3,1fr) 1.3fr;gap:16px;margin-bottom:28px;}
+  .kpi-card{
+    background:var(--surface);border:1px solid var(--line);border-radius:10px;
+    padding:18px 20px;
+  }
+  .kpi-label{font-size:12.5px;color:var(--muted);margin-bottom:8px;}
+  .kpi-value{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:26px;color:var(--ink);}
+  .kpi-sub{font-size:11.5px;color:var(--muted);margin-top:4px;}
+
+  .spread-card{
+    background:linear-gradient(135deg,var(--teal) 0%,#204f5b 100%);
+    color:#fff;border-radius:10px;padding:18px 20px;display:flex;flex-direction:column;justify-content:center;
+  }
+  .spread-card .kpi-label{color:#cfe3e6;}
+  .spread-row{display:flex;justify-content:space-between;margin-top:10px;font-family:'IBM Plex Mono',monospace;font-size:14px;}
+  .spread-row .bull-tag{color:#8fe0b4;}
+  .spread-row .bear-tag{color:#f2a6a1;}
+
+  /* ---------- main grid ---------- */
+  .main-grid{display:grid;grid-template-columns:1.7fr 1fr;gap:20px;margin-bottom:20px;}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px;}
+
+  /* chart */
+  .chart-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;}
+  .chart-title{font-family:'Fraunces',serif;font-size:18px;font-weight:500;}
+  .legend{display:flex;gap:14px;font-size:12px;color:var(--muted);}
+  .legend span{display:inline-flex;align-items:center;gap:5px;}
+  .dot{width:8px;height:8px;border-radius:50%;display:inline-block;}
+  svg text{font-family:'IBM Plex Mono',monospace;}
+
+  /* top-5 analogs */
+  .analog-row{
+    display:flex;justify-content:space-between;align-items:center;
+    padding:10px 0;border-bottom:1px solid var(--line);font-size:13px;
+  }
+  .analog-row:last-child{border-bottom:none;}
+  .analog-name{font-weight:600;}
+  .analog-meta{color:var(--muted);font-size:11.5px;}
+  .sim-score{
+    font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;
+    background:var(--teal-soft);color:var(--teal);padding:3px 8px;border-radius:5px;
+  }
+
+  /* scenario comparison table */
+  .scen-table{width:100%;border-collapse:collapse;font-size:13px;}
+  .scen-table th{
+    text-align:left;font-family:'IBM Plex Mono',monospace;font-size:10.5px;
+    text-transform:uppercase;color:var(--muted);letter-spacing:.04em;
+    padding:0 10px 10px;border-bottom:1px solid var(--line);font-weight:500;
+  }
+  .scen-table td{padding:10px 10px;border-bottom:1px solid var(--line);font-family:'IBM Plex Mono',monospace;}
+  .scen-table tr:last-child td{border-bottom:none;}
+  .scen-name{font-family:'Inter',sans-serif !important;font-weight:600;}
+  .tag{padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600;}
+  .tag.bull{background:var(--bull-soft);color:var(--bull);}
+  .tag.base{background:#EEF0F4;color:var(--base-grey);}
+  .tag.bear{background:var(--bear-soft);color:var(--bear);}
+
+  /* transparency strip */
+  .transparency{
+    background:var(--surface);border:1px solid var(--line);border-radius:10px;
+    padding:22px 24px;margin-bottom:20px;
+  }
+  .formula-line{
+    font-family:'IBM Plex Mono',monospace;font-size:15px;background:#0F1A2B;color:#DCE6EA;
+    padding:14px 18px;border-radius:8px;margin:14px 0;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  }
+  .formula-line .w{color:#8fe0b4;font-weight:600;}
+  .formula-line .bassw{color:#f2c48f;font-weight:600;}
+  .param-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:16px;}
+  .param{text-align:center;padding:12px 8px;background:var(--bg);border-radius:8px;}
+  .param .p-label{font-size:11px;color:var(--muted);margin-bottom:4px;}
+  .param .p-value{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:15px;}
+  .validation-badge{
+    display:inline-flex;align-items:center;gap:8px;margin-top:16px;
+    font-size:12.5px;color:var(--muted);
+  }
+  .validation-badge b{color:var(--ink);}
+
+  /* context cards */
+  .context-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .context-card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;}
+  .context-card .ch-title{display:flex;align-items:center;gap:8px;font-weight:600;font-size:13.5px;margin-bottom:10px;}
+  .context-card .ch-title .dot{width:9px;height:9px;}
+  .context-item{display:flex;justify-content:space-between;font-size:12px;padding:5px 0;color:var(--muted);}
+  .context-item b{color:var(--ink);font-weight:500;}
+  .note{font-size:11px;color:var(--muted);margin-top:8px;font-style:italic;}
+
+  .footer-note{
+    text-align:center;font-size:11.5px;color:var(--muted);margin-top:36px;
+    font-family:'IBM Plex Mono',monospace;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HEADER -->
+  <div class="topbar">
+    <div>
+      <div class="drug-name">DrugX — Launch Forecast</div>
+      <div class="meta-row">
+        <span>Model: <b>Analog + Bass (Static)</b></span>
+        <span>Known months: <b>5</b></span>
+        <span>Run: <b>2026-08-17 08:53</b></span>
+      </div>
+    </div>
+    <span class="status-pill">● Forecast Ready</span>
+  </div>
+
+  <!-- KPI ROW (3 must-have cards + spread banner) -->
+  <div class="eyebrow">Key Numbers</div>
+  <div class="kpi-row">
+    <div class="kpi-card">
+      <div class="kpi-label">Peak Month</div>
+      <div class="kpi-value">Month 8</div>
+      <div class="kpi-sub">Base scenario</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Peak Rx</div>
+      <div class="kpi-value">980,741</div>
+      <div class="kpi-sub">at peak month, Base</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">12-Month Cumulative Rx</div>
+      <div class="kpi-value">10.98M</div>
+      <div class="kpi-sub">Base scenario total</div>
+    </div>
+    <div class="spread-card">
+      <div class="kpi-label">Scenario Spread vs. Base (Month 12)</div>
+      <div class="spread-row">
+        <span class="bull-tag">▲ Bull&nbsp;+18.7%</span>
+        <span class="bear-tag">▼ Bear&nbsp;−13.2%</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN: chart + right column -->
+  <div class="main-grid">
+
+    <div class="panel">
+      <div class="chart-head">
+        <div class="chart-title">12-Month Forecast</div>
+        <div class="legend">
+          <span><i class="dot" style="background:var(--bull)"></i>Bull</span>
+          <span><i class="dot" style="background:var(--base-grey)"></i>Base</span>
+          <span><i class="dot" style="background:var(--bear)"></i>Bear</span>
+        </div>
+      </div>
+
+      <svg viewBox="0 0 620 260" width="100%" height="260">
+        <!-- gridlines -->
+        <g stroke="#EDEFF3" stroke-width="1">
+          <line x1="40" y1="20" x2="40" y2="220"/>
+          <line x1="40" y1="220" x2="600" y2="220"/>
+          <line x1="40" y1="170" x2="600" y2="170" stroke-dasharray="2,4"/>
+          <line x1="40" y1="120" x2="600" y2="120" stroke-dasharray="2,4"/>
+          <line x1="40" y1="70" x2="600" y2="70" stroke-dasharray="2,4"/>
+        </g>
+        <!-- known region shade -->
+        <rect x="40" y="20" width="220" height="200" fill="#F2F4F7"/>
+        <text x="55" y="35" font-size="10" fill="#9098A8">known</text>
+        <text x="270" y="35" font-size="10" fill="#9098A8">forecast →</text>
+
+        <!-- BEAR -->
+        <polyline points="40,190 110,175 180,140 250,150
+                            320,168 390,158 460,150 530,142 600,138"
+                  fill="none" stroke="var(--bear)" stroke-width="2"/>
+        <!-- BASE -->
+        <polyline points="40,190 110,175 180,140 250,150
+                            320,148 390,132 460,118 530,108 600,98"
+                  fill="none" stroke="var(--base-grey)" stroke-width="2.4"/>
+        <!-- BULL -->
+        <polyline points="40,190 110,175 180,140 250,150
+                            320,130 390,105 460,84 530,68 600,55"
+                  fill="none" stroke="var(--bull)" stroke-width="2"/>
+
+        <!-- known/forecast divider -->
+        <line x1="260" y1="20" x2="260" y2="220" stroke="#C7CCD6" stroke-dasharray="3,3"/>
+
+        <!-- axis labels -->
+        <text x="40" y="235" font-size="10" fill="#9098A8">M1</text>
+        <text x="255" y="235" font-size="10" fill="#9098A8">M5</text>
+        <text x="595" y="235" font-size="10" fill="#9098A8">M12</text>
+      </svg>
+    </div>
+
+    <div class="panel">
+      <div class="eyebrow">Top-5 Analogs Used</div>
+      <div class="analog-row">
+        <div><div class="analog-name">ANL_014</div><div class="analog-meta">GLP-1 agonist · Oral</div></div>
+        <span class="sim-score">0.91</span>
+      </div>
+      <div class="analog-row">
+        <div><div class="analog-name">ANL_028</div><div class="analog-meta">GLP-1 agonist · Injectable</div></div>
+        <span class="sim-score">0.87</span>
+      </div>
+      <div class="analog-row">
+        <div><div class="analog-name">ANL_016</div><div class="analog-meta">SGLT2 inhibitor · Oral</div></div>
+        <span class="sim-score">0.82</span>
+      </div>
+      <div class="analog-row">
+        <div><div class="analog-name">ANL_022</div><div class="analog-meta">GLP-1 agonist · Oral</div></div>
+        <span class="sim-score">0.79</span>
+      </div>
+      <div class="analog-row">
+        <div><div class="analog-name">ANL_030</div><div class="analog-meta">JAK inhibitor · Oral</div></div>
+        <span class="sim-score">0.74</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENARIO COMPARISON TABLE -->
+  <div class="panel" style="margin-bottom:20px;">
+    <div class="eyebrow">Scenario Comparison</div>
+    <table class="scen-table">
+      <thead>
+        <tr><th>Scenario</th><th>Peak Month</th><th>Peak Rx</th><th>Month-12 Rx</th><th>12mo Cumulative</th><th>Avg MoM Growth</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="scen-name"><span class="tag bull">Bull</span></td><td>12</td><td>1,353,266</td><td>1,353,266</td><td>12,507,866</td><td>2.89%</td></tr>
+        <tr><td class="scen-name"><span class="tag base">Base</span></td><td>8</td><td>980,741</td><td>932,967</td><td>10,978,279</td><td>3.41%</td></tr>
+        <tr><td class="scen-name"><span class="tag bear">Bear</span></td><td>5</td><td>988,627</td><td>870,442</td><td>9,530,110</td><td>2.10%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- MODEL TRANSPARENCY -->
+  <div class="transparency">
+    <div class="eyebrow">How This Forecast Was Calculated — Not a Black Box</div>
+    <div style="font-size:13px;color:var(--muted);max-width:640px;">
+      Combines a blended curve from 5 similar historical launches with a Bass adoption-curve
+      fit to this drug's own early data — weighted by whichever signal fits better.
+    </div>
+    <div class="formula-line">
+      forecast&nbsp;=&nbsp;<span class="w">0.50</span>&nbsp;×&nbsp;analog_curve&nbsp;+&nbsp;<span class="bassw">0.50</span>&nbsp;×&nbsp;bass_curve
+    </div>
+    <div class="param-grid">
+      <div class="param"><div class="p-label">Calibration Factor</div><div class="p-value">13.57</div></div>
+      <div class="param"><div class="p-label">p (innovation)</div><div class="p-value">0.0276</div></div>
+      <div class="param"><div class="p-label">q (imitation)</div><div class="p-value">0.1204</div></div>
+      <div class="param"><div class="p-label">m (ceiling)</div><div class="p-value">23.2M</div></div>
+      <div class="param"><div class="p-label">Blend (analog/bass)</div><div class="p-value">50 / 50</div></div>
+    </div>
+    <div class="validation-badge">
+      ✓ Validated across <b>35 historical launches</b> — mean MASE <b>0.497</b> (± 0.263), Leave-One-Out cross-validation
+    </div>
+  </div>
+
+  <!-- SCENARIO ASSUMPTIONS CONTEXT (qualitative, not modeled numerically) -->
+  <div class="eyebrow">Scenario Assumptions — Business Context</div>
+  <div class="context-grid">
+    <div class="context-card">
+      <div class="ch-title"><i class="dot" style="background:var(--bull)"></i>Bull</div>
+      <div class="context-item">Competitive entry <b>Low</b></div>
+      <div class="context-item">Payer access <b>Improving</b></div>
+      <div class="context-item">Promo spend <b>Increasing</b></div>
+      <div class="note">Market +15%, adoption speed ×1.10</div>
+    </div>
+    <div class="context-card">
+      <div class="ch-title"><i class="dot" style="background:var(--base-grey)"></i>Base</div>
+      <div class="context-item">Competitive entry <b>Moderate</b></div>
+      <div class="context-item">Payer access <b>Stable</b></div>
+      <div class="context-item">Promo spend <b>Stable</b></div>
+      <div class="note">Fitted values, no adjustment</div>
+    </div>
+    <div class="context-card">
+      <div class="ch-title"><i class="dot" style="background:var(--bear)"></i>Bear</div>
+      <div class="context-item">Competitive entry <b>High</b></div>
+      <div class="context-item">Payer access <b>Tightening</b></div>
+      <div class="context-item">Promo spend <b>Decreasing</b></div>
+      <div class="note">Market −15%, adoption speed ×0.90</div>
+    </div>
+  </div>
+
+  <div class="footer-note">
+    field source: final_forecast_scenarios.csv · final_forecast_kpis.json · top5_analogs_selected.csv — all values above are placeholder / illustrative
+  </div>
+
+</div>
+</body>
+</html>

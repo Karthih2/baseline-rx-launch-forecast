@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-serif: "IBM Plex Serif", ui-serif, serif;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --color-canvas: #F5EFEB;
+  --color-ink: #2F4156;
+  --color-surface: #FFFFFF;
+  --color-hairline: #C8D9E6;
+  --color-brand: #2B6777;
+  --color-teal: #567C8D;
+  --color-bull: #2E8B57;
+  --color-bear: #B0413E;
+  --color-muted: #567C8D;
+}
+
+:root {
+  --background: var(--color-canvas);
+  --foreground: var(--color-ink);
+  --card: var(--color-surface);
+  --border: var(--color-hairline);
+  --primary: var(--color-brand);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.baseline-rule {
+  position: relative;
+  display: inline-block;
+}
+
+.baseline-rule::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: var(--border);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
