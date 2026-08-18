@@ -1,0 +1,104 @@
+{
+  "drug_id": "NEW_001",
+  "drug_name": "New Drug X Kynflux",
+  "mechanism_of_action": "Integrin antagonist",
+  "route_of_administration": "Injectable",
+  "target_specialty": "Oncology",
+  "market_size": 2044452,
+  "competitive_density": 5,
+  "payer_restrictiveness": 3,
+  "launch_quarter": "Q1",
+  "promotional_intensity": 1,
+  "special_designation": true,
+  "price_tier": 5,
+  "early_rx": [
+    {
+      "week": 1,
+      "rx": 86824
+    },
+    {
+      "week": 2,
+      "rx": 91738
+    },
+    {
+      "week": 3,
+      "rx": 82416
+    },
+    {
+      "week": 4,
+      "rx": 86777
+    },
+    {
+      "week": 5,
+      "rx": 102291
+    },
+    {
+      "week": 6,
+      "rx": 94225
+    },
+    {
+      "week": 7,
+      "rx": 85360
+    },
+    {
+      "week": 8,
+      "rx": 91756
+    },
+    {
+      "week": 9,
+      "rx": 93680
+    },
+    {
+      "week": 10,
+      "rx": 100168
+    },
+    {
+      "week": 11,
+      "rx": 99203
+    },
+    {
+      "week": 12,
+      "rx": 92518
+    },
+    {
+      "week": 13,
+      "rx": 90481
+    },
+    {
+      "week": 14,
+      "rx": 102883
+    },
+    {
+      "week": 15,
+      "rx": 104738
+    },
+    {
+      "week": 16,
+      "rx": 107700
+    },
+    {
+      "week": 17,
+      "rx": 97921
+    },
+    {
+      "week": 18,
+      "rx": 105789
+    },
+    {
+      "week": 19,
+      "rx": 113417
+    },
+    {
+      "week": 20,
+      "rx": 116702
+    },
+    {
+      "week": 21,
+      "rx": 99694
+    },
+    {
+      "week": 22,
+      "rx": 126551
+    }
+  ]
+}

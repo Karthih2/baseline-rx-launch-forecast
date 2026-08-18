@@ -1,0 +1,29 @@
+[
+  {
+    "scenario_id": "Bull",
+    "market_size_adjustment_pct": 15,
+    "peak_penetration_ceiling": "High",
+    "adoption_speed_multiplier": "Fast",
+    "competitive_entry_flag": false,
+    "payer_access_trend": "Improving",
+    "promotional_spend_trend": "Ramping"
+  },
+  {
+    "scenario_id": "Base",
+    "market_size_adjustment_pct": 0,
+    "peak_penetration_ceiling": "Analog-implied midpoint",
+    "adoption_speed_multiplier": "Normal",
+    "competitive_entry_flag": null,
+    "payer_access_trend": "Static",
+    "promotional_spend_trend": "Sustained"
+  },
+  {
+    "scenario_id": "Bear",
+    "market_size_adjustment_pct": -15,
+    "peak_penetration_ceiling": "Low",
+    "adoption_speed_multiplier": "Slow",
+    "competitive_entry_flag": true,
+    "payer_access_trend": "Worsening",
+    "promotional_spend_trend": "Tapering"
+  }
+]
