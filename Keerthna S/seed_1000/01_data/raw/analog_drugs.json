@@ -1,0 +1,5602 @@
+[
+  {
+    "drug_id": "ANL_001",
+    "drug_name": "Calagene",
+    "mechanism_of_action": "PD-1 inhibitor",
+    "route_of_administration": "Intravenous",
+    "target_specialty": "Cardiology",
+    "market_size": 376231,
+    "competitive_density": 2,
+    "payer_restrictiveness": 5,
+    "launch_quarter": "Q4",
+    "promotional_intensity": 2,
+    "special_designation": false,
+    "price_tier": 2,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 17733
+      },
+      {
+        "month": 2,
+        "rx": 19828
+      },
+      {
+        "month": 3,
+        "rx": 20403
+      },
+      {
+        "month": 4,
+        "rx": 22172
+      },
+      {
+        "month": 5,
+        "rx": 22072
+      },
+      {
+        "month": 6,
+        "rx": 23922
+      },
+      {
+        "month": 7,
+        "rx": 26430
+      },
+      {
+        "month": 8,
+        "rx": 25642
+      },
+      {
+        "month": 9,
+        "rx": 24862
+      },
+      {
+        "month": 10,
+        "rx": 27193
+      },
+      {
+        "month": 11,
+        "rx": 27942
+      },
+      {
+        "month": 12,
+        "rx": 28144
+      },
+      {
+        "month": 13,
+        "rx": 30677
+      },
+      {
+        "month": 14,
+        "rx": 31462
+      },
+      {
+        "month": 15,
+        "rx": 33559
+      },
+      {
+        "month": 16,
+        "rx": 32691
+      },
+      {
+        "month": 17,
+        "rx": 36505
+      },
+      {
+        "month": 18,
+        "rx": 33185
+      },
+      {
+        "month": 19,
+        "rx": 38604
+      },
+      {
+        "month": 20,
+        "rx": 38803
+      },
+      {
+        "month": 21,
+        "rx": 39900
+      },
+      {
+        "month": 22,
+        "rx": 40632
+      },
+      {
+        "month": 23,
+        "rx": 43029
+      },
+      {
+        "month": 24,
+        "rx": 44520
+      },
+      {
+        "month": 25,
+        "rx": 44971
+      },
+      {
+        "month": 26,
+        "rx": 46639
+      },
+      {
+        "month": 27,
+        "rx": 48506
+      },
+      {
+        "month": 28,
+        "rx": 47471
+      },
+      {
+        "month": 29,
+        "rx": 50423
+      },
+      {
+        "month": 30,
+        "rx": 48599
+      },
+      {
+        "month": 31,
+        "rx": 52891
+      },
+      {
+        "month": 32,
+        "rx": 55111
+      },
+      {
+        "month": 33,
+        "rx": 53215
+      },
+      {
+        "month": 34,
+        "rx": 58631
+      },
+      {
+        "month": 35,
+        "rx": 57120
+      },
+      {
+        "month": 36,
+        "rx": 61005
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_002",
+    "drug_name": "Zoradine",
+    "mechanism_of_action": "ACE inhibitor",
+    "route_of_administration": "Intravenous",
+    "target_specialty": "Cardiology",
+    "market_size": 1557943,
+    "competitive_density": 3,
+    "payer_restrictiveness": 4,
+    "launch_quarter": "Q3",
+    "promotional_intensity": 1,
+    "special_designation": true,
+    "price_tier": 4,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 83575
+      },
+      {
+        "month": 2,
+        "rx": 87214
+      },
+      {
+        "month": 3,
+        "rx": 90776
+      },
+      {
+        "month": 4,
+        "rx": 103398
+      },
+      {
+        "month": 5,
+        "rx": 104467
+      },
+      {
+        "month": 6,
+        "rx": 103539
+      },
+      {
+        "month": 7,
+        "rx": 112850
+      },
+      {
+        "month": 8,
+        "rx": 124205
+      },
+      {
+        "month": 9,
+        "rx": 116154
+      },
+      {
+        "month": 10,
+        "rx": 120588
+      },
+      {
+        "month": 11,
+        "rx": 127721
+      },
+      {
+        "month": 12,
+        "rx": 139619
+      },
+      {
+        "month": 13,
+        "rx": 138015
+      },
+      {
+        "month": 14,
+        "rx": 155492
+      },
+      {
+        "month": 15,
+        "rx": 147324
+      },
+      {
+        "month": 16,
+        "rx": 157430
+      },
+      {
+        "month": 17,
+        "rx": 169973
+      },
+      {
+        "month": 18,
+        "rx": 159911
+      },
+      {
+        "month": 19,
+        "rx": 184576
+      },
+      {
+        "month": 20,
+        "rx": 167096
+      },
+      {
+        "month": 21,
+        "rx": 185938
+      },
+      {
+        "month": 22,
+        "rx": 206947
+      },
+      {
+        "month": 23,
+        "rx": 197386
+      },
+      {
+        "month": 24,
+        "rx": 193953
+      },
+      {
+        "month": 25,
+        "rx": 203209
+      },
+      {
+        "month": 26,
+        "rx": 223456
+      },
+      {
+        "month": 27,
+        "rx": 214822
+      },
+      {
+        "month": 28,
+        "rx": 221911
+      },
+      {
+        "month": 29,
+        "rx": 207951
+      },
+      {
+        "month": 30,
+        "rx": 237785
+      },
+      {
+        "month": 31,
+        "rx": 231657
+      },
+      {
+        "month": 32,
+        "rx": 248412
+      },
+      {
+        "month": 33,
+        "rx": 277244
+      },
+      {
+        "month": 34,
+        "rx": 242112
+      },
+      {
+        "month": 35,
+        "rx": 264756
+      },
+      {
+        "month": 36,
+        "rx": 265359
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_003",
+    "drug_name": "Brenprel",
+    "mechanism_of_action": "PD-1 inhibitor",
+    "route_of_administration": "Subcutaneous",
+    "target_specialty": "Rheumatology",
+    "market_size": 2671091,
+    "competitive_density": 1,
+    "payer_restrictiveness": 1,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 5,
+    "special_designation": false,
+    "price_tier": 2,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 52718
+      },
+      {
+        "month": 2,
+        "rx": 61886
+      },
+      {
+        "month": 3,
+        "rx": 72435
+      },
+      {
+        "month": 4,
+        "rx": 84584
+      },
+      {
+        "month": 5,
+        "rx": 99999
+      },
+      {
+        "month": 6,
+        "rx": 117083
+      },
+      {
+        "month": 7,
+        "rx": 120724
+      },
+      {
+        "month": 8,
+        "rx": 154416
+      },
+      {
+        "month": 9,
+        "rx": 170910
+      },
+      {
+        "month": 10,
+        "rx": 191983
+      },
+      {
+        "month": 11,
+        "rx": 214635
+      },
+      {
+        "month": 12,
+        "rx": 247914
+      },
+      {
+        "month": 13,
+        "rx": 271279
+      },
+      {
+        "month": 14,
+        "rx": 299953
+      },
+      {
+        "month": 15,
+        "rx": 332065
+      },
+      {
+        "month": 16,
+        "rx": 340399
+      },
+      {
+        "month": 17,
+        "rx": 384508
+      },
+      {
+        "month": 18,
+        "rx": 420517
+      },
+      {
+        "month": 19,
+        "rx": 469949
+      },
+      {
+        "month": 20,
+        "rx": 515031
+      },
+      {
+        "month": 21,
+        "rx": 533934
+      },
+      {
+        "month": 22,
+        "rx": 595769
+      },
+      {
+        "month": 23,
+        "rx": 583107
+      },
+      {
+        "month": 24,
+        "rx": 571914
+      },
+      {
+        "month": 25,
+        "rx": 625473
+      },
+      {
+        "month": 26,
+        "rx": 635906
+      },
+      {
+        "month": 27,
+        "rx": 732859
+      },
+      {
+        "month": 28,
+        "rx": 720816
+      },
+      {
+        "month": 29,
+        "rx": 740521
+      },
+      {
+        "month": 30,
+        "rx": 746262
+      },
+      {
+        "month": 31,
+        "rx": 798786
+      },
+      {
+        "month": 32,
+        "rx": 770097
+      },
+      {
+        "month": 33,
+        "rx": 832494
+      },
+      {
+        "month": 34,
+        "rx": 805353
+      },
+      {
+        "month": 35,
+        "rx": 806230
+      },
+      {
+        "month": 36,
+        "rx": 868107
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_004",
+    "drug_name": "Xelmune",
+    "mechanism_of_action": "PD-1 inhibitor",
+    "route_of_administration": "Subcutaneous",
+    "target_specialty": "Rheumatology",
+    "market_size": 1123578,
+    "competitive_density": 2,
+    "payer_restrictiveness": 3,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 1,
+    "special_designation": false,
+    "price_tier": 5,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 54027
+      },
+      {
+        "month": 2,
+        "rx": 52945
+      },
+      {
+        "month": 3,
+        "rx": 61215
+      },
+      {
+        "month": 4,
+        "rx": 61925
+      },
+      {
+        "month": 5,
+        "rx": 58881
+      },
+      {
+        "month": 6,
+        "rx": 67790
+      },
+      {
+        "month": 7,
+        "rx": 68869
+      },
+      {
+        "month": 8,
+        "rx": 71493
+      },
+      {
+        "month": 9,
+        "rx": 75162
+      },
+      {
+        "month": 10,
+        "rx": 76109
+      },
+      {
+        "month": 11,
+        "rx": 78334
+      },
+      {
+        "month": 12,
+        "rx": 87718
+      },
+      {
+        "month": 13,
+        "rx": 90954
+      },
+      {
+        "month": 14,
+        "rx": 89675
+      },
+      {
+        "month": 15,
+        "rx": 95675
+      },
+      {
+        "month": 16,
+        "rx": 103301
+      },
+      {
+        "month": 17,
+        "rx": 99755
+      },
+      {
+        "month": 18,
+        "rx": 112922
+      },
+      {
+        "month": 19,
+        "rx": 107148
+      },
+      {
+        "month": 20,
+        "rx": 114824
+      },
+      {
+        "month": 21,
+        "rx": 121982
+      },
+      {
+        "month": 22,
+        "rx": 126917
+      },
+      {
+        "month": 23,
+        "rx": 122130
+      },
+      {
+        "month": 24,
+        "rx": 129244
+      },
+      {
+        "month": 25,
+        "rx": 131424
+      },
+      {
+        "month": 26,
+        "rx": 138048
+      },
+      {
+        "month": 27,
+        "rx": 129982
+      },
+      {
+        "month": 28,
+        "rx": 133104
+      },
+      {
+        "month": 29,
+        "rx": 141268
+      },
+      {
+        "month": 30,
+        "rx": 149903
+      },
+      {
+        "month": 31,
+        "rx": 157368
+      },
+      {
+        "month": 32,
+        "rx": 150006
+      },
+      {
+        "month": 33,
+        "rx": 154748
+      },
+      {
+        "month": 34,
+        "rx": 169172
+      },
+      {
+        "month": 35,
+        "rx": 162762
+      },
+      {
+        "month": 36,
+        "rx": 168301
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_005",
+    "drug_name": "Kynzumab",
+    "mechanism_of_action": "DPP-4 inhibitor",
+    "route_of_administration": "Intravenous",
+    "target_specialty": "Hematology",
+    "market_size": 1621565,
+    "competitive_density": 5,
+    "payer_restrictiveness": 2,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 2,
+    "special_designation": false,
+    "price_tier": 4,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 64873
+      },
+      {
+        "month": 2,
+        "rx": 65830
+      },
+      {
+        "month": 3,
+        "rx": 68457
+      },
+      {
+        "month": 4,
+        "rx": 70836
+      },
+      {
+        "month": 5,
+        "rx": 70723
+      },
+      {
+        "month": 6,
+        "rx": 81706
+      },
+      {
+        "month": 7,
+        "rx": 78500
+      },
+      {
+        "month": 8,
+        "rx": 84626
+      },
+      {
+        "month": 9,
+        "rx": 85820
+      },
+      {
+        "month": 10,
+        "rx": 96028
+      },
+      {
+        "month": 11,
+        "rx": 92426
+      },
+      {
+        "month": 12,
+        "rx": 99988
+      },
+      {
+        "month": 13,
+        "rx": 110350
+      },
+      {
+        "month": 14,
+        "rx": 108581
+      },
+      {
+        "month": 15,
+        "rx": 114130
+      },
+      {
+        "month": 16,
+        "rx": 113191
+      },
+      {
+        "month": 17,
+        "rx": 119948
+      },
+      {
+        "month": 18,
+        "rx": 128598
+      },
+      {
+        "month": 19,
+        "rx": 130396
+      },
+      {
+        "month": 20,
+        "rx": 131936
+      },
+      {
+        "month": 21,
+        "rx": 130662
+      },
+      {
+        "month": 22,
+        "rx": 138004
+      },
+      {
+        "month": 23,
+        "rx": 157502
+      },
+      {
+        "month": 24,
+        "rx": 152848
+      },
+      {
+        "month": 25,
+        "rx": 156949
+      },
+      {
+        "month": 26,
+        "rx": 156494
+      },
+      {
+        "month": 27,
+        "rx": 182547
+      },
+      {
+        "month": 28,
+        "rx": 171206
+      },
+      {
+        "month": 29,
+        "rx": 161629
+      },
+      {
+        "month": 30,
+        "rx": 177849
+      },
+      {
+        "month": 31,
+        "rx": 180920
+      },
+      {
+        "month": 32,
+        "rx": 191657
+      },
+      {
+        "month": 33,
+        "rx": 198010
+      },
+      {
+        "month": 34,
+        "rx": 186031
+      },
+      {
+        "month": 35,
+        "rx": 195165
+      },
+      {
+        "month": 36,
+        "rx": 209477
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_006",
+    "drug_name": "Perinprel",
+    "mechanism_of_action": "PCSK9 inhibitor",
+    "route_of_administration": "Inhaled",
+    "target_specialty": "Primary Care",
+    "market_size": 781433,
+    "competitive_density": 4,
+    "payer_restrictiveness": 4,
+    "launch_quarter": "Q4",
+    "promotional_intensity": 1,
+    "special_designation": false,
+    "price_tier": 3,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 30421
+      },
+      {
+        "month": 2,
+        "rx": 32809
+      },
+      {
+        "month": 3,
+        "rx": 31769
+      },
+      {
+        "month": 4,
+        "rx": 34286
+      },
+      {
+        "month": 5,
+        "rx": 31745
+      },
+      {
+        "month": 6,
+        "rx": 37635
+      },
+      {
+        "month": 7,
+        "rx": 35578
+      },
+      {
+        "month": 8,
+        "rx": 41468
+      },
+      {
+        "month": 9,
+        "rx": 44449
+      },
+      {
+        "month": 10,
+        "rx": 42746
+      },
+      {
+        "month": 11,
+        "rx": 48130
+      },
+      {
+        "month": 12,
+        "rx": 49897
+      },
+      {
+        "month": 13,
+        "rx": 48673
+      },
+      {
+        "month": 14,
+        "rx": 49627
+      },
+      {
+        "month": 15,
+        "rx": 56204
+      },
+      {
+        "month": 16,
+        "rx": 57520
+      },
+      {
+        "month": 17,
+        "rx": 57623
+      },
+      {
+        "month": 18,
+        "rx": 60255
+      },
+      {
+        "month": 19,
+        "rx": 56768
+      },
+      {
+        "month": 20,
+        "rx": 64711
+      },
+      {
+        "month": 21,
+        "rx": 67729
+      },
+      {
+        "month": 22,
+        "rx": 70641
+      },
+      {
+        "month": 23,
+        "rx": 71049
+      },
+      {
+        "month": 24,
+        "rx": 75907
+      },
+      {
+        "month": 25,
+        "rx": 73556
+      },
+      {
+        "month": 26,
+        "rx": 72094
+      },
+      {
+        "month": 27,
+        "rx": 81952
+      },
+      {
+        "month": 28,
+        "rx": 84310
+      },
+      {
+        "month": 29,
+        "rx": 77603
+      },
+      {
+        "month": 30,
+        "rx": 78168
+      },
+      {
+        "month": 31,
+        "rx": 85409
+      },
+      {
+        "month": 32,
+        "rx": 87084
+      },
+      {
+        "month": 33,
+        "rx": 88919
+      },
+      {
+        "month": 34,
+        "rx": 88901
+      },
+      {
+        "month": 35,
+        "rx": 100018
+      },
+      {
+        "month": 36,
+        "rx": 97277
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_007",
+    "drug_name": "Ixaralith",
+    "mechanism_of_action": "CGRP antagonist",
+    "route_of_administration": "Topical",
+    "target_specialty": "Hematology",
+    "market_size": 1475597,
+    "competitive_density": 5,
+    "payer_restrictiveness": 5,
+    "launch_quarter": "Q3",
+    "promotional_intensity": 5,
+    "special_designation": false,
+    "price_tier": 1,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 12282
+      },
+      {
+        "month": 2,
+        "rx": 16452
+      },
+      {
+        "month": 3,
+        "rx": 17877
+      },
+      {
+        "month": 4,
+        "rx": 21083
+      },
+      {
+        "month": 5,
+        "rx": 25568
+      },
+      {
+        "month": 6,
+        "rx": 30049
+      },
+      {
+        "month": 7,
+        "rx": 34007
+      },
+      {
+        "month": 8,
+        "rx": 41702
+      },
+      {
+        "month": 9,
+        "rx": 45502
+      },
+      {
+        "month": 10,
+        "rx": 51720
+      },
+      {
+        "month": 11,
+        "rx": 59731
+      },
+      {
+        "month": 12,
+        "rx": 67302
+      },
+      {
+        "month": 13,
+        "rx": 73097
+      },
+      {
+        "month": 14,
+        "rx": 81826
+      },
+      {
+        "month": 15,
+        "rx": 98256
+      },
+      {
+        "month": 16,
+        "rx": 110307
+      },
+      {
+        "month": 17,
+        "rx": 122122
+      },
+      {
+        "month": 18,
+        "rx": 134664
+      },
+      {
+        "month": 19,
+        "rx": 141113
+      },
+      {
+        "month": 20,
+        "rx": 146736
+      },
+      {
+        "month": 21,
+        "rx": 172106
+      },
+      {
+        "month": 22,
+        "rx": 169646
+      },
+      {
+        "month": 23,
+        "rx": 181160
+      },
+      {
+        "month": 24,
+        "rx": 178433
+      },
+      {
+        "month": 25,
+        "rx": 182675
+      },
+      {
+        "month": 26,
+        "rx": 194552
+      },
+      {
+        "month": 27,
+        "rx": 207886
+      },
+      {
+        "month": 28,
+        "rx": 203407
+      },
+      {
+        "month": 29,
+        "rx": 202729
+      },
+      {
+        "month": 30,
+        "rx": 209672
+      },
+      {
+        "month": 31,
+        "rx": 233006
+      },
+      {
+        "month": 32,
+        "rx": 221517
+      },
+      {
+        "month": 33,
+        "rx": 229638
+      },
+      {
+        "month": 34,
+        "rx": 211043
+      },
+      {
+        "month": 35,
+        "rx": 217319
+      },
+      {
+        "month": 36,
+        "rx": 239795
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_008",
+    "drug_name": "Jovextinib",
+    "mechanism_of_action": "Proton pump inhibitor",
+    "route_of_administration": "Topical",
+    "target_specialty": "Pulmonology",
+    "market_size": 2425603,
+    "competitive_density": 2,
+    "payer_restrictiveness": 5,
+    "launch_quarter": "Q3",
+    "promotional_intensity": 5,
+    "special_designation": false,
+    "price_tier": 5,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 25050
+      },
+      {
+        "month": 2,
+        "rx": 26625
+      },
+      {
+        "month": 3,
+        "rx": 30818
+      },
+      {
+        "month": 4,
+        "rx": 40447
+      },
+      {
+        "month": 5,
+        "rx": 40267
+      },
+      {
+        "month": 6,
+        "rx": 53024
+      },
+      {
+        "month": 7,
+        "rx": 66142
+      },
+      {
+        "month": 8,
+        "rx": 69805
+      },
+      {
+        "month": 9,
+        "rx": 86808
+      },
+      {
+        "month": 10,
+        "rx": 99156
+      },
+      {
+        "month": 11,
+        "rx": 112639
+      },
+      {
+        "month": 12,
+        "rx": 131028
+      },
+      {
+        "month": 13,
+        "rx": 144141
+      },
+      {
+        "month": 14,
+        "rx": 168207
+      },
+      {
+        "month": 15,
+        "rx": 169737
+      },
+      {
+        "month": 16,
+        "rx": 198982
+      },
+      {
+        "month": 17,
+        "rx": 225395
+      },
+      {
+        "month": 18,
+        "rx": 260282
+      },
+      {
+        "month": 19,
+        "rx": 243149
+      },
+      {
+        "month": 20,
+        "rx": 268040
+      },
+      {
+        "month": 21,
+        "rx": 292835
+      },
+      {
+        "month": 22,
+        "rx": 312994
+      },
+      {
+        "month": 23,
+        "rx": 333800
+      },
+      {
+        "month": 24,
+        "rx": 316125
+      },
+      {
+        "month": 25,
+        "rx": 348621
+      },
+      {
+        "month": 26,
+        "rx": 351106
+      },
+      {
+        "month": 27,
+        "rx": 386113
+      },
+      {
+        "month": 28,
+        "rx": 392449
+      },
+      {
+        "month": 29,
+        "rx": 386474
+      },
+      {
+        "month": 30,
+        "rx": 379510
+      },
+      {
+        "month": 31,
+        "rx": 391087
+      },
+      {
+        "month": 32,
+        "rx": 392153
+      },
+      {
+        "month": 33,
+        "rx": 391814
+      },
+      {
+        "month": 34,
+        "rx": 414262
+      },
+      {
+        "month": 35,
+        "rx": 413711
+      },
+      {
+        "month": 36,
+        "rx": 410842
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_009",
+    "drug_name": "Dravalsera",
+    "mechanism_of_action": "JAK inhibitor",
+    "route_of_administration": "Injectable",
+    "target_specialty": "Rheumatology",
+    "market_size": 328174,
+    "competitive_density": 4,
+    "payer_restrictiveness": 2,
+    "launch_quarter": "Q1",
+    "promotional_intensity": 4,
+    "special_designation": false,
+    "price_tier": 1,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 17036
+      },
+      {
+        "month": 2,
+        "rx": 18775
+      },
+      {
+        "month": 3,
+        "rx": 18566
+      },
+      {
+        "month": 4,
+        "rx": 20367
+      },
+      {
+        "month": 5,
+        "rx": 21438
+      },
+      {
+        "month": 6,
+        "rx": 23381
+      },
+      {
+        "month": 7,
+        "rx": 23127
+      },
+      {
+        "month": 8,
+        "rx": 24436
+      },
+      {
+        "month": 9,
+        "rx": 24269
+      },
+      {
+        "month": 10,
+        "rx": 26244
+      },
+      {
+        "month": 11,
+        "rx": 26155
+      },
+      {
+        "month": 12,
+        "rx": 28556
+      },
+      {
+        "month": 13,
+        "rx": 30018
+      },
+      {
+        "month": 14,
+        "rx": 31430
+      },
+      {
+        "month": 15,
+        "rx": 32156
+      },
+      {
+        "month": 16,
+        "rx": 33721
+      },
+      {
+        "month": 17,
+        "rx": 32945
+      },
+      {
+        "month": 18,
+        "rx": 33902
+      },
+      {
+        "month": 19,
+        "rx": 38549
+      },
+      {
+        "month": 20,
+        "rx": 37038
+      },
+      {
+        "month": 21,
+        "rx": 39535
+      },
+      {
+        "month": 22,
+        "rx": 40110
+      },
+      {
+        "month": 23,
+        "rx": 41430
+      },
+      {
+        "month": 24,
+        "rx": 40789
+      },
+      {
+        "month": 25,
+        "rx": 45070
+      },
+      {
+        "month": 26,
+        "rx": 42392
+      },
+      {
+        "month": 27,
+        "rx": 45666
+      },
+      {
+        "month": 28,
+        "rx": 45946
+      },
+      {
+        "month": 29,
+        "rx": 49057
+      },
+      {
+        "month": 30,
+        "rx": 50746
+      },
+      {
+        "month": 31,
+        "rx": 51572
+      },
+      {
+        "month": 32,
+        "rx": 54799
+      },
+      {
+        "month": 33,
+        "rx": 53326
+      },
+      {
+        "month": 34,
+        "rx": 56260
+      },
+      {
+        "month": 35,
+        "rx": 54278
+      },
+      {
+        "month": 36,
+        "rx": 60226
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_010",
+    "drug_name": "Haloprel",
+    "mechanism_of_action": "Integrin antagonist",
+    "route_of_administration": "Subcutaneous",
+    "target_specialty": "Hematology",
+    "market_size": 396497,
+    "competitive_density": 4,
+    "payer_restrictiveness": 1,
+    "launch_quarter": "Q4",
+    "promotional_intensity": 3,
+    "special_designation": false,
+    "price_tier": 2,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 10853
+      },
+      {
+        "month": 2,
+        "rx": 11612
+      },
+      {
+        "month": 3,
+        "rx": 14223
+      },
+      {
+        "month": 4,
+        "rx": 15321
+      },
+      {
+        "month": 5,
+        "rx": 14124
+      },
+      {
+        "month": 6,
+        "rx": 17286
+      },
+      {
+        "month": 7,
+        "rx": 20008
+      },
+      {
+        "month": 8,
+        "rx": 21132
+      },
+      {
+        "month": 9,
+        "rx": 22684
+      },
+      {
+        "month": 10,
+        "rx": 22997
+      },
+      {
+        "month": 11,
+        "rx": 25647
+      },
+      {
+        "month": 12,
+        "rx": 27406
+      },
+      {
+        "month": 13,
+        "rx": 28846
+      },
+      {
+        "month": 14,
+        "rx": 31655
+      },
+      {
+        "month": 15,
+        "rx": 32643
+      },
+      {
+        "month": 16,
+        "rx": 33354
+      },
+      {
+        "month": 17,
+        "rx": 36452
+      },
+      {
+        "month": 18,
+        "rx": 38826
+      },
+      {
+        "month": 19,
+        "rx": 43614
+      },
+      {
+        "month": 20,
+        "rx": 47138
+      },
+      {
+        "month": 21,
+        "rx": 49052
+      },
+      {
+        "month": 22,
+        "rx": 49343
+      },
+      {
+        "month": 23,
+        "rx": 55270
+      },
+      {
+        "month": 24,
+        "rx": 57987
+      },
+      {
+        "month": 25,
+        "rx": 57238
+      },
+      {
+        "month": 26,
+        "rx": 62190
+      },
+      {
+        "month": 27,
+        "rx": 60110
+      },
+      {
+        "month": 28,
+        "rx": 60633
+      },
+      {
+        "month": 29,
+        "rx": 66472
+      },
+      {
+        "month": 30,
+        "rx": 69031
+      },
+      {
+        "month": 31,
+        "rx": 70542
+      },
+      {
+        "month": 32,
+        "rx": 75249
+      },
+      {
+        "month": 33,
+        "rx": 73060
+      },
+      {
+        "month": 34,
+        "rx": 73953
+      },
+      {
+        "month": 35,
+        "rx": 77876
+      },
+      {
+        "month": 36,
+        "rx": 85212
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_011",
+    "drug_name": "Lumiszumab",
+    "mechanism_of_action": "Sodium channel blocker",
+    "route_of_administration": "Oral",
+    "target_specialty": "Rheumatology",
+    "market_size": 658463,
+    "competitive_density": 4,
+    "payer_restrictiveness": 3,
+    "launch_quarter": "Q3",
+    "promotional_intensity": 1,
+    "special_designation": false,
+    "price_tier": 1,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 16400
+      },
+      {
+        "month": 2,
+        "rx": 17716
+      },
+      {
+        "month": 3,
+        "rx": 20415
+      },
+      {
+        "month": 4,
+        "rx": 20749
+      },
+      {
+        "month": 5,
+        "rx": 22512
+      },
+      {
+        "month": 6,
+        "rx": 26932
+      },
+      {
+        "month": 7,
+        "rx": 28718
+      },
+      {
+        "month": 8,
+        "rx": 30057
+      },
+      {
+        "month": 9,
+        "rx": 30802
+      },
+      {
+        "month": 10,
+        "rx": 35089
+      },
+      {
+        "month": 11,
+        "rx": 39149
+      },
+      {
+        "month": 12,
+        "rx": 39284
+      },
+      {
+        "month": 13,
+        "rx": 44068
+      },
+      {
+        "month": 14,
+        "rx": 48282
+      },
+      {
+        "month": 15,
+        "rx": 49466
+      },
+      {
+        "month": 16,
+        "rx": 51937
+      },
+      {
+        "month": 17,
+        "rx": 53642
+      },
+      {
+        "month": 18,
+        "rx": 59280
+      },
+      {
+        "month": 19,
+        "rx": 61616
+      },
+      {
+        "month": 20,
+        "rx": 65154
+      },
+      {
+        "month": 21,
+        "rx": 67089
+      },
+      {
+        "month": 22,
+        "rx": 78299
+      },
+      {
+        "month": 23,
+        "rx": 78137
+      },
+      {
+        "month": 24,
+        "rx": 81913
+      },
+      {
+        "month": 25,
+        "rx": 86946
+      },
+      {
+        "month": 26,
+        "rx": 90370
+      },
+      {
+        "month": 27,
+        "rx": 94422
+      },
+      {
+        "month": 28,
+        "rx": 99627
+      },
+      {
+        "month": 29,
+        "rx": 100450
+      },
+      {
+        "month": 30,
+        "rx": 108719
+      },
+      {
+        "month": 31,
+        "rx": 98356
+      },
+      {
+        "month": 32,
+        "rx": 105951
+      },
+      {
+        "month": 33,
+        "rx": 117496
+      },
+      {
+        "month": 34,
+        "rx": 114993
+      },
+      {
+        "month": 35,
+        "rx": 110896
+      },
+      {
+        "month": 36,
+        "rx": 119181
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_012",
+    "drug_name": "Solixflux",
+    "mechanism_of_action": "Tyrosine kinase inhibitor",
+    "route_of_administration": "Oral",
+    "target_specialty": "Gastroenterology",
+    "market_size": 2647703,
+    "competitive_density": 1,
+    "payer_restrictiveness": 3,
+    "launch_quarter": "Q4",
+    "promotional_intensity": 1,
+    "special_designation": false,
+    "price_tier": 1,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 90061
+      },
+      {
+        "month": 2,
+        "rx": 94506
+      },
+      {
+        "month": 3,
+        "rx": 103859
+      },
+      {
+        "month": 4,
+        "rx": 117731
+      },
+      {
+        "month": 5,
+        "rx": 125283
+      },
+      {
+        "month": 6,
+        "rx": 141243
+      },
+      {
+        "month": 7,
+        "rx": 141533
+      },
+      {
+        "month": 8,
+        "rx": 155428
+      },
+      {
+        "month": 9,
+        "rx": 167373
+      },
+      {
+        "month": 10,
+        "rx": 186895
+      },
+      {
+        "month": 11,
+        "rx": 202568
+      },
+      {
+        "month": 12,
+        "rx": 217849
+      },
+      {
+        "month": 13,
+        "rx": 221163
+      },
+      {
+        "month": 14,
+        "rx": 269112
+      },
+      {
+        "month": 15,
+        "rx": 259130
+      },
+      {
+        "month": 16,
+        "rx": 280683
+      },
+      {
+        "month": 17,
+        "rx": 301845
+      },
+      {
+        "month": 18,
+        "rx": 312799
+      },
+      {
+        "month": 19,
+        "rx": 339539
+      },
+      {
+        "month": 20,
+        "rx": 347546
+      },
+      {
+        "month": 21,
+        "rx": 348017
+      },
+      {
+        "month": 22,
+        "rx": 412786
+      },
+      {
+        "month": 23,
+        "rx": 421052
+      },
+      {
+        "month": 24,
+        "rx": 473235
+      },
+      {
+        "month": 25,
+        "rx": 476480
+      },
+      {
+        "month": 26,
+        "rx": 484188
+      },
+      {
+        "month": 27,
+        "rx": 496628
+      },
+      {
+        "month": 28,
+        "rx": 515862
+      },
+      {
+        "month": 29,
+        "rx": 550366
+      },
+      {
+        "month": 30,
+        "rx": 554287
+      },
+      {
+        "month": 31,
+        "rx": 547146
+      },
+      {
+        "month": 32,
+        "rx": 553334
+      },
+      {
+        "month": 33,
+        "rx": 617940
+      },
+      {
+        "month": 34,
+        "rx": 647590
+      },
+      {
+        "month": 35,
+        "rx": 625972
+      },
+      {
+        "month": 36,
+        "rx": 647569
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_013",
+    "drug_name": "Ferrodine",
+    "mechanism_of_action": "TNF-alpha inhibitor",
+    "route_of_administration": "Injectable",
+    "target_specialty": "Endocrinology",
+    "market_size": 826517,
+    "competitive_density": 3,
+    "payer_restrictiveness": 2,
+    "launch_quarter": "Q3",
+    "promotional_intensity": 2,
+    "special_designation": false,
+    "price_tier": 1,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 50213
+      },
+      {
+        "month": 2,
+        "rx": 50289
+      },
+      {
+        "month": 3,
+        "rx": 51642
+      },
+      {
+        "month": 4,
+        "rx": 57950
+      },
+      {
+        "month": 5,
+        "rx": 62079
+      },
+      {
+        "month": 6,
+        "rx": 62110
+      },
+      {
+        "month": 7,
+        "rx": 64705
+      },
+      {
+        "month": 8,
+        "rx": 64707
+      },
+      {
+        "month": 9,
+        "rx": 69699
+      },
+      {
+        "month": 10,
+        "rx": 75432
+      },
+      {
+        "month": 11,
+        "rx": 76988
+      },
+      {
+        "month": 12,
+        "rx": 88710
+      },
+      {
+        "month": 13,
+        "rx": 83015
+      },
+      {
+        "month": 14,
+        "rx": 89508
+      },
+      {
+        "month": 15,
+        "rx": 82681
+      },
+      {
+        "month": 16,
+        "rx": 91881
+      },
+      {
+        "month": 17,
+        "rx": 105692
+      },
+      {
+        "month": 18,
+        "rx": 100589
+      },
+      {
+        "month": 19,
+        "rx": 94271
+      },
+      {
+        "month": 20,
+        "rx": 108650
+      },
+      {
+        "month": 21,
+        "rx": 109770
+      },
+      {
+        "month": 22,
+        "rx": 115135
+      },
+      {
+        "month": 23,
+        "rx": 120498
+      },
+      {
+        "month": 24,
+        "rx": 107855
+      },
+      {
+        "month": 25,
+        "rx": 118767
+      },
+      {
+        "month": 26,
+        "rx": 124196
+      },
+      {
+        "month": 27,
+        "rx": 129684
+      },
+      {
+        "month": 28,
+        "rx": 125186
+      },
+      {
+        "month": 29,
+        "rx": 135529
+      },
+      {
+        "month": 30,
+        "rx": 141973
+      },
+      {
+        "month": 31,
+        "rx": 144375
+      },
+      {
+        "month": 32,
+        "rx": 145038
+      },
+      {
+        "month": 33,
+        "rx": 140444
+      },
+      {
+        "month": 34,
+        "rx": 156357
+      },
+      {
+        "month": 35,
+        "rx": 145424
+      },
+      {
+        "month": 36,
+        "rx": 155815
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_014",
+    "drug_name": "Calaflux",
+    "mechanism_of_action": "ACE inhibitor",
+    "route_of_administration": "Inhaled",
+    "target_specialty": "Hematology",
+    "market_size": 208145,
+    "competitive_density": 5,
+    "payer_restrictiveness": 1,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 2,
+    "special_designation": false,
+    "price_tier": 5,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 3130
+      },
+      {
+        "month": 2,
+        "rx": 3651
+      },
+      {
+        "month": 3,
+        "rx": 4277
+      },
+      {
+        "month": 4,
+        "rx": 4625
+      },
+      {
+        "month": 5,
+        "rx": 4776
+      },
+      {
+        "month": 6,
+        "rx": 5646
+      },
+      {
+        "month": 7,
+        "rx": 6242
+      },
+      {
+        "month": 8,
+        "rx": 6146
+      },
+      {
+        "month": 9,
+        "rx": 7251
+      },
+      {
+        "month": 10,
+        "rx": 8266
+      },
+      {
+        "month": 11,
+        "rx": 9322
+      },
+      {
+        "month": 12,
+        "rx": 9790
+      },
+      {
+        "month": 13,
+        "rx": 11062
+      },
+      {
+        "month": 14,
+        "rx": 11999
+      },
+      {
+        "month": 15,
+        "rx": 13480
+      },
+      {
+        "month": 16,
+        "rx": 13228
+      },
+      {
+        "month": 17,
+        "rx": 14665
+      },
+      {
+        "month": 18,
+        "rx": 16185
+      },
+      {
+        "month": 19,
+        "rx": 17339
+      },
+      {
+        "month": 20,
+        "rx": 18203
+      },
+      {
+        "month": 21,
+        "rx": 20307
+      },
+      {
+        "month": 22,
+        "rx": 19923
+      },
+      {
+        "month": 23,
+        "rx": 21146
+      },
+      {
+        "month": 24,
+        "rx": 22610
+      },
+      {
+        "month": 25,
+        "rx": 24579
+      },
+      {
+        "month": 26,
+        "rx": 23939
+      },
+      {
+        "month": 27,
+        "rx": 26548
+      },
+      {
+        "month": 28,
+        "rx": 26997
+      },
+      {
+        "month": 29,
+        "rx": 26959
+      },
+      {
+        "month": 30,
+        "rx": 26294
+      },
+      {
+        "month": 31,
+        "rx": 28994
+      },
+      {
+        "month": 32,
+        "rx": 31298
+      },
+      {
+        "month": 33,
+        "rx": 31509
+      },
+      {
+        "month": 34,
+        "rx": 31113
+      },
+      {
+        "month": 35,
+        "rx": 31707
+      },
+      {
+        "month": 36,
+        "rx": 30253
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_015",
+    "drug_name": "Jovexvara",
+    "mechanism_of_action": "Factor Xa inhibitor",
+    "route_of_administration": "Intravenous",
+    "target_specialty": "Cardiology",
+    "market_size": 1652445,
+    "competitive_density": 3,
+    "payer_restrictiveness": 1,
+    "launch_quarter": "Q3",
+    "promotional_intensity": 5,
+    "special_designation": false,
+    "price_tier": 4,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 92398
+      },
+      {
+        "month": 2,
+        "rx": 89790
+      },
+      {
+        "month": 3,
+        "rx": 95255
+      },
+      {
+        "month": 4,
+        "rx": 103060
+      },
+      {
+        "month": 5,
+        "rx": 107776
+      },
+      {
+        "month": 6,
+        "rx": 114704
+      },
+      {
+        "month": 7,
+        "rx": 125304
+      },
+      {
+        "month": 8,
+        "rx": 116180
+      },
+      {
+        "month": 9,
+        "rx": 136728
+      },
+      {
+        "month": 10,
+        "rx": 127574
+      },
+      {
+        "month": 11,
+        "rx": 145511
+      },
+      {
+        "month": 12,
+        "rx": 146969
+      },
+      {
+        "month": 13,
+        "rx": 138584
+      },
+      {
+        "month": 14,
+        "rx": 149301
+      },
+      {
+        "month": 15,
+        "rx": 155262
+      },
+      {
+        "month": 16,
+        "rx": 162031
+      },
+      {
+        "month": 17,
+        "rx": 171756
+      },
+      {
+        "month": 18,
+        "rx": 183910
+      },
+      {
+        "month": 19,
+        "rx": 193555
+      },
+      {
+        "month": 20,
+        "rx": 186883
+      },
+      {
+        "month": 21,
+        "rx": 196714
+      },
+      {
+        "month": 22,
+        "rx": 199207
+      },
+      {
+        "month": 23,
+        "rx": 199605
+      },
+      {
+        "month": 24,
+        "rx": 210394
+      },
+      {
+        "month": 25,
+        "rx": 230489
+      },
+      {
+        "month": 26,
+        "rx": 221675
+      },
+      {
+        "month": 27,
+        "rx": 233802
+      },
+      {
+        "month": 28,
+        "rx": 237140
+      },
+      {
+        "month": 29,
+        "rx": 227278
+      },
+      {
+        "month": 30,
+        "rx": 251302
+      },
+      {
+        "month": 31,
+        "rx": 273006
+      },
+      {
+        "month": 32,
+        "rx": 264348
+      },
+      {
+        "month": 33,
+        "rx": 256251
+      },
+      {
+        "month": 34,
+        "rx": 256645
+      },
+      {
+        "month": 35,
+        "rx": 271785
+      },
+      {
+        "month": 36,
+        "rx": 283781
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_016",
+    "drug_name": "Nurodine",
+    "mechanism_of_action": "Sodium channel blocker",
+    "route_of_administration": "Inhaled",
+    "target_specialty": "Dermatology",
+    "market_size": 2134266,
+    "competitive_density": 1,
+    "payer_restrictiveness": 1,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 5,
+    "special_designation": false,
+    "price_tier": 4,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 33323
+      },
+      {
+        "month": 2,
+        "rx": 40439
+      },
+      {
+        "month": 3,
+        "rx": 48813
+      },
+      {
+        "month": 4,
+        "rx": 57493
+      },
+      {
+        "month": 5,
+        "rx": 68334
+      },
+      {
+        "month": 6,
+        "rx": 87000
+      },
+      {
+        "month": 7,
+        "rx": 103655
+      },
+      {
+        "month": 8,
+        "rx": 120378
+      },
+      {
+        "month": 9,
+        "rx": 143033
+      },
+      {
+        "month": 10,
+        "rx": 169655
+      },
+      {
+        "month": 11,
+        "rx": 186890
+      },
+      {
+        "month": 12,
+        "rx": 227507
+      },
+      {
+        "month": 13,
+        "rx": 267099
+      },
+      {
+        "month": 14,
+        "rx": 278053
+      },
+      {
+        "month": 15,
+        "rx": 316897
+      },
+      {
+        "month": 16,
+        "rx": 346990
+      },
+      {
+        "month": 17,
+        "rx": 403454
+      },
+      {
+        "month": 18,
+        "rx": 400936
+      },
+      {
+        "month": 19,
+        "rx": 440698
+      },
+      {
+        "month": 20,
+        "rx": 506761
+      },
+      {
+        "month": 21,
+        "rx": 481220
+      },
+      {
+        "month": 22,
+        "rx": 490869
+      },
+      {
+        "month": 23,
+        "rx": 519086
+      },
+      {
+        "month": 24,
+        "rx": 502541
+      },
+      {
+        "month": 25,
+        "rx": 546765
+      },
+      {
+        "month": 26,
+        "rx": 562570
+      },
+      {
+        "month": 27,
+        "rx": 594747
+      },
+      {
+        "month": 28,
+        "rx": 580151
+      },
+      {
+        "month": 29,
+        "rx": 583010
+      },
+      {
+        "month": 30,
+        "rx": 640045
+      },
+      {
+        "month": 31,
+        "rx": 586286
+      },
+      {
+        "month": 32,
+        "rx": 636397
+      },
+      {
+        "month": 33,
+        "rx": 620027
+      },
+      {
+        "month": 34,
+        "rx": 640052
+      },
+      {
+        "month": 35,
+        "rx": 632798
+      },
+      {
+        "month": 36,
+        "rx": 611120
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_017",
+    "drug_name": "Onyxtide",
+    "mechanism_of_action": "JAK inhibitor",
+    "route_of_administration": "Topical",
+    "target_specialty": "Hematology",
+    "market_size": 1683785,
+    "competitive_density": 2,
+    "payer_restrictiveness": 3,
+    "launch_quarter": "Q1",
+    "promotional_intensity": 1,
+    "special_designation": false,
+    "price_tier": 3,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 48212
+      },
+      {
+        "month": 2,
+        "rx": 48429
+      },
+      {
+        "month": 3,
+        "rx": 54036
+      },
+      {
+        "month": 4,
+        "rx": 59660
+      },
+      {
+        "month": 5,
+        "rx": 68227
+      },
+      {
+        "month": 6,
+        "rx": 67748
+      },
+      {
+        "month": 7,
+        "rx": 75176
+      },
+      {
+        "month": 8,
+        "rx": 85019
+      },
+      {
+        "month": 9,
+        "rx": 87352
+      },
+      {
+        "month": 10,
+        "rx": 100842
+      },
+      {
+        "month": 11,
+        "rx": 106822
+      },
+      {
+        "month": 12,
+        "rx": 109221
+      },
+      {
+        "month": 13,
+        "rx": 124588
+      },
+      {
+        "month": 14,
+        "rx": 135420
+      },
+      {
+        "month": 15,
+        "rx": 134710
+      },
+      {
+        "month": 16,
+        "rx": 157096
+      },
+      {
+        "month": 17,
+        "rx": 162662
+      },
+      {
+        "month": 18,
+        "rx": 164761
+      },
+      {
+        "month": 19,
+        "rx": 177175
+      },
+      {
+        "month": 20,
+        "rx": 190609
+      },
+      {
+        "month": 21,
+        "rx": 202102
+      },
+      {
+        "month": 22,
+        "rx": 228413
+      },
+      {
+        "month": 23,
+        "rx": 236857
+      },
+      {
+        "month": 24,
+        "rx": 239582
+      },
+      {
+        "month": 25,
+        "rx": 233785
+      },
+      {
+        "month": 26,
+        "rx": 277634
+      },
+      {
+        "month": 27,
+        "rx": 244335
+      },
+      {
+        "month": 28,
+        "rx": 273866
+      },
+      {
+        "month": 29,
+        "rx": 292303
+      },
+      {
+        "month": 30,
+        "rx": 284730
+      },
+      {
+        "month": 31,
+        "rx": 286600
+      },
+      {
+        "month": 32,
+        "rx": 297904
+      },
+      {
+        "month": 33,
+        "rx": 305786
+      },
+      {
+        "month": 34,
+        "rx": 311136
+      },
+      {
+        "month": 35,
+        "rx": 334739
+      },
+      {
+        "month": 36,
+        "rx": 329096
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_018",
+    "drug_name": "Ferrovia",
+    "mechanism_of_action": "JAK inhibitor",
+    "route_of_administration": "Inhaled",
+    "target_specialty": "Oncology",
+    "market_size": 835207,
+    "competitive_density": 1,
+    "payer_restrictiveness": 1,
+    "launch_quarter": "Q4",
+    "promotional_intensity": 2,
+    "special_designation": true,
+    "price_tier": 2,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 27152
+      },
+      {
+        "month": 2,
+        "rx": 31856
+      },
+      {
+        "month": 3,
+        "rx": 36896
+      },
+      {
+        "month": 4,
+        "rx": 40062
+      },
+      {
+        "month": 5,
+        "rx": 43952
+      },
+      {
+        "month": 6,
+        "rx": 47511
+      },
+      {
+        "month": 7,
+        "rx": 54684
+      },
+      {
+        "month": 8,
+        "rx": 58081
+      },
+      {
+        "month": 9,
+        "rx": 62212
+      },
+      {
+        "month": 10,
+        "rx": 69652
+      },
+      {
+        "month": 11,
+        "rx": 73345
+      },
+      {
+        "month": 12,
+        "rx": 82605
+      },
+      {
+        "month": 13,
+        "rx": 98289
+      },
+      {
+        "month": 14,
+        "rx": 100974
+      },
+      {
+        "month": 15,
+        "rx": 108483
+      },
+      {
+        "month": 16,
+        "rx": 116276
+      },
+      {
+        "month": 17,
+        "rx": 131770
+      },
+      {
+        "month": 18,
+        "rx": 137333
+      },
+      {
+        "month": 19,
+        "rx": 147304
+      },
+      {
+        "month": 20,
+        "rx": 150154
+      },
+      {
+        "month": 21,
+        "rx": 156709
+      },
+      {
+        "month": 22,
+        "rx": 172190
+      },
+      {
+        "month": 23,
+        "rx": 177426
+      },
+      {
+        "month": 24,
+        "rx": 203627
+      },
+      {
+        "month": 25,
+        "rx": 202004
+      },
+      {
+        "month": 26,
+        "rx": 211510
+      },
+      {
+        "month": 27,
+        "rx": 215644
+      },
+      {
+        "month": 28,
+        "rx": 220601
+      },
+      {
+        "month": 29,
+        "rx": 216486
+      },
+      {
+        "month": 30,
+        "rx": 230145
+      },
+      {
+        "month": 31,
+        "rx": 249861
+      },
+      {
+        "month": 32,
+        "rx": 260143
+      },
+      {
+        "month": 33,
+        "rx": 275543
+      },
+      {
+        "month": 34,
+        "rx": 262641
+      },
+      {
+        "month": 35,
+        "rx": 260219
+      },
+      {
+        "month": 36,
+        "rx": 291439
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_019",
+    "drug_name": "Vynmune",
+    "mechanism_of_action": "TNF-alpha inhibitor",
+    "route_of_administration": "Topical",
+    "target_specialty": "Primary Care",
+    "market_size": 943177,
+    "competitive_density": 4,
+    "payer_restrictiveness": 4,
+    "launch_quarter": "Q1",
+    "promotional_intensity": 2,
+    "special_designation": false,
+    "price_tier": 3,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 16992
+      },
+      {
+        "month": 2,
+        "rx": 18813
+      },
+      {
+        "month": 3,
+        "rx": 20608
+      },
+      {
+        "month": 4,
+        "rx": 22696
+      },
+      {
+        "month": 5,
+        "rx": 23453
+      },
+      {
+        "month": 6,
+        "rx": 26365
+      },
+      {
+        "month": 7,
+        "rx": 28947
+      },
+      {
+        "month": 8,
+        "rx": 33358
+      },
+      {
+        "month": 9,
+        "rx": 34458
+      },
+      {
+        "month": 10,
+        "rx": 38966
+      },
+      {
+        "month": 11,
+        "rx": 43643
+      },
+      {
+        "month": 12,
+        "rx": 45507
+      },
+      {
+        "month": 13,
+        "rx": 47334
+      },
+      {
+        "month": 14,
+        "rx": 53886
+      },
+      {
+        "month": 15,
+        "rx": 55307
+      },
+      {
+        "month": 16,
+        "rx": 60634
+      },
+      {
+        "month": 17,
+        "rx": 63444
+      },
+      {
+        "month": 18,
+        "rx": 71987
+      },
+      {
+        "month": 19,
+        "rx": 73980
+      },
+      {
+        "month": 20,
+        "rx": 78370
+      },
+      {
+        "month": 21,
+        "rx": 83762
+      },
+      {
+        "month": 22,
+        "rx": 88327
+      },
+      {
+        "month": 23,
+        "rx": 96304
+      },
+      {
+        "month": 24,
+        "rx": 92406
+      },
+      {
+        "month": 25,
+        "rx": 105239
+      },
+      {
+        "month": 26,
+        "rx": 102520
+      },
+      {
+        "month": 27,
+        "rx": 118374
+      },
+      {
+        "month": 28,
+        "rx": 111089
+      },
+      {
+        "month": 29,
+        "rx": 122276
+      },
+      {
+        "month": 30,
+        "rx": 113216
+      },
+      {
+        "month": 31,
+        "rx": 119694
+      },
+      {
+        "month": 32,
+        "rx": 128977
+      },
+      {
+        "month": 33,
+        "rx": 127226
+      },
+      {
+        "month": 34,
+        "rx": 133707
+      },
+      {
+        "month": 35,
+        "rx": 138456
+      },
+      {
+        "month": 36,
+        "rx": 140694
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_020",
+    "drug_name": "Kynvia",
+    "mechanism_of_action": "Proton pump inhibitor",
+    "route_of_administration": "Topical",
+    "target_specialty": "Hematology",
+    "market_size": 2750553,
+    "competitive_density": 4,
+    "payer_restrictiveness": 3,
+    "launch_quarter": "Q3",
+    "promotional_intensity": 5,
+    "special_designation": false,
+    "price_tier": 5,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 23570
+      },
+      {
+        "month": 2,
+        "rx": 29739
+      },
+      {
+        "month": 3,
+        "rx": 35268
+      },
+      {
+        "month": 4,
+        "rx": 40480
+      },
+      {
+        "month": 5,
+        "rx": 54043
+      },
+      {
+        "month": 6,
+        "rx": 64630
+      },
+      {
+        "month": 7,
+        "rx": 73593
+      },
+      {
+        "month": 8,
+        "rx": 94219
+      },
+      {
+        "month": 9,
+        "rx": 103957
+      },
+      {
+        "month": 10,
+        "rx": 127528
+      },
+      {
+        "month": 11,
+        "rx": 148073
+      },
+      {
+        "month": 12,
+        "rx": 183357
+      },
+      {
+        "month": 13,
+        "rx": 205761
+      },
+      {
+        "month": 14,
+        "rx": 223408
+      },
+      {
+        "month": 15,
+        "rx": 251473
+      },
+      {
+        "month": 16,
+        "rx": 266597
+      },
+      {
+        "month": 17,
+        "rx": 264281
+      },
+      {
+        "month": 18,
+        "rx": 325184
+      },
+      {
+        "month": 19,
+        "rx": 319613
+      },
+      {
+        "month": 20,
+        "rx": 367006
+      },
+      {
+        "month": 21,
+        "rx": 366033
+      },
+      {
+        "month": 22,
+        "rx": 370285
+      },
+      {
+        "month": 23,
+        "rx": 380964
+      },
+      {
+        "month": 24,
+        "rx": 393294
+      },
+      {
+        "month": 25,
+        "rx": 386545
+      },
+      {
+        "month": 26,
+        "rx": 438968
+      },
+      {
+        "month": 27,
+        "rx": 399154
+      },
+      {
+        "month": 28,
+        "rx": 451412
+      },
+      {
+        "month": 29,
+        "rx": 423739
+      },
+      {
+        "month": 30,
+        "rx": 431563
+      },
+      {
+        "month": 31,
+        "rx": 452471
+      },
+      {
+        "month": 32,
+        "rx": 430767
+      },
+      {
+        "month": 33,
+        "rx": 455544
+      },
+      {
+        "month": 34,
+        "rx": 446418
+      },
+      {
+        "month": 35,
+        "rx": 449045
+      },
+      {
+        "month": 36,
+        "rx": 451916
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_021",
+    "drug_name": "Amarapara",
+    "mechanism_of_action": "Tyrosine kinase inhibitor",
+    "route_of_administration": "Topical",
+    "target_specialty": "Psychiatry",
+    "market_size": 2360745,
+    "competitive_density": 3,
+    "payer_restrictiveness": 5,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 1,
+    "special_designation": false,
+    "price_tier": 4,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 90704
+      },
+      {
+        "month": 2,
+        "rx": 89386
+      },
+      {
+        "month": 3,
+        "rx": 92013
+      },
+      {
+        "month": 4,
+        "rx": 100434
+      },
+      {
+        "month": 5,
+        "rx": 95513
+      },
+      {
+        "month": 6,
+        "rx": 105598
+      },
+      {
+        "month": 7,
+        "rx": 107088
+      },
+      {
+        "month": 8,
+        "rx": 121887
+      },
+      {
+        "month": 9,
+        "rx": 126605
+      },
+      {
+        "month": 10,
+        "rx": 140073
+      },
+      {
+        "month": 11,
+        "rx": 132912
+      },
+      {
+        "month": 12,
+        "rx": 131180
+      },
+      {
+        "month": 13,
+        "rx": 150965
+      },
+      {
+        "month": 14,
+        "rx": 150060
+      },
+      {
+        "month": 15,
+        "rx": 152815
+      },
+      {
+        "month": 16,
+        "rx": 149128
+      },
+      {
+        "month": 17,
+        "rx": 166867
+      },
+      {
+        "month": 18,
+        "rx": 170751
+      },
+      {
+        "month": 19,
+        "rx": 177805
+      },
+      {
+        "month": 20,
+        "rx": 175278
+      },
+      {
+        "month": 21,
+        "rx": 187716
+      },
+      {
+        "month": 22,
+        "rx": 218498
+      },
+      {
+        "month": 23,
+        "rx": 210846
+      },
+      {
+        "month": 24,
+        "rx": 211458
+      },
+      {
+        "month": 25,
+        "rx": 232755
+      },
+      {
+        "month": 26,
+        "rx": 216502
+      },
+      {
+        "month": 27,
+        "rx": 220030
+      },
+      {
+        "month": 28,
+        "rx": 208003
+      },
+      {
+        "month": 29,
+        "rx": 233307
+      },
+      {
+        "month": 30,
+        "rx": 257505
+      },
+      {
+        "month": 31,
+        "rx": 246933
+      },
+      {
+        "month": 32,
+        "rx": 242330
+      },
+      {
+        "month": 33,
+        "rx": 246416
+      },
+      {
+        "month": 34,
+        "rx": 282111
+      },
+      {
+        "month": 35,
+        "rx": 262451
+      },
+      {
+        "month": 36,
+        "rx": 283984
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_022",
+    "drug_name": "Haloxen",
+    "mechanism_of_action": "Sodium channel blocker",
+    "route_of_administration": "Injectable",
+    "target_specialty": "Rheumatology",
+    "market_size": 2860207,
+    "competitive_density": 2,
+    "payer_restrictiveness": 5,
+    "launch_quarter": "Q1",
+    "promotional_intensity": 5,
+    "special_designation": false,
+    "price_tier": 3,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 126327
+      },
+      {
+        "month": 2,
+        "rx": 131752
+      },
+      {
+        "month": 3,
+        "rx": 150036
+      },
+      {
+        "month": 4,
+        "rx": 153260
+      },
+      {
+        "month": 5,
+        "rx": 156559
+      },
+      {
+        "month": 6,
+        "rx": 165292
+      },
+      {
+        "month": 7,
+        "rx": 170915
+      },
+      {
+        "month": 8,
+        "rx": 190260
+      },
+      {
+        "month": 9,
+        "rx": 178210
+      },
+      {
+        "month": 10,
+        "rx": 186175
+      },
+      {
+        "month": 11,
+        "rx": 214215
+      },
+      {
+        "month": 12,
+        "rx": 217235
+      },
+      {
+        "month": 13,
+        "rx": 212334
+      },
+      {
+        "month": 14,
+        "rx": 226790
+      },
+      {
+        "month": 15,
+        "rx": 238477
+      },
+      {
+        "month": 16,
+        "rx": 252159
+      },
+      {
+        "month": 17,
+        "rx": 254824
+      },
+      {
+        "month": 18,
+        "rx": 250314
+      },
+      {
+        "month": 19,
+        "rx": 262650
+      },
+      {
+        "month": 20,
+        "rx": 264909
+      },
+      {
+        "month": 21,
+        "rx": 267103
+      },
+      {
+        "month": 22,
+        "rx": 292566
+      },
+      {
+        "month": 23,
+        "rx": 292309
+      },
+      {
+        "month": 24,
+        "rx": 315038
+      },
+      {
+        "month": 25,
+        "rx": 326331
+      },
+      {
+        "month": 26,
+        "rx": 338709
+      },
+      {
+        "month": 27,
+        "rx": 334144
+      },
+      {
+        "month": 28,
+        "rx": 368916
+      },
+      {
+        "month": 29,
+        "rx": 352112
+      },
+      {
+        "month": 30,
+        "rx": 342654
+      },
+      {
+        "month": 31,
+        "rx": 353749
+      },
+      {
+        "month": 32,
+        "rx": 393533
+      },
+      {
+        "month": 33,
+        "rx": 382256
+      },
+      {
+        "month": 34,
+        "rx": 418984
+      },
+      {
+        "month": 35,
+        "rx": 398749
+      },
+      {
+        "month": 36,
+        "rx": 405577
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_023",
+    "drug_name": "Calavia",
+    "mechanism_of_action": "JAK inhibitor",
+    "route_of_administration": "Subcutaneous",
+    "target_specialty": "Cardiology",
+    "market_size": 903193,
+    "competitive_density": 5,
+    "payer_restrictiveness": 5,
+    "launch_quarter": "Q4",
+    "promotional_intensity": 4,
+    "special_designation": false,
+    "price_tier": 1,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 31044
+      },
+      {
+        "month": 2,
+        "rx": 33279
+      },
+      {
+        "month": 3,
+        "rx": 36725
+      },
+      {
+        "month": 4,
+        "rx": 32495
+      },
+      {
+        "month": 5,
+        "rx": 36422
+      },
+      {
+        "month": 6,
+        "rx": 41122
+      },
+      {
+        "month": 7,
+        "rx": 44303
+      },
+      {
+        "month": 8,
+        "rx": 46435
+      },
+      {
+        "month": 9,
+        "rx": 44329
+      },
+      {
+        "month": 10,
+        "rx": 49113
+      },
+      {
+        "month": 11,
+        "rx": 50327
+      },
+      {
+        "month": 12,
+        "rx": 48336
+      },
+      {
+        "month": 13,
+        "rx": 55276
+      },
+      {
+        "month": 14,
+        "rx": 59647
+      },
+      {
+        "month": 15,
+        "rx": 53637
+      },
+      {
+        "month": 16,
+        "rx": 57832
+      },
+      {
+        "month": 17,
+        "rx": 63192
+      },
+      {
+        "month": 18,
+        "rx": 64452
+      },
+      {
+        "month": 19,
+        "rx": 67832
+      },
+      {
+        "month": 20,
+        "rx": 65028
+      },
+      {
+        "month": 21,
+        "rx": 69271
+      },
+      {
+        "month": 22,
+        "rx": 65824
+      },
+      {
+        "month": 23,
+        "rx": 72471
+      },
+      {
+        "month": 24,
+        "rx": 80632
+      },
+      {
+        "month": 25,
+        "rx": 75355
+      },
+      {
+        "month": 26,
+        "rx": 78175
+      },
+      {
+        "month": 27,
+        "rx": 80275
+      },
+      {
+        "month": 28,
+        "rx": 88421
+      },
+      {
+        "month": 29,
+        "rx": 88992
+      },
+      {
+        "month": 30,
+        "rx": 85153
+      },
+      {
+        "month": 31,
+        "rx": 91049
+      },
+      {
+        "month": 32,
+        "rx": 90606
+      },
+      {
+        "month": 33,
+        "rx": 94417
+      },
+      {
+        "month": 34,
+        "rx": 97949
+      },
+      {
+        "month": 35,
+        "rx": 101844
+      },
+      {
+        "month": 36,
+        "rx": 105396
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_024",
+    "drug_name": "Trexprel",
+    "mechanism_of_action": "Factor Xa inhibitor",
+    "route_of_administration": "Intravenous",
+    "target_specialty": "Primary Care",
+    "market_size": 2979376,
+    "competitive_density": 1,
+    "payer_restrictiveness": 3,
+    "launch_quarter": "Q1",
+    "promotional_intensity": 2,
+    "special_designation": false,
+    "price_tier": 2,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 196159
+      },
+      {
+        "month": 2,
+        "rx": 200696
+      },
+      {
+        "month": 3,
+        "rx": 214095
+      },
+      {
+        "month": 4,
+        "rx": 220436
+      },
+      {
+        "month": 5,
+        "rx": 228459
+      },
+      {
+        "month": 6,
+        "rx": 233797
+      },
+      {
+        "month": 7,
+        "rx": 240027
+      },
+      {
+        "month": 8,
+        "rx": 245703
+      },
+      {
+        "month": 9,
+        "rx": 270404
+      },
+      {
+        "month": 10,
+        "rx": 264500
+      },
+      {
+        "month": 11,
+        "rx": 280559
+      },
+      {
+        "month": 12,
+        "rx": 283463
+      },
+      {
+        "month": 13,
+        "rx": 309707
+      },
+      {
+        "month": 14,
+        "rx": 332768
+      },
+      {
+        "month": 15,
+        "rx": 323199
+      },
+      {
+        "month": 16,
+        "rx": 337071
+      },
+      {
+        "month": 17,
+        "rx": 381875
+      },
+      {
+        "month": 18,
+        "rx": 372397
+      },
+      {
+        "month": 19,
+        "rx": 384574
+      },
+      {
+        "month": 20,
+        "rx": 400688
+      },
+      {
+        "month": 21,
+        "rx": 417710
+      },
+      {
+        "month": 22,
+        "rx": 401637
+      },
+      {
+        "month": 23,
+        "rx": 405164
+      },
+      {
+        "month": 24,
+        "rx": 435134
+      },
+      {
+        "month": 25,
+        "rx": 475315
+      },
+      {
+        "month": 26,
+        "rx": 477834
+      },
+      {
+        "month": 27,
+        "rx": 473766
+      },
+      {
+        "month": 28,
+        "rx": 486833
+      },
+      {
+        "month": 29,
+        "rx": 551208
+      },
+      {
+        "month": 30,
+        "rx": 507223
+      },
+      {
+        "month": 31,
+        "rx": 553970
+      },
+      {
+        "month": 32,
+        "rx": 566789
+      },
+      {
+        "month": 33,
+        "rx": 552950
+      },
+      {
+        "month": 34,
+        "rx": 591887
+      },
+      {
+        "month": 35,
+        "rx": 603938
+      },
+      {
+        "month": 36,
+        "rx": 607599
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_025",
+    "drug_name": "Kynxen",
+    "mechanism_of_action": "PD-1 inhibitor",
+    "route_of_administration": "Injectable",
+    "target_specialty": "Psychiatry",
+    "market_size": 2686737,
+    "competitive_density": 4,
+    "payer_restrictiveness": 5,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 5,
+    "special_designation": false,
+    "price_tier": 4,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 85278
+      },
+      {
+        "month": 2,
+        "rx": 88851
+      },
+      {
+        "month": 3,
+        "rx": 89553
+      },
+      {
+        "month": 4,
+        "rx": 94665
+      },
+      {
+        "month": 5,
+        "rx": 101015
+      },
+      {
+        "month": 6,
+        "rx": 99608
+      },
+      {
+        "month": 7,
+        "rx": 104324
+      },
+      {
+        "month": 8,
+        "rx": 113232
+      },
+      {
+        "month": 9,
+        "rx": 126065
+      },
+      {
+        "month": 10,
+        "rx": 127181
+      },
+      {
+        "month": 11,
+        "rx": 122901
+      },
+      {
+        "month": 12,
+        "rx": 131188
+      },
+      {
+        "month": 13,
+        "rx": 144109
+      },
+      {
+        "month": 14,
+        "rx": 145341
+      },
+      {
+        "month": 15,
+        "rx": 141796
+      },
+      {
+        "month": 16,
+        "rx": 157378
+      },
+      {
+        "month": 17,
+        "rx": 149987
+      },
+      {
+        "month": 18,
+        "rx": 156869
+      },
+      {
+        "month": 19,
+        "rx": 170961
+      },
+      {
+        "month": 20,
+        "rx": 182087
+      },
+      {
+        "month": 21,
+        "rx": 193817
+      },
+      {
+        "month": 22,
+        "rx": 190673
+      },
+      {
+        "month": 23,
+        "rx": 179915
+      },
+      {
+        "month": 24,
+        "rx": 202869
+      },
+      {
+        "month": 25,
+        "rx": 216608
+      },
+      {
+        "month": 26,
+        "rx": 212712
+      },
+      {
+        "month": 27,
+        "rx": 213173
+      },
+      {
+        "month": 28,
+        "rx": 239876
+      },
+      {
+        "month": 29,
+        "rx": 228612
+      },
+      {
+        "month": 30,
+        "rx": 254247
+      },
+      {
+        "month": 31,
+        "rx": 241372
+      },
+      {
+        "month": 32,
+        "rx": 263067
+      },
+      {
+        "month": 33,
+        "rx": 239470
+      },
+      {
+        "month": 34,
+        "rx": 241975
+      },
+      {
+        "month": 35,
+        "rx": 271872
+      },
+      {
+        "month": 36,
+        "rx": 263471
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_026",
+    "drug_name": "Halomune",
+    "mechanism_of_action": "Anti-CD20 monoclonal antibody",
+    "route_of_administration": "Injectable",
+    "target_specialty": "Gastroenterology",
+    "market_size": 1833868,
+    "competitive_density": 5,
+    "payer_restrictiveness": 5,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 1,
+    "special_designation": false,
+    "price_tier": 5,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 42009
+      },
+      {
+        "month": 2,
+        "rx": 39826
+      },
+      {
+        "month": 3,
+        "rx": 46418
+      },
+      {
+        "month": 4,
+        "rx": 46571
+      },
+      {
+        "month": 5,
+        "rx": 49259
+      },
+      {
+        "month": 6,
+        "rx": 55182
+      },
+      {
+        "month": 7,
+        "rx": 52056
+      },
+      {
+        "month": 8,
+        "rx": 56793
+      },
+      {
+        "month": 9,
+        "rx": 59493
+      },
+      {
+        "month": 10,
+        "rx": 61572
+      },
+      {
+        "month": 11,
+        "rx": 65685
+      },
+      {
+        "month": 12,
+        "rx": 62475
+      },
+      {
+        "month": 13,
+        "rx": 63578
+      },
+      {
+        "month": 14,
+        "rx": 69736
+      },
+      {
+        "month": 15,
+        "rx": 67967
+      },
+      {
+        "month": 16,
+        "rx": 73759
+      },
+      {
+        "month": 17,
+        "rx": 80086
+      },
+      {
+        "month": 18,
+        "rx": 77511
+      },
+      {
+        "month": 19,
+        "rx": 85329
+      },
+      {
+        "month": 20,
+        "rx": 84844
+      },
+      {
+        "month": 21,
+        "rx": 94892
+      },
+      {
+        "month": 22,
+        "rx": 93440
+      },
+      {
+        "month": 23,
+        "rx": 92515
+      },
+      {
+        "month": 24,
+        "rx": 100927
+      },
+      {
+        "month": 25,
+        "rx": 103744
+      },
+      {
+        "month": 26,
+        "rx": 104625
+      },
+      {
+        "month": 27,
+        "rx": 106996
+      },
+      {
+        "month": 28,
+        "rx": 109000
+      },
+      {
+        "month": 29,
+        "rx": 106373
+      },
+      {
+        "month": 30,
+        "rx": 117486
+      },
+      {
+        "month": 31,
+        "rx": 115694
+      },
+      {
+        "month": 32,
+        "rx": 123125
+      },
+      {
+        "month": 33,
+        "rx": 121136
+      },
+      {
+        "month": 34,
+        "rx": 127047
+      },
+      {
+        "month": 35,
+        "rx": 126318
+      },
+      {
+        "month": 36,
+        "rx": 133004
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_027",
+    "drug_name": "Ixaradine",
+    "mechanism_of_action": "ACE inhibitor",
+    "route_of_administration": "Inhaled",
+    "target_specialty": "Endocrinology",
+    "market_size": 1792901,
+    "competitive_density": 4,
+    "payer_restrictiveness": 5,
+    "launch_quarter": "Q1",
+    "promotional_intensity": 4,
+    "special_designation": true,
+    "price_tier": 4,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 41010
+      },
+      {
+        "month": 2,
+        "rx": 42196
+      },
+      {
+        "month": 3,
+        "rx": 46963
+      },
+      {
+        "month": 4,
+        "rx": 50948
+      },
+      {
+        "month": 5,
+        "rx": 56057
+      },
+      {
+        "month": 6,
+        "rx": 60700
+      },
+      {
+        "month": 7,
+        "rx": 70656
+      },
+      {
+        "month": 8,
+        "rx": 71030
+      },
+      {
+        "month": 9,
+        "rx": 74752
+      },
+      {
+        "month": 10,
+        "rx": 80362
+      },
+      {
+        "month": 11,
+        "rx": 87875
+      },
+      {
+        "month": 12,
+        "rx": 100799
+      },
+      {
+        "month": 13,
+        "rx": 102752
+      },
+      {
+        "month": 14,
+        "rx": 119255
+      },
+      {
+        "month": 15,
+        "rx": 127325
+      },
+      {
+        "month": 16,
+        "rx": 116321
+      },
+      {
+        "month": 17,
+        "rx": 135089
+      },
+      {
+        "month": 18,
+        "rx": 140183
+      },
+      {
+        "month": 19,
+        "rx": 158438
+      },
+      {
+        "month": 20,
+        "rx": 169884
+      },
+      {
+        "month": 21,
+        "rx": 164476
+      },
+      {
+        "month": 22,
+        "rx": 170676
+      },
+      {
+        "month": 23,
+        "rx": 183989
+      },
+      {
+        "month": 24,
+        "rx": 191084
+      },
+      {
+        "month": 25,
+        "rx": 220633
+      },
+      {
+        "month": 26,
+        "rx": 192018
+      },
+      {
+        "month": 27,
+        "rx": 229479
+      },
+      {
+        "month": 28,
+        "rx": 255973
+      },
+      {
+        "month": 29,
+        "rx": 234861
+      },
+      {
+        "month": 30,
+        "rx": 253007
+      },
+      {
+        "month": 31,
+        "rx": 246824
+      },
+      {
+        "month": 32,
+        "rx": 261140
+      },
+      {
+        "month": 33,
+        "rx": 257140
+      },
+      {
+        "month": 34,
+        "rx": 279847
+      },
+      {
+        "month": 35,
+        "rx": 283741
+      },
+      {
+        "month": 36,
+        "rx": 282219
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_028",
+    "drug_name": "Nurosera",
+    "mechanism_of_action": "SGLT2 inhibitor",
+    "route_of_administration": "Topical",
+    "target_specialty": "Endocrinology",
+    "market_size": 307889,
+    "competitive_density": 1,
+    "payer_restrictiveness": 4,
+    "launch_quarter": "Q1",
+    "promotional_intensity": 4,
+    "special_designation": false,
+    "price_tier": 1,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 5119
+      },
+      {
+        "month": 2,
+        "rx": 5822
+      },
+      {
+        "month": 3,
+        "rx": 6781
+      },
+      {
+        "month": 4,
+        "rx": 8196
+      },
+      {
+        "month": 5,
+        "rx": 8976
+      },
+      {
+        "month": 6,
+        "rx": 10023
+      },
+      {
+        "month": 7,
+        "rx": 12207
+      },
+      {
+        "month": 8,
+        "rx": 14104
+      },
+      {
+        "month": 9,
+        "rx": 16053
+      },
+      {
+        "month": 10,
+        "rx": 19200
+      },
+      {
+        "month": 11,
+        "rx": 21766
+      },
+      {
+        "month": 12,
+        "rx": 26382
+      },
+      {
+        "month": 13,
+        "rx": 29045
+      },
+      {
+        "month": 14,
+        "rx": 29482
+      },
+      {
+        "month": 15,
+        "rx": 35419
+      },
+      {
+        "month": 16,
+        "rx": 33920
+      },
+      {
+        "month": 17,
+        "rx": 40783
+      },
+      {
+        "month": 18,
+        "rx": 46935
+      },
+      {
+        "month": 19,
+        "rx": 49047
+      },
+      {
+        "month": 20,
+        "rx": 53289
+      },
+      {
+        "month": 21,
+        "rx": 54843
+      },
+      {
+        "month": 22,
+        "rx": 63581
+      },
+      {
+        "month": 23,
+        "rx": 64272
+      },
+      {
+        "month": 24,
+        "rx": 66600
+      },
+      {
+        "month": 25,
+        "rx": 67885
+      },
+      {
+        "month": 26,
+        "rx": 65612
+      },
+      {
+        "month": 27,
+        "rx": 72344
+      },
+      {
+        "month": 28,
+        "rx": 73207
+      },
+      {
+        "month": 29,
+        "rx": 80815
+      },
+      {
+        "month": 30,
+        "rx": 79844
+      },
+      {
+        "month": 31,
+        "rx": 84460
+      },
+      {
+        "month": 32,
+        "rx": 78472
+      },
+      {
+        "month": 33,
+        "rx": 81269
+      },
+      {
+        "month": 34,
+        "rx": 79590
+      },
+      {
+        "month": 35,
+        "rx": 77917
+      },
+      {
+        "month": 36,
+        "rx": 82559
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_029",
+    "drug_name": "Trexmune",
+    "mechanism_of_action": "CGRP antagonist",
+    "route_of_administration": "Oral",
+    "target_specialty": "Oncology",
+    "market_size": 1613992,
+    "competitive_density": 1,
+    "payer_restrictiveness": 2,
+    "launch_quarter": "Q3",
+    "promotional_intensity": 5,
+    "special_designation": false,
+    "price_tier": 4,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 23707
+      },
+      {
+        "month": 2,
+        "rx": 28777
+      },
+      {
+        "month": 3,
+        "rx": 38921
+      },
+      {
+        "month": 4,
+        "rx": 46580
+      },
+      {
+        "month": 5,
+        "rx": 56519
+      },
+      {
+        "month": 6,
+        "rx": 75523
+      },
+      {
+        "month": 7,
+        "rx": 87095
+      },
+      {
+        "month": 8,
+        "rx": 104951
+      },
+      {
+        "month": 9,
+        "rx": 119052
+      },
+      {
+        "month": 10,
+        "rx": 143015
+      },
+      {
+        "month": 11,
+        "rx": 175423
+      },
+      {
+        "month": 12,
+        "rx": 186381
+      },
+      {
+        "month": 13,
+        "rx": 229373
+      },
+      {
+        "month": 14,
+        "rx": 258576
+      },
+      {
+        "month": 15,
+        "rx": 276103
+      },
+      {
+        "month": 16,
+        "rx": 307894
+      },
+      {
+        "month": 17,
+        "rx": 311862
+      },
+      {
+        "month": 18,
+        "rx": 334574
+      },
+      {
+        "month": 19,
+        "rx": 364998
+      },
+      {
+        "month": 20,
+        "rx": 382374
+      },
+      {
+        "month": 21,
+        "rx": 376494
+      },
+      {
+        "month": 22,
+        "rx": 401108
+      },
+      {
+        "month": 23,
+        "rx": 424534
+      },
+      {
+        "month": 24,
+        "rx": 394103
+      },
+      {
+        "month": 25,
+        "rx": 410660
+      },
+      {
+        "month": 26,
+        "rx": 400771
+      },
+      {
+        "month": 27,
+        "rx": 401659
+      },
+      {
+        "month": 28,
+        "rx": 439835
+      },
+      {
+        "month": 29,
+        "rx": 462709
+      },
+      {
+        "month": 30,
+        "rx": 460633
+      },
+      {
+        "month": 31,
+        "rx": 451544
+      },
+      {
+        "month": 32,
+        "rx": 422175
+      },
+      {
+        "month": 33,
+        "rx": 452692
+      },
+      {
+        "month": 34,
+        "rx": 440777
+      },
+      {
+        "month": 35,
+        "rx": 452754
+      },
+      {
+        "month": 36,
+        "rx": 460978
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_030",
+    "drug_name": "Perinlith",
+    "mechanism_of_action": "DPP-4 inhibitor",
+    "route_of_administration": "Oral",
+    "target_specialty": "Pulmonology",
+    "market_size": 426563,
+    "competitive_density": 1,
+    "payer_restrictiveness": 3,
+    "launch_quarter": "Q3",
+    "promotional_intensity": 2,
+    "special_designation": false,
+    "price_tier": 1,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 9566
+      },
+      {
+        "month": 2,
+        "rx": 11629
+      },
+      {
+        "month": 3,
+        "rx": 12658
+      },
+      {
+        "month": 4,
+        "rx": 14600
+      },
+      {
+        "month": 5,
+        "rx": 15779
+      },
+      {
+        "month": 6,
+        "rx": 20018
+      },
+      {
+        "month": 7,
+        "rx": 19194
+      },
+      {
+        "month": 8,
+        "rx": 22270
+      },
+      {
+        "month": 9,
+        "rx": 25265
+      },
+      {
+        "month": 10,
+        "rx": 27841
+      },
+      {
+        "month": 11,
+        "rx": 30463
+      },
+      {
+        "month": 12,
+        "rx": 32640
+      },
+      {
+        "month": 13,
+        "rx": 35450
+      },
+      {
+        "month": 14,
+        "rx": 39688
+      },
+      {
+        "month": 15,
+        "rx": 43470
+      },
+      {
+        "month": 16,
+        "rx": 44139
+      },
+      {
+        "month": 17,
+        "rx": 49606
+      },
+      {
+        "month": 18,
+        "rx": 56264
+      },
+      {
+        "month": 19,
+        "rx": 55661
+      },
+      {
+        "month": 20,
+        "rx": 66795
+      },
+      {
+        "month": 21,
+        "rx": 66968
+      },
+      {
+        "month": 22,
+        "rx": 65899
+      },
+      {
+        "month": 23,
+        "rx": 76247
+      },
+      {
+        "month": 24,
+        "rx": 88202
+      },
+      {
+        "month": 25,
+        "rx": 85242
+      },
+      {
+        "month": 26,
+        "rx": 86757
+      },
+      {
+        "month": 27,
+        "rx": 94289
+      },
+      {
+        "month": 28,
+        "rx": 94316
+      },
+      {
+        "month": 29,
+        "rx": 101265
+      },
+      {
+        "month": 30,
+        "rx": 100846
+      },
+      {
+        "month": 31,
+        "rx": 98523
+      },
+      {
+        "month": 32,
+        "rx": 99215
+      },
+      {
+        "month": 33,
+        "rx": 113236
+      },
+      {
+        "month": 34,
+        "rx": 115837
+      },
+      {
+        "month": 35,
+        "rx": 108990
+      },
+      {
+        "month": 36,
+        "rx": 110183
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_031",
+    "drug_name": "Ferrolith",
+    "mechanism_of_action": "ACE inhibitor",
+    "route_of_administration": "Subcutaneous",
+    "target_specialty": "Hematology",
+    "market_size": 2643704,
+    "competitive_density": 3,
+    "payer_restrictiveness": 5,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 2,
+    "special_designation": true,
+    "price_tier": 4,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 135425
+      },
+      {
+        "month": 2,
+        "rx": 136359
+      },
+      {
+        "month": 3,
+        "rx": 143551
+      },
+      {
+        "month": 4,
+        "rx": 148549
+      },
+      {
+        "month": 5,
+        "rx": 159083
+      },
+      {
+        "month": 6,
+        "rx": 166302
+      },
+      {
+        "month": 7,
+        "rx": 164921
+      },
+      {
+        "month": 8,
+        "rx": 177419
+      },
+      {
+        "month": 9,
+        "rx": 174972
+      },
+      {
+        "month": 10,
+        "rx": 205127
+      },
+      {
+        "month": 11,
+        "rx": 196844
+      },
+      {
+        "month": 12,
+        "rx": 220987
+      },
+      {
+        "month": 13,
+        "rx": 218146
+      },
+      {
+        "month": 14,
+        "rx": 207370
+      },
+      {
+        "month": 15,
+        "rx": 232482
+      },
+      {
+        "month": 16,
+        "rx": 222474
+      },
+      {
+        "month": 17,
+        "rx": 269765
+      },
+      {
+        "month": 18,
+        "rx": 255768
+      },
+      {
+        "month": 19,
+        "rx": 248115
+      },
+      {
+        "month": 20,
+        "rx": 297071
+      },
+      {
+        "month": 21,
+        "rx": 300379
+      },
+      {
+        "month": 22,
+        "rx": 282154
+      },
+      {
+        "month": 23,
+        "rx": 316109
+      },
+      {
+        "month": 24,
+        "rx": 316982
+      },
+      {
+        "month": 25,
+        "rx": 311953
+      },
+      {
+        "month": 26,
+        "rx": 323605
+      },
+      {
+        "month": 27,
+        "rx": 356315
+      },
+      {
+        "month": 28,
+        "rx": 332599
+      },
+      {
+        "month": 29,
+        "rx": 369473
+      },
+      {
+        "month": 30,
+        "rx": 380165
+      },
+      {
+        "month": 31,
+        "rx": 354051
+      },
+      {
+        "month": 32,
+        "rx": 408616
+      },
+      {
+        "month": 33,
+        "rx": 374116
+      },
+      {
+        "month": 34,
+        "rx": 388486
+      },
+      {
+        "month": 35,
+        "rx": 424820
+      },
+      {
+        "month": 36,
+        "rx": 411548
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_032",
+    "drug_name": "Brengene",
+    "mechanism_of_action": "Proton pump inhibitor",
+    "route_of_administration": "Oral",
+    "target_specialty": "Gastroenterology",
+    "market_size": 1754756,
+    "competitive_density": 5,
+    "payer_restrictiveness": 5,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 4,
+    "special_designation": false,
+    "price_tier": 2,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 17152
+      },
+      {
+        "month": 2,
+        "rx": 19300
+      },
+      {
+        "month": 3,
+        "rx": 23957
+      },
+      {
+        "month": 4,
+        "rx": 22924
+      },
+      {
+        "month": 5,
+        "rx": 29461
+      },
+      {
+        "month": 6,
+        "rx": 32391
+      },
+      {
+        "month": 7,
+        "rx": 38745
+      },
+      {
+        "month": 8,
+        "rx": 45125
+      },
+      {
+        "month": 9,
+        "rx": 47143
+      },
+      {
+        "month": 10,
+        "rx": 52324
+      },
+      {
+        "month": 11,
+        "rx": 60547
+      },
+      {
+        "month": 12,
+        "rx": 67585
+      },
+      {
+        "month": 13,
+        "rx": 76823
+      },
+      {
+        "month": 14,
+        "rx": 80567
+      },
+      {
+        "month": 15,
+        "rx": 92905
+      },
+      {
+        "month": 16,
+        "rx": 98401
+      },
+      {
+        "month": 17,
+        "rx": 115070
+      },
+      {
+        "month": 18,
+        "rx": 125190
+      },
+      {
+        "month": 19,
+        "rx": 130565
+      },
+      {
+        "month": 20,
+        "rx": 138202
+      },
+      {
+        "month": 21,
+        "rx": 143739
+      },
+      {
+        "month": 22,
+        "rx": 160597
+      },
+      {
+        "month": 23,
+        "rx": 170735
+      },
+      {
+        "month": 24,
+        "rx": 173967
+      },
+      {
+        "month": 25,
+        "rx": 190097
+      },
+      {
+        "month": 26,
+        "rx": 183897
+      },
+      {
+        "month": 27,
+        "rx": 182019
+      },
+      {
+        "month": 28,
+        "rx": 203976
+      },
+      {
+        "month": 29,
+        "rx": 195211
+      },
+      {
+        "month": 30,
+        "rx": 217514
+      },
+      {
+        "month": 31,
+        "rx": 234432
+      },
+      {
+        "month": 32,
+        "rx": 224366
+      },
+      {
+        "month": 33,
+        "rx": 232896
+      },
+      {
+        "month": 34,
+        "rx": 226944
+      },
+      {
+        "month": 35,
+        "rx": 230889
+      },
+      {
+        "month": 36,
+        "rx": 235049
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_033",
+    "drug_name": "Kestratide",
+    "mechanism_of_action": "Proton pump inhibitor",
+    "route_of_administration": "Topical",
+    "target_specialty": "Neurology",
+    "market_size": 1069928,
+    "competitive_density": 3,
+    "payer_restrictiveness": 1,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 4,
+    "special_designation": false,
+    "price_tier": 2,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 15784
+      },
+      {
+        "month": 2,
+        "rx": 19440
+      },
+      {
+        "month": 3,
+        "rx": 23162
+      },
+      {
+        "month": 4,
+        "rx": 30839
+      },
+      {
+        "month": 5,
+        "rx": 34837
+      },
+      {
+        "month": 6,
+        "rx": 41742
+      },
+      {
+        "month": 7,
+        "rx": 51550
+      },
+      {
+        "month": 8,
+        "rx": 65824
+      },
+      {
+        "month": 9,
+        "rx": 77430
+      },
+      {
+        "month": 10,
+        "rx": 80330
+      },
+      {
+        "month": 11,
+        "rx": 109822
+      },
+      {
+        "month": 12,
+        "rx": 119738
+      },
+      {
+        "month": 13,
+        "rx": 131527
+      },
+      {
+        "month": 14,
+        "rx": 153109
+      },
+      {
+        "month": 15,
+        "rx": 172799
+      },
+      {
+        "month": 16,
+        "rx": 186895
+      },
+      {
+        "month": 17,
+        "rx": 218818
+      },
+      {
+        "month": 18,
+        "rx": 216180
+      },
+      {
+        "month": 19,
+        "rx": 229439
+      },
+      {
+        "month": 20,
+        "rx": 249863
+      },
+      {
+        "month": 21,
+        "rx": 248666
+      },
+      {
+        "month": 22,
+        "rx": 252724
+      },
+      {
+        "month": 23,
+        "rx": 259141
+      },
+      {
+        "month": 24,
+        "rx": 263620
+      },
+      {
+        "month": 25,
+        "rx": 293926
+      },
+      {
+        "month": 26,
+        "rx": 269217
+      },
+      {
+        "month": 27,
+        "rx": 269438
+      },
+      {
+        "month": 28,
+        "rx": 292142
+      },
+      {
+        "month": 29,
+        "rx": 292705
+      },
+      {
+        "month": 30,
+        "rx": 286698
+      },
+      {
+        "month": 31,
+        "rx": 307820
+      },
+      {
+        "month": 32,
+        "rx": 308193
+      },
+      {
+        "month": 33,
+        "rx": 279544
+      },
+      {
+        "month": 34,
+        "rx": 307347
+      },
+      {
+        "month": 35,
+        "rx": 303681
+      },
+      {
+        "month": 36,
+        "rx": 286022
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_034",
+    "drug_name": "Xelflux",
+    "mechanism_of_action": "TNF-alpha inhibitor",
+    "route_of_administration": "Oral",
+    "target_specialty": "Dermatology",
+    "market_size": 2179668,
+    "competitive_density": 1,
+    "payer_restrictiveness": 3,
+    "launch_quarter": "Q4",
+    "promotional_intensity": 1,
+    "special_designation": true,
+    "price_tier": 3,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 75595
+      },
+      {
+        "month": 2,
+        "rx": 91509
+      },
+      {
+        "month": 3,
+        "rx": 99227
+      },
+      {
+        "month": 4,
+        "rx": 106300
+      },
+      {
+        "month": 5,
+        "rx": 120231
+      },
+      {
+        "month": 6,
+        "rx": 115675
+      },
+      {
+        "month": 7,
+        "rx": 135916
+      },
+      {
+        "month": 8,
+        "rx": 148097
+      },
+      {
+        "month": 9,
+        "rx": 153355
+      },
+      {
+        "month": 10,
+        "rx": 167623
+      },
+      {
+        "month": 11,
+        "rx": 188056
+      },
+      {
+        "month": 12,
+        "rx": 194521
+      },
+      {
+        "month": 13,
+        "rx": 209483
+      },
+      {
+        "month": 14,
+        "rx": 222677
+      },
+      {
+        "month": 15,
+        "rx": 249826
+      },
+      {
+        "month": 16,
+        "rx": 251828
+      },
+      {
+        "month": 17,
+        "rx": 268566
+      },
+      {
+        "month": 18,
+        "rx": 294178
+      },
+      {
+        "month": 19,
+        "rx": 307464
+      },
+      {
+        "month": 20,
+        "rx": 338212
+      },
+      {
+        "month": 21,
+        "rx": 349505
+      },
+      {
+        "month": 22,
+        "rx": 353391
+      },
+      {
+        "month": 23,
+        "rx": 393579
+      },
+      {
+        "month": 24,
+        "rx": 401330
+      },
+      {
+        "month": 25,
+        "rx": 389109
+      },
+      {
+        "month": 26,
+        "rx": 450663
+      },
+      {
+        "month": 27,
+        "rx": 421108
+      },
+      {
+        "month": 28,
+        "rx": 485324
+      },
+      {
+        "month": 29,
+        "rx": 488447
+      },
+      {
+        "month": 30,
+        "rx": 507676
+      },
+      {
+        "month": 31,
+        "rx": 532390
+      },
+      {
+        "month": 32,
+        "rx": 562565
+      },
+      {
+        "month": 33,
+        "rx": 585825
+      },
+      {
+        "month": 34,
+        "rx": 559224
+      },
+      {
+        "month": 35,
+        "rx": 574415
+      },
+      {
+        "month": 36,
+        "rx": 588712
+      }
+    ]
+  },
+  {
+    "drug_id": "ANL_035",
+    "drug_name": "Nurolith",
+    "mechanism_of_action": "Sodium channel blocker",
+    "route_of_administration": "Injectable",
+    "target_specialty": "Hematology",
+    "market_size": 1225735,
+    "competitive_density": 4,
+    "payer_restrictiveness": 3,
+    "launch_quarter": "Q2",
+    "promotional_intensity": 5,
+    "special_designation": false,
+    "price_tier": 5,
+    "rx_curve": [
+      {
+        "month": 1,
+        "rx": 37328
+      },
+      {
+        "month": 2,
+        "rx": 38767
+      },
+      {
+        "month": 3,
+        "rx": 45355
+      },
+      {
+        "month": 4,
+        "rx": 44341
+      },
+      {
+        "month": 5,
+        "rx": 44014
+      },
+      {
+        "month": 6,
+        "rx": 48807
+      },
+      {
+        "month": 7,
+        "rx": 52415
+      },
+      {
+        "month": 8,
+        "rx": 54772
+      },
+      {
+        "month": 9,
+        "rx": 56181
+      },
+      {
+        "month": 10,
+        "rx": 62844
+      },
+      {
+        "month": 11,
+        "rx": 63651
+      },
+      {
+        "month": 12,
+        "rx": 68535
+      },
+      {
+        "month": 13,
+        "rx": 67547
+      },
+      {
+        "month": 14,
+        "rx": 75458
+      },
+      {
+        "month": 15,
+        "rx": 77759
+      },
+      {
+        "month": 16,
+        "rx": 82700
+      },
+      {
+        "month": 17,
+        "rx": 89070
+      },
+      {
+        "month": 18,
+        "rx": 88452
+      },
+      {
+        "month": 19,
+        "rx": 94404
+      },
+      {
+        "month": 20,
+        "rx": 89585
+      },
+      {
+        "month": 21,
+        "rx": 95889
+      },
+      {
+        "month": 22,
+        "rx": 102319
+      },
+      {
+        "month": 23,
+        "rx": 112759
+      },
+      {
+        "month": 24,
+        "rx": 107960
+      },
+      {
+        "month": 25,
+        "rx": 103698
+      },
+      {
+        "month": 26,
+        "rx": 115853
+      },
+      {
+        "month": 27,
+        "rx": 114211
+      },
+      {
+        "month": 28,
+        "rx": 120088
+      },
+      {
+        "month": 29,
+        "rx": 122420
+      },
+      {
+        "month": 30,
+        "rx": 131645
+      },
+      {
+        "month": 31,
+        "rx": 128860
+      },
+      {
+        "month": 32,
+        "rx": 135104
+      },
+      {
+        "month": 33,
+        "rx": 139582
+      },
+      {
+        "month": 34,
+        "rx": 144201
+      },
+      {
+        "month": 35,
+        "rx": 152369
+      },
+      {
+        "month": 36,
+        "rx": 148733
+      }
+    ]
+  }
+]

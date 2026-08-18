@@ -1,0 +1,36 @@
+drug_id,drug_name,mechanism_of_action,route_of_administration,target_specialty,market_size,competitive_density,payer_restrictiveness,launch_quarter,promotional_intensity,special_designation,price_tier,market_x_competition,payer_x_competition,promo_x_route_friction,special_designation_flag
+ANL_001,Calagene,PD-1 inhibitor,Intravenous,Cardiology,376231,2,5,Q4,2,False,2,752462,10,0.5,0
+ANL_002,Zoradine,ACE inhibitor,Intravenous,Cardiology,1557943,3,4,Q3,1,True,4,4673829,12,0.25,1
+ANL_003,Brenprel,PD-1 inhibitor,Subcutaneous,Rheumatology,2671091,1,1,Q2,5,False,2,2671091,1,0.5,0
+ANL_004,Xelmune,PD-1 inhibitor,Subcutaneous,Rheumatology,1123578,2,3,Q2,1,False,5,2247156,6,0.1,0
+ANL_005,Kynzumab,DPP-4 inhibitor,Intravenous,Hematology,1621565,5,2,Q2,2,False,4,8107825,10,0.5,0
+ANL_006,Perinprel,PCSK9 inhibitor,Inhaled,Primary Care,781433,4,4,Q4,1,False,3,3125732,16,0.05,0
+ANL_007,Ixaralith,CGRP antagonist,Topical,Hematology,1475597,5,5,Q3,5,False,1,7377985,25,0.0,0
+ANL_008,Jovextinib,Proton pump inhibitor,Topical,Pulmonology,2425603,2,5,Q3,5,False,5,4851206,10,0.0,0
+ANL_009,Dravalsera,JAK inhibitor,Injectable,Rheumatology,328174,4,2,Q1,4,False,1,1312696,8,0.6,0
+ANL_010,Haloprel,Integrin antagonist,Subcutaneous,Hematology,396497,4,1,Q4,3,False,2,1585988,4,0.30000000000000004,0
+ANL_011,Lumiszumab,Sodium channel blocker,Oral,Rheumatology,658463,4,3,Q3,1,False,1,2633852,12,0.0,0
+ANL_012,Solixflux,Tyrosine kinase inhibitor,Oral,Gastroenterology,2647703,1,3,Q4,1,False,1,2647703,3,0.0,0
+ANL_013,Ferrodine,TNF-alpha inhibitor,Injectable,Endocrinology,826517,3,2,Q3,2,False,1,2479551,6,0.3,0
+ANL_014,Calaflux,ACE inhibitor,Inhaled,Hematology,208145,5,1,Q2,2,False,5,1040725,5,0.1,0
+ANL_015,Jovexvara,Factor Xa inhibitor,Intravenous,Cardiology,1652445,3,1,Q3,5,False,4,4957335,3,1.25,0
+ANL_016,Nurodine,Sodium channel blocker,Inhaled,Dermatology,2134266,1,1,Q2,5,False,4,2134266,1,0.25,0
+ANL_017,Onyxtide,JAK inhibitor,Topical,Hematology,1683785,2,3,Q1,1,False,3,3367570,6,0.0,0
+ANL_018,Ferrovia,JAK inhibitor,Inhaled,Oncology,835207,1,1,Q4,2,True,2,835207,1,0.1,1
+ANL_019,Vynmune,TNF-alpha inhibitor,Topical,Primary Care,943177,4,4,Q1,2,False,3,3772708,16,0.0,0
+ANL_020,Kynvia,Proton pump inhibitor,Topical,Hematology,2750553,4,3,Q3,5,False,5,11002212,12,0.0,0
+ANL_021,Amarapara,Tyrosine kinase inhibitor,Topical,Psychiatry,2360745,3,5,Q2,1,False,4,7082235,15,0.0,0
+ANL_022,Haloxen,Sodium channel blocker,Injectable,Rheumatology,2860207,2,5,Q1,5,False,3,5720414,10,0.75,0
+ANL_023,Calavia,JAK inhibitor,Subcutaneous,Cardiology,903193,5,5,Q4,4,False,1,4515965,25,0.4,0
+ANL_024,Trexprel,Factor Xa inhibitor,Intravenous,Primary Care,2979376,1,3,Q1,2,False,2,2979376,3,0.5,0
+ANL_025,Kynxen,PD-1 inhibitor,Injectable,Psychiatry,2686737,4,5,Q2,5,False,4,10746948,20,0.75,0
+ANL_026,Halomune,Anti-CD20 monoclonal antibody,Injectable,Gastroenterology,1833868,5,5,Q2,1,False,5,9169340,25,0.15,0
+ANL_027,Ixaradine,ACE inhibitor,Inhaled,Endocrinology,1792901,4,5,Q1,4,True,4,7171604,20,0.2,1
+ANL_028,Nurosera,SGLT2 inhibitor,Topical,Endocrinology,307889,1,4,Q1,4,False,1,307889,4,0.0,0
+ANL_029,Trexmune,CGRP antagonist,Oral,Oncology,1613992,1,2,Q3,5,False,4,1613992,2,0.0,0
+ANL_030,Perinlith,DPP-4 inhibitor,Oral,Pulmonology,426563,1,3,Q3,2,False,1,426563,3,0.0,0
+ANL_031,Ferrolith,ACE inhibitor,Subcutaneous,Hematology,2643704,3,5,Q2,2,True,4,7931112,15,0.2,1
+ANL_032,Brengene,Proton pump inhibitor,Oral,Gastroenterology,1754756,5,5,Q2,4,False,2,8773780,25,0.0,0
+ANL_033,Kestratide,Proton pump inhibitor,Topical,Neurology,1069928,3,1,Q2,4,False,2,3209784,3,0.0,0
+ANL_034,Xelflux,TNF-alpha inhibitor,Oral,Dermatology,2179668,1,3,Q4,1,True,3,2179668,3,0.0,1
+ANL_035,Nurolith,Sodium channel blocker,Injectable,Hematology,1225735,4,3,Q2,5,False,5,4902940,12,0.75,0
