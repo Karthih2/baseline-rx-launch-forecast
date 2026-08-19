@@ -1,0 +1,307 @@
+{
+  "drug_id": "NEWDRUG_001",
+  "drug_name": "Zorvatide",
+  "selected_model": "analog_bass_static",
+  "top_5_analogs": [
+    {
+      "top_analog_rank": 1,
+      "top_analog_id": "ANALOG_E",
+      "top_analog_name": "Odaphex",
+      "similarity_score": 0.966611711382895,
+      "similarity_weight": 0.25552799725106345
+    },
+    {
+      "top_analog_rank": 2,
+      "top_analog_id": "ANALOG_A",
+      "top_analog_name": "Kinovex",
+      "similarity_score": 0.963970547128443,
+      "similarity_weight": 0.2548297940279868
+    },
+    {
+      "top_analog_rank": 3,
+      "top_analog_id": "ANALOG_C",
+      "top_analog_name": "Maravex",
+      "similarity_score": 0.696631476891098,
+      "similarity_weight": 0.1841575515957304
+    },
+    {
+      "top_analog_rank": 4,
+      "top_analog_id": "ANALOG_B",
+      "top_analog_name": "Trellonib",
+      "similarity_score": 0.6802280866457383,
+      "similarity_weight": 0.1798212442572566
+    },
+    {
+      "top_analog_rank": 5,
+      "top_analog_id": "ANALOG_D",
+      "top_analog_name": "Sentrolix",
+      "similarity_score": 0.4753597565716895,
+      "similarity_weight": 0.12566341286796284
+    }
+  ],
+  "assumptions": {
+    "bull": {
+      "market_size_multiplier": 1.2,
+      "peak_penetration": 0.35,
+      "adoption_speed_multiplier": 1.2,
+      "competition_factor": 1.1,
+      "payer_access_factor": 1.1,
+      "promotion_factor": 1.15
+    },
+    "base": {
+      "market_size_multiplier": 1,
+      "peak_penetration": 0.25,
+      "adoption_speed_multiplier": 1,
+      "competition_factor": 1,
+      "payer_access_factor": 1,
+      "promotion_factor": 1
+    },
+    "bear": {
+      "market_size_multiplier": 0.8,
+      "peak_penetration": 0.15,
+      "adoption_speed_multiplier": 0.8,
+      "competition_factor": 0.9,
+      "payer_access_factor": 0.9,
+      "promotion_factor": 0.85
+    }
+  },
+  "bass_parameters": {
+    "p": 0.05118757942761596,
+    "q": 0.3952335864021086,
+    "m": 13355.933188120405
+  },
+  "forecast": {
+    "bull": [
+      {
+        "forecast_month": 1,
+        "forecast_rx": 1938.136502172644
+      },
+      {
+        "forecast_month": 2,
+        "forecast_rx": 2268.6248059504223
+      },
+      {
+        "forecast_month": 3,
+        "forecast_rx": 2462.166953988177
+      },
+      {
+        "forecast_month": 4,
+        "forecast_rx": 2439.0153914209363
+      },
+      {
+        "forecast_month": 5,
+        "forecast_rx": 2238.9905856298333
+      },
+      {
+        "forecast_month": 6,
+        "forecast_rx": 1929.6330320192737
+      },
+      {
+        "forecast_month": 7,
+        "forecast_rx": 1583.7939999737466
+      },
+      {
+        "forecast_month": 8,
+        "forecast_rx": 1255.6702916686595
+      },
+      {
+        "forecast_month": 9,
+        "forecast_rx": 942.6195266140628
+      },
+      {
+        "forecast_month": 10,
+        "forecast_rx": 709.7018197712001
+      }
+    ],
+    "base": [
+      {
+        "forecast_month": 1,
+        "forecast_rx": 1406.6756435323819
+      },
+      {
+        "forecast_month": 2,
+        "forecast_rx": 1685.457781861045
+      },
+      {
+        "forecast_month": 3,
+        "forecast_rx": 1918.153576932786
+      },
+      {
+        "forecast_month": 4,
+        "forecast_rx": 2009.5497339591043
+      },
+      {
+        "forecast_month": 5,
+        "forecast_rx": 1941.5314910208353
+      },
+      {
+        "forecast_month": 6,
+        "forecast_rx": 1738.7388435125922
+      },
+      {
+        "forecast_month": 7,
+        "forecast_rx": 1462.2695860362207
+      },
+      {
+        "forecast_month": 8,
+        "forecast_rx": 1173.890757405005
+      },
+      {
+        "forecast_month": 9,
+        "forecast_rx": 887.7363717426895
+      },
+      {
+        "forecast_month": 10,
+        "forecast_rx": 668.0232262013947
+      }
+    ],
+    "bear": [
+      {
+        "forecast_month": 1,
+        "forecast_rx": 972.5203621871642
+      },
+      {
+        "forecast_month": 2,
+        "forecast_rx": 1176.0079468806878
+      },
+      {
+        "forecast_month": 3,
+        "forecast_rx": 1376.7341748236117
+      },
+      {
+        "forecast_month": 4,
+        "forecast_rx": 1500.7180127213949
+      },
+      {
+        "forecast_month": 5,
+        "forecast_rx": 1518.2989808934306
+      },
+      {
+        "forecast_month": 6,
+        "forecast_rx": 1425.787145674023
+      },
+      {
+        "forecast_month": 7,
+        "forecast_rx": 1254.4276299927747
+      },
+      {
+        "forecast_month": 8,
+        "forecast_rx": 1048.309647488157
+      },
+      {
+        "forecast_month": 9,
+        "forecast_rx": 822.9707522963795
+      },
+      {
+        "forecast_month": 10,
+        "forecast_rx": 637.5890063835973
+      }
+    ]
+  },
+  "run_id": "dfbdd2926e69",
+  "uploaded_at": "2026-08-18T05:05:04+00:00",
+  "generated": "2026-08-18T05:05:04+00:00",
+  "model": "analog_bass_static",
+  "n_known_months": 2,
+  "market_size": 85000.0,
+  "scenario_assumptions_source": "request.model_market_assumptions",
+  "validation_badge": "MASE 0.497 across 35 analogs",
+  "base_fit": {
+    "calibration_factor": 0.683378640311087,
+    "bass_p": 0.05118757942761596,
+    "bass_q": 0.3952335864021086,
+    "bass_m": 13355.933188120405,
+    "blend_weight_analog": 0.4999986181292487,
+    "blend_weight_bass": 0.5000013818707514
+  },
+  "scenarios": {
+    "bull": {
+      "ceiling_mult": 1.2,
+      "speed_mult": 1.2,
+      "raw_assumptions": {
+        "market_size_multiplier": 1.2,
+        "peak_penetration": 0.35,
+        "adoption_speed_multiplier": 1.2,
+        "competition_factor": 1.1,
+        "payer_access_factor": 1.1,
+        "promotion_factor": 1.15
+      },
+      "fitted_params": {
+        "p": 0.06142509531313915,
+        "q": 0.47428030368253027,
+        "m": 16027.119825744485,
+        "calibration_factor": 0.8200543683733044
+      },
+      "kpis": {
+        "peak_month": 5,
+        "peak_rx": 2462.2,
+        "month_12_rx": 709.7,
+        "total_12mo_rx_cumulative": 19687.6,
+        "known_months_rx_cumulative": 1919.2,
+        "forecast_months_rx_cumulative": 17768.4,
+        "avg_forecast_growth_rate_mom_pct": -9.52,
+        "market_capture_pct_directional": 23.162
+      }
+    },
+    "base": {
+      "ceiling_mult": 1.0,
+      "speed_mult": 1.0,
+      "raw_assumptions": {
+        "market_size_multiplier": 1,
+        "peak_penetration": 0.25,
+        "adoption_speed_multiplier": 1,
+        "competition_factor": 1,
+        "payer_access_factor": 1,
+        "promotion_factor": 1
+      },
+      "fitted_params": {
+        "p": 0.05118757942761596,
+        "q": 0.3952335864021086,
+        "m": 13355.933188120405,
+        "calibration_factor": 0.683378640311087
+      },
+      "kpis": {
+        "peak_month": 6,
+        "peak_rx": 2009.5,
+        "month_12_rx": 668.0,
+        "total_12mo_rx_cumulative": 16811.2,
+        "known_months_rx_cumulative": 1919.2,
+        "forecast_months_rx_cumulative": 14892.0,
+        "avg_forecast_growth_rate_mom_pct": -6.69,
+        "market_capture_pct_directional": 19.778
+      }
+    },
+    "bear": {
+      "ceiling_mult": 0.8,
+      "speed_mult": 0.8,
+      "raw_assumptions": {
+        "market_size_multiplier": 0.8,
+        "peak_penetration": 0.15,
+        "adoption_speed_multiplier": 0.8,
+        "competition_factor": 0.9,
+        "payer_access_factor": 0.9,
+        "promotion_factor": 0.85
+      },
+      "fitted_params": {
+        "p": 0.04095006354209277,
+        "q": 0.3161868691216869,
+        "m": 10684.746550496326,
+        "calibration_factor": 0.5467029122488696
+      },
+      "kpis": {
+        "peak_month": 7,
+        "peak_rx": 1518.3,
+        "month_12_rx": 637.6,
+        "total_12mo_rx_cumulative": 13652.6,
+        "known_months_rx_cumulative": 1919.2,
+        "forecast_months_rx_cumulative": 11733.4,
+        "avg_forecast_growth_rate_mom_pct": -3.38,
+        "market_capture_pct_directional": 16.062
+      }
+    }
+  },
+  "scenario_spread": {
+    "bull_vs_base_pct": 6.2,
+    "bear_vs_base_pct": -4.6
+  }
+}

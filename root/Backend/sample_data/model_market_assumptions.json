@@ -1,0 +1,26 @@
+{
+  "bull": {
+    "market_size_multiplier": 1.2,
+    "peak_penetration": 0.35,
+    "adoption_speed_multiplier": 1.2,
+    "competition_factor": 1.1,
+    "payer_access_factor": 1.1,
+    "promotion_factor": 1.15
+  },
+  "base": {
+    "market_size_multiplier": 1.0,
+    "peak_penetration": 0.25,
+    "adoption_speed_multiplier": 1.0,
+    "competition_factor": 1.0,
+    "payer_access_factor": 1.0,
+    "promotion_factor": 1.0
+  },
+  "bear": {
+    "market_size_multiplier": 0.8,
+    "peak_penetration": 0.15,
+    "adoption_speed_multiplier": 0.8,
+    "competition_factor": 0.9,
+    "payer_access_factor": 0.9,
+    "promotion_factor": 0.85
+  }
+}

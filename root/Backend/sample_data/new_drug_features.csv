@@ -1,0 +1,2 @@
+drug_id,drug_name,therapeutic_area,route_of_administration,line_of_therapy,mechanism_of_action,target_population,competitor_count,avg_treatment_duration_months,list_price_monthly_usd,orphan_status,chronic_or_acute,payer_restriction_level
+NEWDRUG_001,Zorvatide,Oncology,Oral,2L,Kinase Inhibitor,85000,3,9,12500,No,Chronic,Moderate

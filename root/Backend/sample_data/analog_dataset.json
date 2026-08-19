@@ -1,0 +1,996 @@
+{
+  "features": [
+    {
+      "drug_id": "ANALOG_A",
+      "drug_name": "Kinovex",
+      "therapeutic_area": "Oncology",
+      "route_of_administration": "Oral",
+      "line_of_therapy": "2L",
+      "mechanism_of_action": "Kinase Inhibitor",
+      "target_population": 90000,
+      "competitor_count": 2,
+      "avg_treatment_duration_months": 10,
+      "list_price_monthly_usd": 11800,
+      "orphan_status": "No",
+      "chronic_or_acute": "Chronic",
+      "payer_restriction_level": "Moderate"
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "drug_name": "Trellonib",
+      "therapeutic_area": "Oncology",
+      "route_of_administration": "Oral",
+      "line_of_therapy": "1L",
+      "mechanism_of_action": "Kinase Inhibitor",
+      "target_population": 120000,
+      "competitor_count": 4,
+      "avg_treatment_duration_months": 8,
+      "list_price_monthly_usd": 13200,
+      "orphan_status": "No",
+      "chronic_or_acute": "Chronic",
+      "payer_restriction_level": "High"
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "drug_name": "Maravex",
+      "therapeutic_area": "Oncology",
+      "route_of_administration": "IV",
+      "line_of_therapy": "2L",
+      "mechanism_of_action": "Monoclonal Antibody",
+      "target_population": 70000,
+      "competitor_count": 3,
+      "avg_treatment_duration_months": 12,
+      "list_price_monthly_usd": 15400,
+      "orphan_status": "No",
+      "chronic_or_acute": "Chronic",
+      "payer_restriction_level": "Moderate"
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "drug_name": "Sentrolix",
+      "therapeutic_area": "Immunology",
+      "route_of_administration": "Oral",
+      "line_of_therapy": "2L",
+      "mechanism_of_action": "JAK Inhibitor",
+      "target_population": 60000,
+      "competitor_count": 5,
+      "avg_treatment_duration_months": 6,
+      "list_price_monthly_usd": 9800,
+      "orphan_status": "No",
+      "chronic_or_acute": "Chronic",
+      "payer_restriction_level": "Low"
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "drug_name": "Odaphex",
+      "therapeutic_area": "Oncology",
+      "route_of_administration": "Oral",
+      "line_of_therapy": "2L",
+      "mechanism_of_action": "Kinase Inhibitor",
+      "target_population": 95000,
+      "competitor_count": 2,
+      "avg_treatment_duration_months": 9,
+      "list_price_monthly_usd": 12000,
+      "orphan_status": "No",
+      "chronic_or_acute": "Chronic",
+      "payer_restriction_level": "Moderate"
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "drug_name": "Vixarel",
+      "therapeutic_area": "Cardiology",
+      "route_of_administration": "Oral",
+      "line_of_therapy": "1L",
+      "mechanism_of_action": "PCSK9 Inhibitor",
+      "target_population": 250000,
+      "competitor_count": 6,
+      "avg_treatment_duration_months": 24,
+      "list_price_monthly_usd": 4500,
+      "orphan_status": "No",
+      "chronic_or_acute": "Chronic",
+      "payer_restriction_level": "High"
+    }
+  ],
+  "monthly_rx": [
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 1,
+      "rx_count": 1324.2
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 2,
+      "rx_count": 1839.8
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 3,
+      "rx_count": 2630.0
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 4,
+      "rx_count": 3529.7
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 5,
+      "rx_count": 4176.0
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 6,
+      "rx_count": 4744.1
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 7,
+      "rx_count": 5058.0
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 8,
+      "rx_count": 4684.7
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 9,
+      "rx_count": 3916.4
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 10,
+      "rx_count": 3178.0
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 11,
+      "rx_count": 2289.5
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 12,
+      "rx_count": 1612.5
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 13,
+      "rx_count": 1153.8
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 14,
+      "rx_count": 597.4
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 15,
+      "rx_count": 355.0
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 16,
+      "rx_count": 279.7
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 17,
+      "rx_count": 126.5
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 18,
+      "rx_count": 163.8
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 19,
+      "rx_count": 11.4
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 20,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 21,
+      "rx_count": 160.8
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 22,
+      "rx_count": 4.3
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 23,
+      "rx_count": 20.7
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 24,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 25,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 26,
+      "rx_count": 13.4
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 27,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 28,
+      "rx_count": 33.5
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 29,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_A",
+      "month_number": 30,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 1,
+      "rx_count": 1688.1
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 2,
+      "rx_count": 2301.1
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 3,
+      "rx_count": 2651.8
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 4,
+      "rx_count": 3028.1
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 5,
+      "rx_count": 3501.3
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 6,
+      "rx_count": 3551.9
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 7,
+      "rx_count": 3631.4
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 8,
+      "rx_count": 3274.1
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 9,
+      "rx_count": 2948.8
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 10,
+      "rx_count": 2596.0
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 11,
+      "rx_count": 2158.2
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 12,
+      "rx_count": 1677.2
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 13,
+      "rx_count": 1273.6
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 14,
+      "rx_count": 945.6
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 15,
+      "rx_count": 618.5
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 16,
+      "rx_count": 477.9
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 17,
+      "rx_count": 351.8
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 18,
+      "rx_count": 346.6
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 19,
+      "rx_count": 221.8
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 20,
+      "rx_count": 25.8
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 21,
+      "rx_count": 123.7
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 22,
+      "rx_count": 47.5
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 23,
+      "rx_count": 7.2
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 24,
+      "rx_count": 77.8
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 25,
+      "rx_count": 94.9
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 26,
+      "rx_count": 80.7
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 27,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 28,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 29,
+      "rx_count": 28.8
+    },
+    {
+      "drug_id": "ANALOG_B",
+      "month_number": 30,
+      "rx_count": 69.6
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 1,
+      "rx_count": 424.9
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 2,
+      "rx_count": 605.6
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 3,
+      "rx_count": 786.0
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 4,
+      "rx_count": 1051.9
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 5,
+      "rx_count": 1446.9
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 6,
+      "rx_count": 1799.7
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 7,
+      "rx_count": 2046.6
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 8,
+      "rx_count": 2316.4
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 9,
+      "rx_count": 2386.0
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 10,
+      "rx_count": 2287.6
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 11,
+      "rx_count": 2132.9
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 12,
+      "rx_count": 1891.0
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 13,
+      "rx_count": 1497.5
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 14,
+      "rx_count": 1243.0
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 15,
+      "rx_count": 789.0
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 16,
+      "rx_count": 698.7
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 17,
+      "rx_count": 487.5
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 18,
+      "rx_count": 335.1
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 19,
+      "rx_count": 250.7
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 20,
+      "rx_count": 92.6
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 21,
+      "rx_count": 113.4
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 22,
+      "rx_count": 100.3
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 23,
+      "rx_count": 120.5
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 24,
+      "rx_count": 20.4
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 25,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 26,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 27,
+      "rx_count": 51.6
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 28,
+      "rx_count": 23.2
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 29,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_C",
+      "month_number": 30,
+      "rx_count": 25.8
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 1,
+      "rx_count": 828.9
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 2,
+      "rx_count": 1005.4
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 3,
+      "rx_count": 1109.9
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 4,
+      "rx_count": 1239.6
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 5,
+      "rx_count": 1315.4
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 6,
+      "rx_count": 1310.4
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 7,
+      "rx_count": 1316.8
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 8,
+      "rx_count": 1225.4
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 9,
+      "rx_count": 1089.8
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 10,
+      "rx_count": 933.6
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 11,
+      "rx_count": 749.7
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 12,
+      "rx_count": 628.6
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 13,
+      "rx_count": 500.7
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 14,
+      "rx_count": 378.8
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 15,
+      "rx_count": 304.2
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 16,
+      "rx_count": 245.9
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 17,
+      "rx_count": 226.1
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 18,
+      "rx_count": 139.3
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 19,
+      "rx_count": 107.8
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 20,
+      "rx_count": 74.0
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 21,
+      "rx_count": 8.6
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 22,
+      "rx_count": 41.5
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 23,
+      "rx_count": 32.9
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 24,
+      "rx_count": 84.9
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 25,
+      "rx_count": 12.5
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 26,
+      "rx_count": 20.4
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 27,
+      "rx_count": 8.7
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 28,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 29,
+      "rx_count": 33.8
+    },
+    {
+      "drug_id": "ANALOG_D",
+      "month_number": 30,
+      "rx_count": 22.7
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 1,
+      "rx_count": 1413.4
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 2,
+      "rx_count": 1831.5
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 3,
+      "rx_count": 2692.7
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 4,
+      "rx_count": 3213.0
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 5,
+      "rx_count": 4052.1
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 6,
+      "rx_count": 4632.3
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 7,
+      "rx_count": 4466.8
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 8,
+      "rx_count": 4191.6
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 9,
+      "rx_count": 3639.4
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 10,
+      "rx_count": 2856.2
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 11,
+      "rx_count": 2056.6
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 12,
+      "rx_count": 1575.1
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 13,
+      "rx_count": 1010.9
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 14,
+      "rx_count": 784.6
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 15,
+      "rx_count": 429.1
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 16,
+      "rx_count": 456.6
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 17,
+      "rx_count": 158.4
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 18,
+      "rx_count": 119.4
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 19,
+      "rx_count": 159.5
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 20,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 21,
+      "rx_count": 58.6
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 22,
+      "rx_count": 130.1
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 23,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 24,
+      "rx_count": 25.9
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 25,
+      "rx_count": 28.0
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 26,
+      "rx_count": 66.8
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 27,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 28,
+      "rx_count": 0.0
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 29,
+      "rx_count": 42.7
+    },
+    {
+      "drug_id": "ANALOG_E",
+      "month_number": 30,
+      "rx_count": 24.4
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 1,
+      "rx_count": 672.0
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 2,
+      "rx_count": 811.0
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 3,
+      "rx_count": 920.0
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 4,
+      "rx_count": 1143.2
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 5,
+      "rx_count": 1350.7
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 6,
+      "rx_count": 1531.3
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 7,
+      "rx_count": 1899.2
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 8,
+      "rx_count": 2095.5
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 9,
+      "rx_count": 2284.1
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 10,
+      "rx_count": 2630.1
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 11,
+      "rx_count": 2793.0
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 12,
+      "rx_count": 3078.2
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 13,
+      "rx_count": 3247.9
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 14,
+      "rx_count": 3245.0
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 15,
+      "rx_count": 3347.4
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 16,
+      "rx_count": 3269.0
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 17,
+      "rx_count": 3167.9
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 18,
+      "rx_count": 3040.2
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 19,
+      "rx_count": 2718.4
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 20,
+      "rx_count": 2444.1
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 21,
+      "rx_count": 2173.2
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 22,
+      "rx_count": 1911.4
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 23,
+      "rx_count": 1690.2
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 24,
+      "rx_count": 1471.1
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 25,
+      "rx_count": 1250.9
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 26,
+      "rx_count": 1083.2
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 27,
+      "rx_count": 875.8
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 28,
+      "rx_count": 796.9
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 29,
+      "rx_count": 592.0
+    },
+    {
+      "drug_id": "ANALOG_F",
+      "month_number": 30,
+      "rx_count": 625.9
+    }
+  ]
+}

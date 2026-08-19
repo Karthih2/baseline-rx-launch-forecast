@@ -1,0 +1,79 @@
+{
+  "features": {
+    "drug_id": "NEWDRUG_001",
+    "drug_name": "Zorvatide",
+    "therapeutic_area": "Oncology",
+    "route_of_administration": "Oral",
+    "line_of_therapy": "2L",
+    "mechanism_of_action": "Kinase Inhibitor",
+    "target_population": 85000,
+    "competitor_count": 3,
+    "avg_treatment_duration_months": 9,
+    "list_price_monthly_usd": 12500,
+    "orphan_status": "No",
+    "chronic_or_acute": "Chronic",
+    "payer_restriction_level": "Moderate"
+  },
+  "weekly_rx": [
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 1,
+      "rx_count": 178.2
+    },
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 2,
+      "rx_count": 209.2
+    },
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 3,
+      "rx_count": 183.2
+    },
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 4,
+      "rx_count": 168.1
+    },
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 5,
+      "rx_count": 292.3
+    },
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 6,
+      "rx_count": 252.9
+    },
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 7,
+      "rx_count": 317.1
+    },
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 8,
+      "rx_count": 318.2
+    },
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 9,
+      "rx_count": 433.2
+    },
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 10,
+      "rx_count": 370.2
+    },
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 11,
+      "rx_count": 329.2
+    },
+    {
+      "drug_id": "NEWDRUG_001",
+      "week_number": 12,
+      "rx_count": 434.7
+    }
+  ]
+}
