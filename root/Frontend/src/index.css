@@ -1,0 +1,162 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-serif: "Fraunces", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  /* Official BaseLine Palette */
+  --color-baseline-navy: #2F4156;
+  --color-baseline-navy-dark: #1D2A37;
+  --color-baseline-navy-deep: #16212B;
+  --color-baseline-navy-light: #3D536D;
+
+  --color-baseline-teal: #567C8D;
+  --color-baseline-teal-dark: #436371;
+  --color-baseline-teal-light: #7197A7;
+  --color-baseline-teal-soft: #EBF1F4;
+
+  --color-baseline-sky: #C8D9E6;
+  --color-baseline-sky-light: #E2ECF4;
+  --color-baseline-sky-soft: #F0F5FA;
+  --color-baseline-sky-border: #AFC5D6;
+
+  --color-baseline-beige: #F5EFEB;
+  --color-baseline-beige-soft: #FAF7F5;
+  --color-baseline-beige-dark: #E8DFD8;
+
+  --color-baseline-white: #FFFFFF;
+
+  /* Semantic UI Tokens */
+  --color-card-surface: #FFFFFF;
+  --color-card-border: #C8D9E6;
+  --color-ink-dark: #2F4156;
+  --color-ink-muted: #567C8D;
+  --color-ink-subtle: #7A92A2;
+
+  /* Harmonized Scenario Colors */
+  --color-bull: #2E7D5B;
+  --color-bull-soft: #E8F5EE;
+  --color-bull-border: #A3D9BE;
+
+  --color-bear: #C25450;
+  --color-bear-soft: #FCEEED;
+  --color-bear-border: #F2B8B6;
+
+  --color-base-grey: #567C8D;
+  --color-base-soft: #EBF1F4;
+  --color-base-border: #C8D9E6;
+
+  --color-terminal: #1D2A37;
+}
+
+:root {
+  --bg-primary: #F5EFEB;
+  --bg-dark: #2F4156;
+  --card-surface: #FFFFFF;
+  --ink-dark: #2F4156;
+  --ink-muted: #567C8D;
+  --ink-subtle: #7A92A2;
+  --card-border: #C8D9E6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0c1c30;
+  color: #F5EFEB;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Atmospheric Dot Pattern */
+.dot-spots {
+  background-image: radial-gradient(circle, rgba(86, 124, 141, 0.25) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+}
+
+.dot-spots-dark {
+  background-image: radial-gradient(circle, rgba(200, 217, 230, 0.22) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+}
+
+.dot-spots-subtle {
+  background-image: radial-gradient(circle, rgba(86, 124, 141, 0.12) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* ── Light Liquid Glass Card ── */
+.clean-tile {
+  background-color: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 217, 230, 0.85);
+  box-shadow:
+    0 10px 30px -5px rgba(47, 65, 86, 0.08),
+    0 4px 12px -2px rgba(47, 65, 86, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  color: #2F4156;
+}
+
+.clean-tile-interactive {
+  background-color: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 217, 230, 0.85);
+  box-shadow:
+    0 10px 30px -5px rgba(47, 65, 86, 0.08),
+    0 4px 12px -2px rgba(47, 65, 86, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  color: #2F4156;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.clean-tile-interactive:hover {
+  border-color: #567C8D;
+  box-shadow:
+    0 16px 36px -4px rgba(47, 65, 86, 0.14),
+    0 6px 14px -2px rgba(47, 65, 86, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+/* ── Dark Liquid Glass Card (About & High-Impact Cards) ── */
+.dark-tile {
+  background-color: rgba(35, 49, 66, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(200, 217, 230, 0.18);
+  box-shadow:
+    0 16px 36px -6px rgba(15, 23, 33, 0.50),
+    0 6px 16px -3px rgba(15, 23, 33, 0.30),
+    inset 0 1px 0 rgba(200, 217, 230, 0.22);
+  color: #FFFFFF;
+}
+
+.dark-tile-interactive {
+  background-color: rgba(35, 49, 66, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(200, 217, 230, 0.18);
+  box-shadow:
+    0 16px 36px -6px rgba(15, 23, 33, 0.50),
+    0 6px 16px -3px rgba(15, 23, 33, 0.30),
+    inset 0 1px 0 rgba(200, 217, 230, 0.22);
+  color: #FFFFFF;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark-tile-interactive:hover {
+  border-color: rgba(86, 124, 141, 0.65);
+  background-color: rgba(40, 56, 75, 0.92);
+  box-shadow:
+    0 20px 42px -6px rgba(15, 23, 33, 0.65),
+    0 8px 20px -3px rgba(86, 124, 141, 0.25),
+    inset 0 1px 0 rgba(200, 217, 230, 0.35);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
